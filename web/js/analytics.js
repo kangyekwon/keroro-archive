@@ -351,6 +351,157 @@ async function loadMoviesChart() {
     }
 }
 
+/* === Episode Rating Trend Line Chart === */
+async function loadEpisodeTrendChart() {
+    try {
+        var data = await api('/api/analytics/episodes');
+        if (!data.episodes || data.episodes.length === 0) return;
+
+        // Filter episodes with scores and sort by mal_id
+        var episodes = data.episodes.filter(function(ep) { return ep.score && ep.score > 0; })
+            .sort(function(a, b) { return a.mal_id - b.mal_id; });
+        if (episodes.length === 0) {
+            document.getElementById('chart-episode-trend').innerHTML = '<p class="analytics-empty-text">에피소드 평점 데이터 없음</p>';
+            return;
+        }
+
+        var container = document.getElementById('chart-episode-trend');
+        container.innerHTML = '';
+        var width = container.clientWidth || 800;
+        var height = 350;
+        var margin = {top: 20, right: 30, bottom: 50, left: 45};
+        var w = width - margin.left - margin.right;
+        var h = height - margin.top - margin.bottom;
+
+        var svg = d3.select('#chart-episode-trend').append('svg')
+            .attr('width', width).attr('height', height);
+        var g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+        var x = d3.scaleLinear().domain([1, d3.max(episodes, function(d) { return d.mal_id; })]).range([0, w]);
+        var y = d3.scaleLinear().domain([
+            d3.min(episodes, function(d) { return d.score; }) - 0.5,
+            d3.max(episodes, function(d) { return d.score; }) + 0.3
+        ]).range([h, 0]);
+
+        // Season backgrounds
+        var seasons = [
+            {start: 1, end: 51, label: 'S1', color: 'rgba(74,124,89,0.1)'},
+            {start: 52, end: 103, label: 'S2', color: 'rgba(79,195,247,0.1)'},
+            {start: 104, end: 155, label: 'S3', color: 'rgba(255,215,0,0.1)'},
+            {start: 156, end: 206, label: 'S4', color: 'rgba(255,159,67,0.1)'},
+            {start: 207, end: 256, label: 'S5', color: 'rgba(162,155,254,0.1)'},
+            {start: 257, end: 307, label: 'S6', color: 'rgba(253,121,168,0.1)'},
+            {start: 308, end: 358, label: 'S7', color: 'rgba(85,239,196,0.1)'},
+        ];
+        seasons.forEach(function(s) {
+            g.append('rect')
+                .attr('x', x(s.start)).attr('y', 0)
+                .attr('width', x(s.end) - x(s.start)).attr('height', h)
+                .attr('fill', s.color);
+            g.append('text')
+                .attr('x', x((s.start + s.end) / 2))
+                .attr('y', 14)
+                .attr('text-anchor', 'middle')
+                .attr('fill', '#666')
+                .attr('font-size', '11px')
+                .attr('font-weight', 'bold')
+                .text(s.label);
+        });
+
+        // Moving average line (window=10)
+        var windowSize = 10;
+        var avgData = [];
+        for (var i = 0; i < episodes.length; i++) {
+            var start = Math.max(0, i - Math.floor(windowSize / 2));
+            var end = Math.min(episodes.length, i + Math.ceil(windowSize / 2));
+            var slice = episodes.slice(start, end);
+            var avg = d3.mean(slice, function(d) { return d.score; });
+            avgData.push({mal_id: episodes[i].mal_id, score: avg});
+        }
+
+        // Area under the average line
+        var area = d3.area()
+            .x(function(d) { return x(d.mal_id); })
+            .y0(h)
+            .y1(function(d) { return y(d.score); })
+            .curve(d3.curveMonotoneX);
+        g.append('path').datum(avgData)
+            .attr('d', area)
+            .attr('fill', 'rgba(74,124,89,0.15)');
+
+        // Scatter dots for individual episodes
+        g.selectAll('.ep-dot').data(episodes).enter().append('circle')
+            .attr('class', 'ep-dot')
+            .attr('cx', function(d) { return x(d.mal_id); })
+            .attr('cy', function(d) { return y(d.score); })
+            .attr('r', 2.5)
+            .attr('fill', function(d) {
+                if (d.filler) return '#ff9f43';
+                if (d.recap) return '#ff4466';
+                return 'rgba(106,173,122,0.6)';
+            })
+            .style('cursor', 'pointer')
+            .on('mouseover', function(event, d) {
+                d3.select(this).attr('r', 5).attr('fill', '#ffd700');
+                tooltip.style('display', 'block')
+                    .html('EP ' + d.mal_id + ': ' + esc(d.title || d.title_japanese || '') +
+                        '<br>Score: ' + (d.score ? d.score.toFixed(2) : 'N/A') +
+                        (d.filler ? '<br><span style="color:#ff9f43">FILLER</span>' : '') +
+                        (d.recap ? '<br><span style="color:#ff4466">RECAP</span>' : ''));
+            })
+            .on('mousemove', function(event) {
+                tooltip.style('left', (event.offsetX + 15) + 'px')
+                    .style('top', (event.offsetY - 40) + 'px');
+            })
+            .on('mouseout', function(event, d) {
+                d3.select(this).attr('r', 2.5)
+                    .attr('fill', d.filler ? '#ff9f43' : (d.recap ? '#ff4466' : 'rgba(106,173,122,0.6)'));
+                tooltip.style('display', 'none');
+            });
+
+        // Moving average line
+        var line = d3.line()
+            .x(function(d) { return x(d.mal_id); })
+            .y(function(d) { return y(d.score); })
+            .curve(d3.curveMonotoneX);
+        g.append('path').datum(avgData)
+            .attr('d', line)
+            .attr('fill', 'none')
+            .attr('stroke', '#4a7c59')
+            .attr('stroke-width', 2.5);
+
+        // Axes
+        g.append('g').attr('transform', 'translate(0,' + h + ')')
+            .call(d3.axisBottom(x).ticks(15).tickFormat(function(d) { return 'EP' + d; }))
+            .selectAll('text').attr('fill', '#aaa').attr('font-size', '9px')
+            .attr('transform', 'rotate(-30)').attr('text-anchor', 'end');
+        g.selectAll('.domain, .tick line').attr('stroke', '#555');
+
+        g.append('g').call(d3.axisLeft(y).ticks(6))
+            .selectAll('text').attr('fill', '#aaa');
+
+        // Legend
+        var legendG = svg.append('g').attr('transform', 'translate(' + (margin.left + 10) + ',' + (height - 15) + ')');
+        var legendItems = [
+            {color: 'rgba(106,173,122,0.6)', label: '일반'},
+            {color: '#ff9f43', label: '필러'},
+            {color: '#ff4466', label: '총집편'},
+            {color: '#4a7c59', label: '이동평균'},
+        ];
+        legendItems.forEach(function(item, i) {
+            legendG.append('circle').attr('cx', i * 80).attr('cy', 0).attr('r', 4).attr('fill', item.color);
+            legendG.append('text').attr('x', i * 80 + 8).attr('y', 4)
+                .attr('fill', '#aaa').attr('font-size', '10px').text(item.label);
+        });
+
+        var tooltip = d3.select('#chart-episode-trend').append('div')
+            .attr('class', 'chart-tooltip').style('display', 'none');
+
+    } catch (e) {
+        console.error('Episode trend chart failed:', e);
+    }
+}
+
 /* === Review Scores Distribution === */
 async function loadReviewScoresChart() {
     try {
