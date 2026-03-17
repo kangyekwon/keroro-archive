@@ -1,0 +1,2122 @@
+[
+  {
+    "id": 1,
+    "episode_no": 1,
+    "title": "Keroro Comes / Keroro Invasion Begins",
+    "title_kr": "케로로 등장 / 케로로 침략 개시",
+    "air_date": "2004-04-03",
+    "season": 1,
+    "arc": "Introduction",
+    "summary": "히나타 후유키가 자기 방에서 이상한 개구리 외계인 케로로를 발견한다. 지구 침략을 위해 왔지만 소대와 떨어져 혼자가 된 케로로는 히나타 가족과 함께 생활하게 된다."
+  },
+  {
+    "id": 2,
+    "episode_no": 2,
+    "title": "Keroro, The Fated Encounter / Tamama Appears",
+    "title_kr": "케로로, 운명의 만남 / 타마마 등장",
+    "air_date": "2004-04-10",
+    "season": 1,
+    "arc": "Platoon Assembly",
+    "summary": "소대원 타마마가 니시자와 모모카의 집에 머물고 있는 것이 밝혀진다. 케로로는 소대원들을 하나씩 재회하기 시작한다."
+  },
+  {
+    "id": 3,
+    "episode_no": 3,
+    "title": "Keroro and the Kero Ball / Secret Weapon Activated",
+    "title_kr": "케로로와 케로볼 / 비밀 병기 기동",
+    "air_date": "2004-04-17",
+    "season": 1,
+    "arc": "Introduction",
+    "summary": "케로로가 잃어버린 케로볼을 찾기 위해 분주하다. 케로볼의 강력한 힘이 밝혀지며 후유키가 이를 관리하게 된다."
+  },
+  {
+    "id": 4,
+    "episode_no": 4,
+    "title": "Tamama's Jealousy / The Dark Side Awakens",
+    "title_kr": "타마마의 질투 / 어둠의 면 각성",
+    "air_date": "2004-04-24",
+    "season": 1,
+    "arc": "Platoon Assembly",
+    "summary": "타마마의 이중인격이 처음으로 드러난다. 평소에는 귀엽고 순한 성격이지만, 질투심이 폭발하면 무서운 타마마 임팩트를 발사한다."
+  },
+  {
+    "id": 5,
+    "episode_no": 5,
+    "title": "Keroro, The Terror of Giroro / Giroro's Challenge",
+    "title_kr": "케로로, 기로로의 공포 / 기로로의 도전",
+    "air_date": "2004-05-01",
+    "season": 1,
+    "arc": "Platoon Assembly",
+    "summary": "전투 전문가 기로로가 등장하여 케로로에게 침략 작전을 본격적으로 시작할 것을 요구한다. 기로로는 히나타 가족의 마당에 텐트를 치고 생활하게 된다."
+  },
+  {
+    "id": 6,
+    "episode_no": 6,
+    "title": "Natsumi's Counterattack / The Demon Sergeant's Rival",
+    "title_kr": "나츠미의 역습 / 귀신 상사의 라이벌",
+    "air_date": "2004-05-08",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "히나타 나츠미가 케로로의 계략에 맞서 싸운다. 강력한 운동 신경과 정의감으로 케로로를 압도하며, 소대의 침략 계획을 번번이 좌절시킨다."
+  },
+  {
+    "id": 7,
+    "episode_no": 7,
+    "title": "Keroro's Invasion Plan No. 1 / World Domination Scheme",
+    "title_kr": "케로로 침략 계획 제1호 / 세계 정복 작전",
+    "air_date": "2004-05-15",
+    "season": 1,
+    "arc": "Invasion Plans",
+    "summary": "케로로가 첫 번째 본격 침략 계획을 실행에 옮긴다. 하지만 건프라 구입을 위한 자금 확보가 먼저라며 작전이 엉뚱한 방향으로 흘러간다."
+  },
+  {
+    "id": 8,
+    "episode_no": 8,
+    "title": "Kululu, The Terrifying Inventor",
+    "title_kr": "쿠루루, 공포의 발명가",
+    "air_date": "2004-05-22",
+    "season": 1,
+    "arc": "Platoon Assembly",
+    "summary": "케로로 소대의 기술 담당 쿠루루가 합류한다. 천재적인 발명 능력과 음침한 성격으로 소대원들을 당혹시키지만, 그의 기술력은 누구도 부정할 수 없다."
+  },
+  {
+    "id": 9,
+    "episode_no": 9,
+    "title": "Keroro's Gundam Model Obsession / Priority Shift",
+    "title_kr": "케로로의 건프라 집착 / 우선순위 변경",
+    "air_date": "2004-05-29",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "케로로가 신상 건프라 발매일에 침략 계획을 전면 중단하고 줄서기에 나선다. 소대원들은 대장의 취미 활동에 한숨을 쉰다."
+  },
+  {
+    "id": 10,
+    "episode_no": 10,
+    "title": "Fuyuki's Occult Investigation / Mystery of the School",
+    "title_kr": "후유키의 오컬트 조사 / 학교의 미스터리",
+    "air_date": "2004-06-05",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "오컬트에 심취한 후유키가 학교에서 일어나는 이상한 현상을 조사한다. 케로로의 장난이 원인이었지만, 후유키는 진짜 초자연 현상을 발견하게 된다."
+  },
+  {
+    "id": 11,
+    "episode_no": 11,
+    "title": "Dororo, The Forgotten Assassin",
+    "title_kr": "도로로, 잊혀진 암살자",
+    "air_date": "2004-06-12",
+    "season": 1,
+    "arc": "Platoon Assembly",
+    "summary": "마지막 소대원 도로로가 등장. 닌자 기술의 달인이지만 소대원들에게 자주 잊혀지는 슬픈 운명의 소유자. 지구의 자연을 사랑하게 되어 침략에 반대하는 입장을 취한다."
+  },
+  {
+    "id": 12,
+    "episode_no": 12,
+    "title": "Keroro Platoon Complete / The Five Warriors Unite",
+    "title_kr": "케로로 소대 완성 / 다섯 전사의 결집",
+    "air_date": "2004-06-19",
+    "season": 1,
+    "arc": "Platoon Assembly",
+    "summary": "다섯 소대원이 모두 모여 케로로 소대가 완전체가 된다. 본격적인 침략 작전 회의를 열지만 의견이 엇갈려 결론이 나지 않는다."
+  },
+  {
+    "id": 13,
+    "episode_no": 13,
+    "title": "Angol Mois Descends / The Planet Destroyer Arrives",
+    "title_kr": "앙골 모아 강림 / 행성 파괴자의 도착",
+    "air_date": "2004-06-26",
+    "season": 1,
+    "arc": "Angol Mois Arc",
+    "summary": "앙골 족의 공주 앙골 모아가 지구에 내려온다. 행성을 파괴할 수 있는 엄청난 힘을 가지고 있지만 케로로를 삼촌이라 부르며 맹목적으로 따르게 된다."
+  },
+  {
+    "id": 14,
+    "episode_no": 14,
+    "title": "Keroro's Rainy Season Blues / Amphibian Power-Up",
+    "title_kr": "케로로의 장마 우울 / 양서류 파워업",
+    "air_date": "2004-07-03",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "장마철이 되자 케로로의 컨디션이 최상으로 올라간다. 습기를 먹고 강해진 케로로가 일시적으로 침략에 성공할 뻔하지만, 맑은 날씨가 돌아오며 원래대로 돌아간다."
+  },
+  {
+    "id": 15,
+    "episode_no": 15,
+    "title": "The Hinata Family's Day Off / Keroro Babysitter",
+    "title_kr": "히나타 가족의 휴일 / 케로로 베이비시터",
+    "air_date": "2004-07-10",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "히나타 아키가 출장을 떠나고 케로로가 집안일을 맡게 된다. 요리와 청소에는 의외로 능숙하지만 세탁에서 대참사가 벌어진다."
+  },
+  {
+    "id": 16,
+    "episode_no": 16,
+    "title": "Swimming Pool Invasion / Summer Operation Begins",
+    "title_kr": "수영장 침략 / 여름 작전 개시",
+    "air_date": "2004-07-17",
+    "season": 1,
+    "arc": "Beach/Summer",
+    "summary": "케로로가 여름을 맞아 수영장을 이용한 침략 계획을 세운다. 하지만 물놀이에 빠진 소대원들은 작전을 까맣게 잊고 여름을 만끽한다."
+  },
+  {
+    "id": 17,
+    "episode_no": 18,
+    "title": "Ghost Story Night / Keroro's Fear",
+    "title_kr": "괴담의 밤 / 케로로의 공포",
+    "air_date": "2004-07-31",
+    "season": 1,
+    "arc": "Beach/Summer",
+    "summary": "여름밤 납량 특집으로 모두가 괴담을 나눈다. 의외로 겁이 많은 케로로가 울음을 터뜨리고, 진짜 유령이 나타나 소동이 벌어진다."
+  },
+  {
+    "id": 18,
+    "episode_no": 20,
+    "title": "Beach Episode! Keroro's Summer Vacation",
+    "title_kr": "해변 에피소드! 케로로의 여름 방학",
+    "air_date": "2004-08-14",
+    "season": 1,
+    "arc": "Beach/Summer",
+    "summary": "케로로 소대와 히나타 가족이 해변으로 여름 휴가를 떠난다. 케로로가 모래성 건축으로 기지를 만들려 하지만 파도에 휩쓸려 실패한다."
+  },
+  {
+    "id": 19,
+    "episode_no": 22,
+    "title": "Natsumi and Giroro / The Unlikely Bond",
+    "title_kr": "나츠미와 기로로 / 뜻밖의 유대",
+    "air_date": "2004-08-28",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "기로로가 나츠미에 대한 감정을 자각하기 시작한다. 전투의 달인이 연애 감정 앞에서 쩔쩔매는 모습이 그려지며, 고양이만이 그의 비밀을 알고 있다."
+  },
+  {
+    "id": 20,
+    "episode_no": 24,
+    "title": "Keroro's Invention Rampage / The Cleaning Robot",
+    "title_kr": "케로로의 발명 대폭주 / 청소 로봇",
+    "air_date": "2004-09-11",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "쿠루루가 만든 자동 청소 로봇이 폭주하여 히나타 집 전체를 청소 대상으로 삼는다. 케로로 소대가 총출동하여 로봇을 멈추려 하지만 역부족이다."
+  },
+  {
+    "id": 21,
+    "episode_no": 25,
+    "title": "Saburo and the Reality Pen",
+    "title_kr": "사부로와 리얼리티 펜",
+    "air_date": "2004-09-18",
+    "season": 1,
+    "arc": "Character Introduction",
+    "summary": "쿨한 고등학생 사부로가 등장. 쿠루루가 만든 리얼리티 펜을 사용하여 그린 것을 현실로 만들 수 있는 능력을 가지고 있다."
+  },
+  {
+    "id": 22,
+    "episode_no": 27,
+    "title": "Sports Day Infiltration / Keroro at School",
+    "title_kr": "운동회 침투 / 학교의 케로로",
+    "air_date": "2004-10-02",
+    "season": 1,
+    "arc": "School Events",
+    "summary": "후유키의 학교 운동회에 케로로가 변장하고 잠입한다. 초능력을 사용해 후유키를 도우려 하지만 오히려 소동을 일으킨다."
+  },
+  {
+    "id": 23,
+    "episode_no": 29,
+    "title": "Keroro's Secret Base / Underground Headquarters",
+    "title_kr": "케로로의 비밀 기지 / 지하 본부",
+    "air_date": "2004-10-16",
+    "season": 1,
+    "arc": "Invasion Plans",
+    "summary": "케로로 소대가 히나타 집 지하에 거대한 비밀 기지를 건설한다. 최첨단 시설을 갖추고 있지만 주로 건프라 전시실과 만화방으로 사용된다."
+  },
+  {
+    "id": 24,
+    "episode_no": 31,
+    "title": "Koyuki the Ninja Girl Appears",
+    "title_kr": "닌자 소녀 코유키 등장",
+    "air_date": "2004-10-30",
+    "season": 1,
+    "arc": "Character Introduction",
+    "summary": "닌자 소녀 아즈마야 코유키가 등장하여 도로로의 파트너가 된다. 나츠미와 빠르게 친구가 되며, 도시 생활에 적응해 나간다."
+  },
+  {
+    "id": 25,
+    "episode_no": 33,
+    "title": "Keroro's Body Swap Disaster / Mind Exchange",
+    "title_kr": "케로로의 몸 바꾸기 대참사 / 정신 교환",
+    "air_date": "2004-11-13",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "쿠루루의 발명품으로 케로로와 후유키의 몸이 바뀐다. 케로로는 인간의 몸으로 건프라 가게에 가고, 후유키는 개구리 몸으로 학교에 가야 하는 소동이 벌어진다."
+  },
+  {
+    "id": 26,
+    "episode_no": 35,
+    "title": "Momoka's First Love Battle / Nishizawa's Determination",
+    "title_kr": "모모카의 첫사랑 대작전 / 니시자와의 결의",
+    "air_date": "2004-11-27",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "니시자와 모모카가 후유키를 위한 호화 파티를 준비한다. 내성적인 성격과 공격적인 이중인격 사이에서 갈등하며 고백 타이밍을 노린다."
+  },
+  {
+    "id": 27,
+    "episode_no": 37,
+    "title": "Keroro Gets Sick / The Keronian Cold",
+    "title_kr": "케로로 감기 걸리다 / 케론인의 감기",
+    "air_date": "2004-12-11",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "케로로가 지구의 건조한 공기 때문에 감기에 걸린다. 케론인의 감기 증상은 투명해지는 것으로, 점점 사라져가는 케로로를 구하기 위해 소대가 분주해진다."
+  },
+  {
+    "id": 28,
+    "episode_no": 39,
+    "title": "Halloween Invasion / Costume Panic",
+    "title_kr": "할로윈 침략 / 코스튬 패닉",
+    "air_date": "2004-12-25",
+    "season": 1,
+    "arc": "Seasonal Event",
+    "summary": "할로윈을 이용한 침략 계획을 세운 케로로. 외계인이 코스프레로 통하는 날이라 당당히 거리를 활보하지만, 진짜 유령들과 마주치게 된다."
+  },
+  {
+    "id": 29,
+    "episode_no": 40,
+    "title": "556 The Space Detective / Kogoro Appears",
+    "title_kr": "우주 탐정 556 / 코고로 등장",
+    "air_date": "2005-01-01",
+    "season": 1,
+    "arc": "Character Introduction",
+    "summary": "자칭 우주 탐정 556(코고로)가 여동생 라비와 함께 히나타 가족 옆에 이사 온다. 외계인을 잡겠다고 설치지만 정작 옆집의 케로로가 외계인이라는 사실은 모른다."
+  },
+  {
+    "id": 30,
+    "episode_no": 42,
+    "title": "Keroro's TV Show Obsession / Channel Surfing Wars",
+    "title_kr": "케로로의 TV 집착 / 채널 전쟁",
+    "air_date": "2005-01-15",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "케로로가 지구의 TV 프로그램에 완전히 빠져든다. 특히 애니메이션과 특촬물에 열광하며, 리모컨 쟁탈전이 히나타 집의 일상이 된다."
+  },
+  {
+    "id": 31,
+    "episode_no": 44,
+    "title": "Giroro's Cat / The Stray That Changed Everything",
+    "title_kr": "기로로의 고양이 / 모든 것을 바꾼 길고양이",
+    "air_date": "2005-01-29",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "기로로가 길고양이를 발견하고 몰래 돌보기 시작한다. 차가운 전사의 이미지와 달리 고양이에게 헌신적인 모습을 보이며, 소대원들에게 들킬까 전전긍긍한다."
+  },
+  {
+    "id": 32,
+    "episode_no": 46,
+    "title": "Keroro's Christmas Plan / Santa Invasion",
+    "title_kr": "케로로의 크리스마스 작전 / 산타 침략",
+    "air_date": "2005-02-12",
+    "season": 1,
+    "arc": "Christmas",
+    "summary": "케로로가 산타클로스로 변장하여 크리스마스 이브에 각 가정에 침투하는 작전을 세운다. 하지만 아이들의 순수한 소원에 감동받아 진짜 산타 역할을 하게 된다."
+  },
+  {
+    "id": 33,
+    "episode_no": 48,
+    "title": "Keroro, The Christmas Operation",
+    "title_kr": "케로로, 크리스마스 대작전",
+    "air_date": "2005-02-26",
+    "season": 1,
+    "arc": "Christmas",
+    "summary": "케로로가 크리스마스를 이용한 지구 침략 작전을 세운다. 하지만 결국 모두가 즐거운 크리스마스를 보내게 되며, 침략 계획은 또다시 실패한다."
+  },
+  {
+    "id": 34,
+    "episode_no": 49,
+    "title": "New Year's Keroro / Mochi Madness",
+    "title_kr": "새해의 케로로 / 떡 대소동",
+    "air_date": "2005-03-05",
+    "season": 1,
+    "arc": "New Year",
+    "summary": "새해를 맞아 일본의 설날 문화를 체험하는 케로로 소대. 떡 만들기에서 기로로의 괴력이 폭발하고, 케로로는 세뱃돈으로 건프라를 사려 한다."
+  },
+  {
+    "id": 35,
+    "episode_no": 50,
+    "title": "Valentine's Chocolate Chaos / Love and Strategy",
+    "title_kr": "발렌타인 초콜릿 대소동 / 사랑과 전략",
+    "air_date": "2005-03-12",
+    "season": 1,
+    "arc": "Seasonal Event",
+    "summary": "발렌타인데이에 모모카가 후유키에게 초콜릿을 전하려 하고, 기로로는 나츠미에게서 초콜릿을 받을 수 있을지 고민한다. 케로로는 초콜릿을 이용한 침략 계획을 세운다."
+  },
+  {
+    "id": 36,
+    "episode_no": 51,
+    "title": "Season 1 Finale / The Platoon's Report",
+    "title_kr": "시즌1 최종화 / 소대의 보고서",
+    "air_date": "2005-03-19",
+    "season": 1,
+    "arc": "Season Finale",
+    "summary": "케론 본부에 연례 보고서를 제출해야 하는 케로로 소대. 1년간의 침략 성과가 전무한 것을 숨기기 위해 보고서를 조작하려 하지만, 결국 들통이 난다."
+  },
+  {
+    "id": 37,
+    "episode_no": 17,
+    "title": "Keroro's Laundry Day / The Domestic Invader",
+    "title_kr": "케로로의 빨래하는 날 / 가사 침략자",
+    "air_date": "2004-07-24",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "케로로가 히나타 가족의 빨래를 도맡아 하게 된다. 케론 기술을 이용한 세탁이 대성공을 거두며 가사 능력자로 인정받지만, 나츠미의 옷을 줄여버리는 대참사가 발생한다."
+  },
+  {
+    "id": 38,
+    "episode_no": 34,
+    "title": "Keroro's Test of Courage / Haunted House Invasion",
+    "title_kr": "케로로의 담력 시험 / 귀신의 집 침략",
+    "air_date": "2004-11-20",
+    "season": 1,
+    "arc": "Daily Life",
+    "summary": "케로로 소대가 폐가에서 담력 시험을 벌인다. 겁이 많은 케로로와 쿠루루의 장난이 합쳐져 진짜보다 무서운 공포의 밤이 펼쳐진다."
+  },
+  {
+    "id": 39,
+    "episode_no": 43,
+    "title": "Keroro's Substitute Teacher / Classroom Chaos",
+    "title_kr": "케로로의 대리 선생님 / 교실 대소동",
+    "air_date": "2005-01-22",
+    "season": 1,
+    "arc": "School Events",
+    "summary": "케로로가 후유키의 학교에 대리 교사로 잠입한다. 케론의 교육 방식으로 수업을 하지만 지구 학생들에게는 전혀 통하지 않아 교실이 아수라장이 된다."
+  },
+  {
+    "id": 40,
+    "episode_no": 47,
+    "title": "Year-End Cleaning / Keroro's Hidden Treasures",
+    "title_kr": "연말 대청소 / 케로로의 숨겨진 보물",
+    "air_date": "2005-02-19",
+    "season": 1,
+    "arc": "New Year",
+    "summary": "연말 대청소에서 케로로가 숨겨두었던 각종 건프라와 침략 장비가 발견된다. 나츠미의 분노와 함께 1년간의 비밀들이 하나씩 밝혀진다."
+  },
+  {
+    "id": 41,
+    "episode_no": 52,
+    "title": "Season 2 Start / New Invasion Plan",
+    "title_kr": "시즌2 시작 / 새로운 침략 계획",
+    "air_date": "2005-04-02",
+    "season": 2,
+    "arc": "Season Opening",
+    "summary": "새로운 시즌이 시작되며 케로로는 더욱 본격적인 침략 계획을 세운다. 하지만 건프라에 대한 집착은 여전하며, 소대원들의 일상은 계속된다."
+  },
+  {
+    "id": 42,
+    "episode_no": 53,
+    "title": "Keroro's Part-Time Job / Earning for Gunpla",
+    "title_kr": "케로로의 아르바이트 / 건프라를 위한 벌이",
+    "air_date": "2005-04-09",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "건프라 구입 자금이 바닥난 케로로가 몰래 아르바이트를 시작한다. 다양한 직업을 전전하며 지구 경제의 어려움을 체험하는 케로로의 사회 적응기."
+  },
+  {
+    "id": 43,
+    "episode_no": 55,
+    "title": "Kururu's Anti-Barrier Upgrade / Stealth Mode 2.0",
+    "title_kr": "쿠루루의 안티 배리어 업그레이드 / 스텔스 모드 2.0",
+    "air_date": "2005-04-23",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "쿠루루가 안티 배리어 기술을 업그레이드하여 완벽한 투명 모드를 구현한다. 하지만 버그로 인해 히나타 집 전체가 투명해지는 사건이 발생한다."
+  },
+  {
+    "id": 44,
+    "episode_no": 57,
+    "title": "Tamama's Sweets Factory / Sugar Rush Invasion",
+    "title_kr": "타마마의 과자 공장 / 슈가 러시 침략",
+    "air_date": "2005-05-07",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "타마마가 케론 기술로 거대한 과자 공장을 만든다. 달콤한 과자로 지구인을 유혹하는 침략 계획이지만, 타마마 자신이 먼저 과식으로 쓰러진다."
+  },
+  {
+    "id": 45,
+    "episode_no": 59,
+    "title": "Dororo's Ninja Training / Mountain Retreat",
+    "title_kr": "도로로의 닌자 수련 / 산속 수행",
+    "air_date": "2005-05-21",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "도로로가 산에서 닌자 수련을 하며 새로운 기술을 연마한다. 코유키와 함께 자연 속에서 훈련하지만, 소대원들은 그의 부재를 알아채지 못한다."
+  },
+  {
+    "id": 46,
+    "episode_no": 61,
+    "title": "School Festival Sabotage / Cultural Festival Panic",
+    "title_kr": "학교 축제 방해 / 문화제 패닉",
+    "air_date": "2005-06-04",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "후유키와 나츠미의 학교 문화제에 케로로가 개입한다. 오컬트 연구부의 전시를 도우려다 진짜 초자연 현상을 일으켜 문화제가 아수라장이 된다."
+  },
+  {
+    "id": 47,
+    "episode_no": 62,
+    "title": "Sumomo, The Keronian Idol",
+    "title_kr": "스모모, 케론성의 아이돌",
+    "air_date": "2005-06-11",
+    "season": 2,
+    "arc": "Sumomo Arc",
+    "summary": "케론성의 인기 아이돌 스모모가 지구를 방문한다. 그녀의 노래와 춤에 모두가 매료되며, 케로로 소대도 그녀의 인기에 놀라게 된다."
+  },
+  {
+    "id": 48,
+    "episode_no": 64,
+    "title": "Keroro's Diet Challenge / The Weight of an Invader",
+    "title_kr": "케로로의 다이어트 도전 / 침략자의 체중",
+    "air_date": "2005-06-25",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "건프라 조립과 과식으로 살이 찐 케로로에게 강제 다이어트 명령이 내려진다. 기로로의 스파르타 훈련에 케로로가 비명을 지르는 코믹한 에피소드."
+  },
+  {
+    "id": 49,
+    "episode_no": 66,
+    "title": "The Hinata Mother Returns / Aki's Investigation",
+    "title_kr": "히나타 엄마 귀환 / 아키의 조사",
+    "air_date": "2005-07-09",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "만화 편집자 히나타 아키가 마감 후 집에 돌아와 케로로 소대의 비밀 기지를 발견한다. 하지만 만화 소재로 쓸 수 있다며 오히려 환영한다."
+  },
+  {
+    "id": 50,
+    "episode_no": 68,
+    "title": "Keroro's Time Machine / Back to the Past",
+    "title_kr": "케로로의 타임머신 / 과거로의 여행",
+    "air_date": "2005-07-23",
+    "season": 2,
+    "arc": "Summer Adventures",
+    "summary": "쿠루루가 만든 타임머신으로 과거 여행을 떠나는 케로로 소대. 케로로의 어린 시절로 가서 소대 결성의 비밀이 밝혀진다."
+  },
+  {
+    "id": 51,
+    "episode_no": 70,
+    "title": "Summer Festival Adventure / Fireworks Battle",
+    "title_kr": "여름 축제 모험 / 불꽃놀이 대결",
+    "air_date": "2005-08-06",
+    "season": 2,
+    "arc": "Summer Adventures",
+    "summary": "여름 축제에 참가한 케로로 일행. 모모카가 후유키와 단둘이 불꽃놀이를 보려 하지만, 케로로의 불꽃놀이 침략 작전에 휘말리게 된다."
+  },
+  {
+    "id": 52,
+    "episode_no": 72,
+    "title": "Keroro vs. Natsumi / The Ultimate Showdown",
+    "title_kr": "케로로 vs. 나츠미 / 궁극의 대결",
+    "air_date": "2005-08-20",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "케로로와 나츠미가 가사 분담을 두고 전면전을 벌인다. 요리, 청소, 빨래 세 종목으로 대결하지만, 케로로는 요리에서만 간신히 승리한다."
+  },
+  {
+    "id": 53,
+    "episode_no": 74,
+    "title": "Secret of the Kero Ball / Ancient Weapon Revealed",
+    "title_kr": "케로볼의 비밀 / 고대 병기의 정체",
+    "air_date": "2005-09-03",
+    "season": 2,
+    "arc": "Summer Adventures",
+    "summary": "케로볼에 숨겨진 고대 케론 문명의 비밀이 밝혀진다. 엄청난 파괴력을 가진 무기였다는 사실에 후유키가 이를 봉인하기로 결심한다."
+  },
+  {
+    "id": 54,
+    "episode_no": 76,
+    "title": "Momoka's Private Beach / Luxury Summer",
+    "title_kr": "모모카의 프라이빗 비치 / 럭셔리 여름",
+    "air_date": "2005-09-17",
+    "season": 2,
+    "arc": "Summer Adventures",
+    "summary": "모모카가 자신의 사유 해변에 후유키 일행을 초대한다. 니시자와 재벌의 초호화 여름 휴가가 펼쳐지지만, 케로로 소대의 해저 탐험이 소동을 일으킨다."
+  },
+  {
+    "id": 55,
+    "episode_no": 78,
+    "title": "Keroro Platoon's Childhood Memories",
+    "title_kr": "케로로 소대의 어린 시절 추억",
+    "air_date": "2005-10-01",
+    "season": 2,
+    "arc": "Flashback",
+    "summary": "케로로 소대원들의 어린 시절 이야기가 펼쳐진다. 케로로, 기로로, 도로로, 쿠루루, 푸루루의 유년 시절과 그들이 어떻게 친구가 되었는지 밝혀진다."
+  },
+  {
+    "id": 56,
+    "episode_no": 80,
+    "title": "Keroro's Manga Debut / The Aspiring Artist",
+    "title_kr": "케로로의 만화 데뷔 / 야심찬 작가",
+    "air_date": "2005-10-15",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "히나타 아키의 영향을 받아 케로로가 만화를 그리기 시작한다. 침략 매뉴얼을 만화화하려 하지만, 결국 일상 코미디 만화가 되어 인기를 얻는다."
+  },
+  {
+    "id": 57,
+    "episode_no": 82,
+    "title": "Kururu and Saburo / The Science and Art Alliance",
+    "title_kr": "쿠루루와 사부로 / 과학과 예술의 동맹",
+    "air_date": "2005-10-29",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "쿠루루와 사부로의 특별한 관계가 조명된다. 기술력과 예술적 감성의 합작으로 만들어진 리얼리티 펜의 탄생 비화가 밝혀진다."
+  },
+  {
+    "id": 58,
+    "episode_no": 83,
+    "title": "Keroro, Baby Keronian Panic",
+    "title_kr": "케로로, 아기 케론인 대소동",
+    "air_date": "2005-11-05",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "아기 케론인 바부부가 등장하여 케로로 소대가 돌봐야 하는 상황이 벌어진다. 전투의 달인들이 육아에 쩔쩔매는 코믹한 에피소드."
+  },
+  {
+    "id": 59,
+    "episode_no": 85,
+    "title": "Autumn Leaves Operation / Keroro's Nature Walk",
+    "title_kr": "단풍 작전 / 케로로의 자연 산책",
+    "air_date": "2005-11-19",
+    "season": 2,
+    "arc": "Holiday Specials",
+    "summary": "가을 단풍을 이용한 침략 계획을 세운 케로로. 도로로는 자연의 아름다움에 감동하고, 기로로는 나츠미와 단풍 구경에서 얼굴이 빨개진다."
+  },
+  {
+    "id": 60,
+    "episode_no": 87,
+    "title": "Keroro's Cooking Show / The Invasion Chef",
+    "title_kr": "케로로의 요리쇼 / 침략의 셰프",
+    "air_date": "2005-12-03",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "케로로가 요리로 지구인의 마음을 사로잡는 작전을 실행한다. 케론 요리의 독특한 맛에 히나타 가족은 복잡한 표정을 짓는다."
+  },
+  {
+    "id": 61,
+    "episode_no": 89,
+    "title": "Fuyuki and Momoka's Museum Date / Occult Exhibition",
+    "title_kr": "후유키와 모모카의 박물관 데이트 / 오컬트 전시회",
+    "air_date": "2005-12-17",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "오컬트 전시회에 후유키와 모모카가 함께 간다. 모모카에게는 데이트이지만 후유키는 전시물에만 집중하며, 타마마가 질투로 미행한다."
+  },
+  {
+    "id": 62,
+    "episode_no": 91,
+    "title": "The Keron Military Review / Performance Report",
+    "title_kr": "케론군 사열 / 업적 보고",
+    "air_date": "2005-12-31",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "케론군에서 파견된 감찰관이 지구를 방문한다. 케로로 소대는 침략 성과를 꾸며내려 하지만, 감찰관은 이미 모든 사실을 알고 있었다."
+  },
+  {
+    "id": 63,
+    "episode_no": 93,
+    "title": "Keroro's Birthday / The Unexpected Party",
+    "title_kr": "케로로의 생일 / 뜻밖의 파티",
+    "air_date": "2006-01-14",
+    "season": 2,
+    "arc": "Holiday Specials",
+    "summary": "케로로의 생일을 소대원들과 히나타 가족이 함께 축하한다. 케로로는 선물로 한정판 건프라를 받고 감동의 눈물을 흘린다."
+  },
+  {
+    "id": 64,
+    "episode_no": 95,
+    "title": "Snow Day Chaos / Keroro's Winter Sport",
+    "title_kr": "눈 오는 날의 대소동 / 케로로의 겨울 스포츠",
+    "air_date": "2006-01-28",
+    "season": 2,
+    "arc": "Holiday Specials",
+    "summary": "폭설이 내린 날, 케로로가 눈을 이용한 침략 작전을 실행한다. 거대 눈사람 로봇을 만들지만 기온이 올라가며 녹아내린다."
+  },
+  {
+    "id": 65,
+    "episode_no": 97,
+    "title": "Giroro's Valentine Dilemma / The Chocolate Warrior",
+    "title_kr": "기로로의 발렌타인 딜레마 / 초콜릿 전사",
+    "air_date": "2006-02-11",
+    "season": 2,
+    "arc": "Holiday Specials",
+    "summary": "발렌타인데이에 기로로가 나츠미에게서 의리 초콜릿을 받고 본명 초콜릿으로 착각한다. 한편 타마마는 케로로에게 거대 초콜릿을 선물한다."
+  },
+  {
+    "id": 66,
+    "episode_no": 99,
+    "title": "Pre-Garuru Tension / Warning from Keron",
+    "title_kr": "가루루 전 긴장 / 케론으로부터의 경고",
+    "air_date": "2006-02-25",
+    "season": 2,
+    "arc": "Garuru Platoon Arc",
+    "summary": "케론 본부에서 불길한 통신이 온다. 케로로 소대의 실적 부진에 업무 교체 가능성이 제기되며, 소대원들 사이에 긴장감이 감돈다."
+  },
+  {
+    "id": 67,
+    "episode_no": 100,
+    "title": "Garuru Platoon Approaches / The Elite Squad",
+    "title_kr": "가루루 소대 접근 / 정예 부대",
+    "air_date": "2006-03-04",
+    "season": 2,
+    "arc": "Garuru Platoon Arc",
+    "summary": "케론 최강의 전투 소대 가루루 소대가 지구 궤도에 진입한다. 각 대원이 케로로 소대원과 대응하는 구성으로, 압도적인 전투력을 자랑한다."
+  },
+  {
+    "id": 68,
+    "episode_no": 101,
+    "title": "Garuru Platoon Invasion! Part 1",
+    "title_kr": "가루루 소대 침공! 전편",
+    "air_date": "2006-03-11",
+    "season": 2,
+    "arc": "Garuru Platoon Arc",
+    "summary": "케로로 소대의 실패에 업을 끊은 케론군 본부가 정예 부대 가루루 소대를 파견한다. 가루루, 타루루, 토로로, 조루루, 푸루루로 구성된 소대가 지구에 도착한다."
+  },
+  {
+    "id": 69,
+    "episode_no": 102,
+    "title": "Garuru Platoon Invasion! Part 2 / Each One's Battle",
+    "title_kr": "가루루 소대 침공! 중편 / 각자의 싸움",
+    "air_date": "2006-03-18",
+    "season": 2,
+    "arc": "Garuru Platoon Arc",
+    "summary": "케로로 소대원 각각이 가루루 소대의 대응 멤버와 대결한다. 기로로 vs 가루루, 타마마 vs 타루루, 쿠루루 vs 토로로의 전투가 동시에 벌어진다."
+  },
+  {
+    "id": 70,
+    "episode_no": 103,
+    "title": "Garuru Platoon Invasion! Final Part",
+    "title_kr": "가루루 소대 침공! 후편",
+    "air_date": "2006-03-25",
+    "season": 2,
+    "arc": "Garuru Platoon Arc",
+    "summary": "케로로 소대와 가루루 소대의 최종 대결. 케로로 소대가 인간 친구들과의 유대로 가루루 소대를 물리치고, 가루루는 케론 본부에 지구 침략 불필요를 보고한다."
+  },
+  {
+    "id": 71,
+    "episode_no": 56,
+    "title": "Keroro's Space Delivery / Package from Keron",
+    "title_kr": "케로로의 우주 택배 / 케론에서 온 소포",
+    "air_date": "2005-04-30",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "케론성에서 대량의 소포가 도착한다. 안에는 케로로가 주문한 건프라와 함께 케론군의 최신 침략 장비가 들어 있어 소대원들이 흥분하지만, 설명서가 없다."
+  },
+  {
+    "id": 72,
+    "episode_no": 73,
+    "title": "Keroro's Camping Trip / Outdoor Invasion",
+    "title_kr": "케로로의 캠핑 여행 / 야외 침략",
+    "air_date": "2005-08-27",
+    "season": 2,
+    "arc": "Summer Adventures",
+    "summary": "케로로 소대가 캠핑을 떠난다. 야외에서의 침략 훈련을 겸한 캠핑이지만, 텐트 설치부터 실패하고 곰에게 쫓기는 등 자연 앞에 무력한 외계인들의 모습이 그려진다."
+  },
+  {
+    "id": 73,
+    "episode_no": 90,
+    "title": "Keroro's Fashion Show / Style Invasion",
+    "title_kr": "케로로의 패션쇼 / 스타일 침략",
+    "air_date": "2005-12-24",
+    "season": 2,
+    "arc": "Daily Chaos",
+    "summary": "케로로가 케론 패션으로 지구의 패션계를 점령하려 한다. 독특한 디자인이 의외로 호평을 받으며 한때 유행이 되지만, 금방 잊혀지고 만다."
+  },
+  {
+    "id": 74,
+    "episode_no": 104,
+    "title": "Season 3 Begins / A New Challenge",
+    "title_kr": "시즌3 개막 / 새로운 도전",
+    "air_date": "2006-04-07",
+    "season": 3,
+    "arc": "Season Opening",
+    "summary": "시즌3이 시작되며 케로로 소대는 새로운 침략 계획을 준비한다. 이전 시즌의 사건들 이후 소대원들의 관계도 조금씩 변화하고 있다."
+  },
+  {
+    "id": 75,
+    "episode_no": 106,
+    "title": "Keroro's Hot Spring Discovery / Underground Onsen",
+    "title_kr": "케로로의 온천 발견 / 지하 온천",
+    "air_date": "2006-04-21",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "케로로가 비밀 기지 확장 공사 중 천연 온천을 발견한다. 소대 전용 온천을 만들었지만 히나타 가족에게 들켜 공용이 된다."
+  },
+  {
+    "id": 76,
+    "episode_no": 108,
+    "title": "Tamama's Solo Mission / One Frog Army",
+    "title_kr": "타마마의 단독 임무 / 원 프로그 아미",
+    "air_date": "2006-05-05",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "타마마가 혼자 힘으로 침략을 성공시키겠다며 단독 작전에 나선다. 타마마 임팩트의 새로운 변형 기술을 개발하지만 통제에 실패한다."
+  },
+  {
+    "id": 77,
+    "episode_no": 110,
+    "title": "Kururu's Time-Loop Device / Groundhog Day",
+    "title_kr": "쿠루루의 시간 반복 장치 / 같은 하루의 반복",
+    "air_date": "2006-05-19",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "쿠루루의 발명품으로 같은 하루가 반복되는 타임루프에 빠진다. 케로로만 이를 인지하고 매일 다른 침략을 시도하지만 매번 실패한다."
+  },
+  {
+    "id": 78,
+    "episode_no": 112,
+    "title": "Keron Star Legends / Ancient Keron History",
+    "title_kr": "케론 스타의 전설 / 고대 케론의 역사",
+    "air_date": "2006-06-02",
+    "season": 3,
+    "arc": "Keron Star",
+    "summary": "케론성의 고대 전설이 밝혀진다. 케로로 소대가 지구에서 발견한 유물이 고대 케론 문명과 연결되어 있다는 사실이 드러난다."
+  },
+  {
+    "id": 79,
+    "episode_no": 114,
+    "title": "Fuyuki's New Friend / The Transfer Student",
+    "title_kr": "후유키의 새 친구 / 전학생",
+    "air_date": "2006-06-16",
+    "season": 3,
+    "arc": "School Life",
+    "summary": "후유키의 반에 전학생이 온다. 오컬트에 관심이 있는 전학생과 후유키가 친해지지만, 그 전학생의 정체에 케로로가 의심을 품는다."
+  },
+  {
+    "id": 80,
+    "episode_no": 116,
+    "title": "Natsumi's Athletic Tournament / Sports Queen",
+    "title_kr": "나츠미의 체육 대회 / 스포츠 여왕",
+    "air_date": "2006-06-30",
+    "season": 3,
+    "arc": "School Life",
+    "summary": "나츠미가 전교 체육 대회에 출전한다. 압도적인 실력으로 우승을 향해 달려가지만, 케로로가 몰래 방해 공작을 펼친다."
+  },
+  {
+    "id": 81,
+    "episode_no": 118,
+    "title": "Keroro's Weather Machine / Climate Control Invasion",
+    "title_kr": "케로로의 날씨 머신 / 기후 조종 침략",
+    "air_date": "2006-07-14",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "쿠루루가 날씨를 조종하는 기계를 개발한다. 케로로가 이를 이용해 침략을 시도하지만 기계가 폭주하여 계절이 뒤죽박죽이 된다."
+  },
+  {
+    "id": 82,
+    "episode_no": 120,
+    "title": "Giroro's Secret / The Red Devil's Soft Side",
+    "title_kr": "기로로의 비밀 / 붉은 악마의 부드러운 면",
+    "air_date": "2006-07-28",
+    "season": 3,
+    "arc": "Character Focus",
+    "summary": "전투의 달인 기로로의 숨겨진 면이 드러나는 에피소드. 나츠미를 향한 은밀한 마음과 고양이를 좋아하는 모습이 그려진다."
+  },
+  {
+    "id": 83,
+    "episode_no": 122,
+    "title": "Keroro's Robot Battle / Mecha Showdown",
+    "title_kr": "케로로의 로봇 대결 / 메카 대결전",
+    "air_date": "2006-08-11",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "케로로가 건프라에서 영감을 받아 실제 크기의 로봇을 제작한다. 소대원 각자가 로봇을 조종하여 로봇 대결을 벌이지만 히나타 마을에 큰 피해를 준다."
+  },
+  {
+    "id": 84,
+    "episode_no": 124,
+    "title": "Cherry Blossom Viewing / Spring Picnic Disaster",
+    "title_kr": "꽃구경 / 봄 소풍 대참사",
+    "air_date": "2006-08-25",
+    "season": 3,
+    "arc": "Seasonal Events",
+    "summary": "벚꽃 시즌에 모두가 꽃구경을 간다. 케로로가 자리 맡기를 담당하지만 잠들어 버리고, 기로로는 나츠미에게 벚꽃 고백을 할 기회를 놓친다."
+  },
+  {
+    "id": 85,
+    "episode_no": 126,
+    "title": "Dororo's Past / The Betrayal of Friendship",
+    "title_kr": "도로로의 과거 / 우정의 배신",
+    "air_date": "2006-09-08",
+    "season": 3,
+    "arc": "Character Focus",
+    "summary": "도로로의 과거가 깊이 있게 다뤄진다. 한때 최고의 전우였던 두 사람이 서로 다른 길을 걷게 된 이유가 밝혀진다."
+  },
+  {
+    "id": 86,
+    "episode_no": 128,
+    "title": "Keroro's Clone Army / Doppelganger Invasion",
+    "title_kr": "케로로의 클론 군대 / 도플갱어 침략",
+    "air_date": "2006-09-22",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "쿠루루가 클론 기술로 케로로의 복제품을 수백 개 만든다. 클론 군대로 침략하려 하지만, 모든 클론이 건프라만 조립하려 하여 작전이 무산된다."
+  },
+  {
+    "id": 87,
+    "episode_no": 130,
+    "title": "Rainy Season Power / Keroro's Strongest Day",
+    "title_kr": "장마철 파워 / 케로로의 최강의 날",
+    "air_date": "2006-10-06",
+    "season": 3,
+    "arc": "Seasonal Events",
+    "summary": "장마철이 되어 케로로의 파워가 극대화된다. 습기로 인한 파워업으로 일시적으로 침략에 성공할 뻔하지만, 제습기 하나에 무력화된다."
+  },
+  {
+    "id": 88,
+    "episode_no": 132,
+    "title": "Angol Mois's Dilemma / Destroyer vs Friend",
+    "title_kr": "앙골 모아의 딜레마 / 파괴자 vs 친구",
+    "air_date": "2006-10-20",
+    "season": 3,
+    "arc": "Character Focus",
+    "summary": "앙골 모아가 행성 파괴의 임무와 지구에서의 우정 사이에서 갈등한다. 케로로에 대한 존경과 지구인 친구들에 대한 애정 사이에서 선택을 강요받는다."
+  },
+  {
+    "id": 89,
+    "episode_no": 134,
+    "title": "Summer Camp Episode / Mountain Adventure",
+    "title_kr": "여름 캠프 에피소드 / 산속 모험",
+    "air_date": "2006-11-03",
+    "season": 3,
+    "arc": "Seasonal Events",
+    "summary": "히나타 가족과 케로로 소대가 여름 캠프를 간다. 산속에서 미지의 생물과 조우하고, 케로로가 이를 포획하여 케론 본부에 보고하려 한다."
+  },
+  {
+    "id": 90,
+    "episode_no": 136,
+    "title": "Dasonu Maso, The Dance Master",
+    "title_kr": "다소누 마소, 춤의 달인",
+    "air_date": "2006-11-17",
+    "season": 3,
+    "arc": "Character Introduction",
+    "summary": "신비로운 댄서 다소누 마소가 등장하여 독특한 춤 실력으로 모두를 놀라게 한다. 케로로 소대와 벌이는 춤 대결이 펼쳐진다."
+  },
+  {
+    "id": 91,
+    "episode_no": 138,
+    "title": "Keroro's Underground Empire / Secret Expansion",
+    "title_kr": "케로로의 지하 제국 / 비밀 확장",
+    "air_date": "2006-12-01",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "케로로 소대의 비밀 기지가 점점 확장되어 거대한 지하 도시로 성장한다. 하지만 지반 침하로 히나타 집이 기울기 시작하여 긴급 복구에 나선다."
+  },
+  {
+    "id": 92,
+    "episode_no": 140,
+    "title": "Keroro and Fuyuki / The Bond of Trust",
+    "title_kr": "케로로와 후유키 / 신뢰의 유대",
+    "air_date": "2006-12-15",
+    "season": 3,
+    "arc": "Character Focus",
+    "summary": "케로로와 후유키의 특별한 관계가 시험받는 에피소드. 침략자와 지구인이라는 입장 차이를 넘어선 진정한 우정의 의미를 되새긴다."
+  },
+  {
+    "id": 93,
+    "episode_no": 142,
+    "title": "Keroro's Virtual Reality / Digital World Invasion",
+    "title_kr": "케로로의 가상 현실 / 디지털 세계 침략",
+    "air_date": "2006-12-29",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "쿠루루가 만든 VR 시스템으로 가상 세계에 빠진 케로로 소대. 가상 세계에서는 침략에 성공하지만, 현실에서는 아무 변화가 없다."
+  },
+  {
+    "id": 94,
+    "episode_no": 144,
+    "title": "School Exam Crisis / Fuyuki's Study Session",
+    "title_kr": "시험 위기 / 후유키의 공부 세션",
+    "air_date": "2007-01-12",
+    "season": 3,
+    "arc": "School Life",
+    "summary": "후유키의 중간고사가 다가온다. 케로로가 케론 기술로 공부를 도우려 하지만, 오히려 후유키의 집중력을 빼앗아 성적이 위험해진다."
+  },
+  {
+    "id": 95,
+    "episode_no": 146,
+    "title": "Keroro's Music Band / Rock Invasion",
+    "title_kr": "케로로의 음악 밴드 / 록 침략",
+    "air_date": "2007-01-26",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "케로로 소대가 밴드를 결성하여 음악으로 지구 침략을 시도한다. 의외로 뛰어난 연주 실력으로 라이브 공연에서 대성공을 거둔다."
+  },
+  {
+    "id": 96,
+    "episode_no": 148,
+    "title": "The Mysterious Keronian Artifact / Treasure Hunt",
+    "title_kr": "신비의 케론 유물 / 보물찾기",
+    "air_date": "2007-02-09",
+    "season": 3,
+    "arc": "Keron Star",
+    "summary": "지구에서 고대 케론 유물이 발견된다. 케로로 소대와 후유키가 보물찾기에 나서지만, 유물에 담긴 고대 케론의 메시지에 모두가 놀란다."
+  },
+  {
+    "id": 97,
+    "episode_no": 150,
+    "title": "Keroro's Cooking Contest / Gourmet Battle",
+    "title_kr": "케로로의 요리 대결 / 미식 배틀",
+    "air_date": "2007-02-23",
+    "season": 3,
+    "arc": "Seasonal Events",
+    "summary": "케로로 소대와 히나타 가족이 요리 대결을 벌인다. 케론 요리 vs 지구 요리의 대결에서 예상치 못한 퓨전 요리가 탄생한다."
+  },
+  {
+    "id": 98,
+    "episode_no": 152,
+    "title": "Keroro's Snow Festival / Ice Sculpture Invasion",
+    "title_kr": "케로로의 눈 축제 / 얼음 조각 침략",
+    "air_date": "2007-03-09",
+    "season": 3,
+    "arc": "Seasonal Events",
+    "summary": "겨울 눈 축제에서 케로로가 거대 얼음 조각으로 기지를 만든다. 예술적 감각이 뛰어난 작품이지만, 봄이 오면서 모두 녹아내린다."
+  },
+  {
+    "id": 99,
+    "episode_no": 154,
+    "title": "Pre-Finale Build-Up / Gathering Storm",
+    "title_kr": "최종화 전 준비 / 모이는 폭풍",
+    "air_date": "2007-03-23",
+    "season": 3,
+    "arc": "Season Finale",
+    "summary": "시즌 피날레를 앞두고 케로로 소대에 중대한 소식이 전해진다. 케론 본부의 새로운 지시에 소대원들이 각자의 결의를 다진다."
+  },
+  {
+    "id": 100,
+    "episode_no": 155,
+    "title": "Season 3 Finale / Until We Meet Again",
+    "title_kr": "시즌3 최종화 / 다시 만날 때까지",
+    "air_date": "2007-03-30",
+    "season": 3,
+    "arc": "Season Finale",
+    "summary": "시즌3의 마무리 에피소드. 케로로 소대와 인간 친구들의 유대가 더욱 깊어지며, 새로운 모험에 대한 기대를 남긴다."
+  },
+  {
+    "id": 101,
+    "episode_no": 109,
+    "title": "Keroro's Amusement Park / Fun Land Invasion",
+    "title_kr": "케로로의 놀이공원 / 펀랜드 침략",
+    "air_date": "2006-05-12",
+    "season": 3,
+    "arc": "New Adventures",
+    "summary": "케로로 소대가 놀이공원을 통째로 빌려 침략 훈련장으로 개조한다. 하지만 놀이기구의 재미에 빠져 훈련은 뒷전이 되고 모두가 신나게 놀아버린다."
+  },
+  {
+    "id": 102,
+    "episode_no": 135,
+    "title": "Keroro's Cooking Disaster / Kitchen Explosion",
+    "title_kr": "케로로의 요리 대참사 / 주방 폭발",
+    "air_date": "2006-11-10",
+    "season": 3,
+    "arc": "Seasonal Events",
+    "summary": "케로로가 히나타 가족을 위해 케론 요리를 만들려다 주방을 폭발시킨다. 케론 식재료의 예측 불가한 반응에 소대 전원이 소방 작전에 나선다."
+  },
+  {
+    "id": 103,
+    "episode_no": 145,
+    "title": "Momoka's Jealousy / The Rich Girl's Tears",
+    "title_kr": "모모카의 질투 / 부잣집 소녀의 눈물",
+    "air_date": "2007-01-19",
+    "season": 3,
+    "arc": "Character Focus",
+    "summary": "모모카가 후유키와 다른 여학생이 친하게 지내는 것을 보고 질투에 휩싸인다. 니시자와 재벌의 힘을 총동원한 질투 작전이 벌어지지만, 오해라는 것이 밝혀진다."
+  },
+  {
+    "id": 104,
+    "episode_no": 156,
+    "title": "Season 4 Opening / Shurara's Shadow",
+    "title_kr": "시즌4 개막 / 슈라라의 그림자",
+    "air_date": "2007-04-07",
+    "season": 4,
+    "arc": "Season Opening",
+    "summary": "시즌4가 시작되며 케로로의 과거에서 온 불길한 그림자가 드리운다. 케로로 소대를 향한 복수의 칼날이 서서히 다가온다."
+  },
+  {
+    "id": 105,
+    "episode_no": 157,
+    "title": "Shurara Corps Attacks! / Revenge from the Past",
+    "title_kr": "슈라라 군단 습격! / 과거의 복수",
+    "air_date": "2007-04-14",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "케로로의 어린 시절 원한을 품은 슈라라가 군단을 이끌고 나타난다. 케로로 소대를 하나씩 공격하는 슈라라 군단과의 대결이 시작된다."
+  },
+  {
+    "id": 106,
+    "episode_no": 159,
+    "title": "Gyororo the Spy / Shurara Corps Member 1",
+    "title_kr": "염탐꾼 교로로 / 슈라라 군단원 1",
+    "air_date": "2007-04-28",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "슈라라 군단의 첫 번째 자객 교로로가 히나타 집에 잠입한다. 모든 것을 감시하는 눈을 가진 교로로와 쿠루루의 두뇌 대결이 펼쳐진다."
+  },
+  {
+    "id": 107,
+    "episode_no": 161,
+    "title": "Nuii the Doll Master / Shurara Corps Member 2",
+    "title_kr": "인형술사 누이이 / 슈라라 군단원 2",
+    "air_date": "2007-05-12",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "인형을 조종하는 슈라라 군단원 누이이가 케로로 소대원들을 인형으로 만들려 한다. 도로로의 닌자 기술로 간신히 위기를 넘긴다."
+  },
+  {
+    "id": 108,
+    "episode_no": 163,
+    "title": "Putata the Warrior / Shurara Corps Member 3",
+    "title_kr": "전사 푸타타 / 슈라라 군단원 3",
+    "air_date": "2007-05-26",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "순수한 전투력으로 승부하는 푸타타가 기로로에게 도전한다. 전투의 달인 기로로와 순수 파이터 푸타타의 열전이 벌어진다."
+  },
+  {
+    "id": 109,
+    "episode_no": 165,
+    "title": "Mekeke the Puppeteer / Shurara Corps Member 4",
+    "title_kr": "인형사 메케케 / 슈라라 군단원 4",
+    "air_date": "2007-06-09",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "마리오네트 능력을 가진 메케케가 히나타 가족을 조종하여 케로로 소대를 공격하게 만든다. 타마마의 분노가 동료를 구한다."
+  },
+  {
+    "id": 110,
+    "episode_no": 167,
+    "title": "Kagege the Shadow / Shurara Corps Member 5",
+    "title_kr": "그림자 카게게 / 슈라라 군단원 5",
+    "air_date": "2007-06-23",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "그림자를 조종하는 카게게가 케로로의 그림자를 빼앗아간다. 그림자 없이는 힘을 쓸 수 없는 케로로를 위해 도로로가 나선다."
+  },
+  {
+    "id": 111,
+    "episode_no": 169,
+    "title": "Yukiki the Yeti / Shurara Corps Member 6",
+    "title_kr": "설인 유키키 / 슈라라 군단원 6",
+    "air_date": "2007-07-07",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "눈과 얼음을 다루는 유키키가 도시 전체를 얼려버린다. 케로로 소대가 총출동하여 빙결된 도시를 구하는 대결이 벌어진다."
+  },
+  {
+    "id": 112,
+    "episode_no": 170,
+    "title": "Tamama's Jealousy Explodes",
+    "title_kr": "타마마의 질투 폭발",
+    "air_date": "2007-07-14",
+    "season": 4,
+    "arc": "Character Focus",
+    "summary": "앙골 모아에 대한 타마마의 질투심이 극에 달하는 에피소드. 타마마의 이중인격과 흑화가 본격적으로 다루어지며, 타마마 임팩트의 진정한 위력이 드러난다."
+  },
+  {
+    "id": 113,
+    "episode_no": 172,
+    "title": "Giroro's Confession Plan / Operation Red Heart",
+    "title_kr": "기로로의 고백 계획 / 작전명 레드하트",
+    "air_date": "2007-07-28",
+    "season": 4,
+    "arc": "Character Focus",
+    "summary": "기로로가 마침내 나츠미에게 고백할 결심을 한다. 소대원들의 도움과 방해 속에서 고백 작전이 진행되지만, 결정적 순간에 항상 방해가 들어온다."
+  },
+  {
+    "id": 114,
+    "episode_no": 174,
+    "title": "Keroro's Manga Empire / Publishing Invasion",
+    "title_kr": "케로로의 만화 제국 / 출판 침략",
+    "air_date": "2007-08-11",
+    "season": 4,
+    "arc": "Daily Life",
+    "summary": "케로로가 만화 출판사를 세워 문화 침략을 시도한다. 케론 만화가 의외로 인기를 얻어 지구 만화 시장에 큰 파장을 일으킨다."
+  },
+  {
+    "id": 115,
+    "episode_no": 176,
+    "title": "Shurara Corps Combined Attack / All-Out Assault",
+    "title_kr": "슈라라 군단 합동 공격 / 총공격",
+    "air_date": "2007-08-25",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "슈라라 군단이 총집결하여 케로로 소대에 대한 최종 공격을 감행한다. 각 군단원의 능력이 합쳐져 압도적인 위력을 발휘한다."
+  },
+  {
+    "id": 116,
+    "episode_no": 178,
+    "title": "Keroro Platoon's Counterattack / United We Stand",
+    "title_kr": "케로로 소대의 반격 / 하나로 뭉치다",
+    "air_date": "2007-09-08",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "슈라라 군단의 총공격에 케로로 소대가 단결하여 반격한다. 각 소대원의 강점을 살린 합동 작전으로 군단원을 하나씩 격파한다."
+  },
+  {
+    "id": 117,
+    "episode_no": 180,
+    "title": "Shurara Final Battle / The Childhood Grudge",
+    "title_kr": "슈라라 최종 결전 / 어린 시절의 원한",
+    "air_date": "2007-09-22",
+    "season": 4,
+    "arc": "Shurara Corps Arc",
+    "summary": "케로로와 슈라라의 최종 대결. 어린 시절의 오해와 원한이 밝혀지고, 케로로의 진심 어린 사과로 슈라라가 마음을 풀게 된다."
+  },
+  {
+    "id": 118,
+    "episode_no": 182,
+    "title": "After the Storm / Peace Returns",
+    "title_kr": "폭풍 후 / 평화의 귀환",
+    "air_date": "2007-10-06",
+    "season": 4,
+    "arc": "Deep Rivalries",
+    "summary": "슈라라 군단과의 전투가 끝나고 평화로운 일상이 돌아온다. 소대원들은 전투의 상처를 치유하며, 더욱 강해진 유대를 확인한다."
+  },
+  {
+    "id": 119,
+    "episode_no": 184,
+    "title": "Keroro's Gardening Hobby / Green Thumb Invasion",
+    "title_kr": "케로로의 원예 취미 / 녹색 손가락 침략",
+    "air_date": "2007-10-20",
+    "season": 4,
+    "arc": "Daily Life",
+    "summary": "케로로가 원예에 빠져 히나타 집 정원을 케론 식물로 가꾸기 시작한다. 케론 식물이 폭발적으로 성장하여 마을 전체를 덮을 위기에 처한다."
+  },
+  {
+    "id": 120,
+    "episode_no": 186,
+    "title": "Momoka's Birthday Extravaganza / The Grand Party",
+    "title_kr": "모모카의 생일 대축제 / 그랜드 파티",
+    "air_date": "2007-11-03",
+    "season": 4,
+    "arc": "Character Focus",
+    "summary": "모모카의 생일파티에 히나타 가족과 케로로 소대가 초대된다. 니시자와 재벌의 스케일로 열리는 초호화 파티에서 다양한 소동이 벌어진다."
+  },
+  {
+    "id": 121,
+    "episode_no": 188,
+    "title": "Dororo's Trauma Switch / The Forgotten Warrior",
+    "title_kr": "도로로의 트라우마 스위치 / 잊혀진 전사",
+    "air_date": "2007-11-17",
+    "season": 4,
+    "arc": "Character Focus",
+    "summary": "도로로의 트라우마 스위치가 켜지며 어린 시절 케로로에게 당한 왕따 기억이 되살아난다. 소대원들의 무관심에 상처받지만 코유키의 위로로 극복한다."
+  },
+  {
+    "id": 122,
+    "episode_no": 190,
+    "title": "Keroro's Movie Making / Director Keroro",
+    "title_kr": "케로로의 영화 제작 / 케로로 감독",
+    "air_date": "2007-12-01",
+    "season": 4,
+    "arc": "Character Growth",
+    "summary": "케로로가 침략 홍보 영화를 만들기로 하고 감독을 자처한다. 소대원들을 배우로 캐스팅하지만, 케로로의 완벽주의로 촬영이 끝없이 지연된다."
+  },
+  {
+    "id": 123,
+    "episode_no": 192,
+    "title": "Keroro and the Stray Dog / Unexpected Friendship",
+    "title_kr": "케로로와 길 강아지 / 뜻밖의 우정",
+    "air_date": "2007-12-15",
+    "season": 4,
+    "arc": "Character Growth",
+    "summary": "케로로가 길에서 버려진 강아지를 발견하고 몰래 키운다. 외계인과 지구 동물의 교감을 통해 지구에 대한 애정이 깊어진다."
+  },
+  {
+    "id": 124,
+    "episode_no": 194,
+    "title": "Kururu's Emotion Machine / Feeling Overload",
+    "title_kr": "쿠루루의 감정 머신 / 감정 과부하",
+    "air_date": "2007-12-29",
+    "season": 4,
+    "arc": "Character Growth",
+    "summary": "쿠루루가 감정을 조종하는 기계를 만든다. 소대원들의 감정이 극단적으로 변하면서 평소 숨기던 진심이 폭발하는 소동이 벌어진다."
+  },
+  {
+    "id": 125,
+    "episode_no": 196,
+    "title": "Natsumi's Secret Diary / The Hidden Feelings",
+    "title_kr": "나츠미의 비밀 일기 / 숨겨진 감정",
+    "air_date": "2008-01-12",
+    "season": 4,
+    "arc": "Character Growth",
+    "summary": "나츠미의 비밀 일기를 케로로가 발견한다. 일기에는 케로로에 대한 불만과 함께, 소대원들과의 생활이 싫지만은 않다는 내용이 적혀 있다."
+  },
+  {
+    "id": 126,
+    "episode_no": 197,
+    "title": "Meet the Parents / Keroro's Family Visit",
+    "title_kr": "부모님을 만나다 / 케로로 가족 방문",
+    "air_date": "2008-01-19",
+    "season": 4,
+    "arc": "Family Arc",
+    "summary": "케로로의 부모님이 지구를 방문한다. 아들의 게으른 생활을 보고 놀라지만, 히나타 가족과의 관계를 보고 안심하게 된다."
+  },
+  {
+    "id": 127,
+    "episode_no": 199,
+    "title": "Keroro's Dream World / Invasion in Dreams",
+    "title_kr": "케로로의 꿈 세계 / 꿈속의 침략",
+    "air_date": "2008-02-02",
+    "season": 4,
+    "arc": "Character Growth",
+    "summary": "쿠루루의 장치로 모두가 꿈 세계에 빠진다. 각자의 꿈에서 소대원들의 진정한 소망이 드러나며, 케로로의 꿈에는 의외로 히나타 가족이 등장한다."
+  },
+  {
+    "id": 128,
+    "episode_no": 202,
+    "title": "White Day Reciprocity / Giroro's Return Gift",
+    "title_kr": "화이트데이 답례 / 기로로의 답례 선물",
+    "air_date": "2008-02-23",
+    "season": 4,
+    "arc": "Character Growth",
+    "summary": "화이트데이에 기로로가 나츠미에게 답례 선물을 준비한다. 전투 장비밖에 모르는 기로로의 선물 고르기가 소대원들의 관전 포인트가 된다."
+  },
+  {
+    "id": 129,
+    "episode_no": 205,
+    "title": "Season 4 Finale / Growing Bonds",
+    "title_kr": "시즌4 최종화 / 성장하는 유대",
+    "air_date": "2008-03-15",
+    "season": 4,
+    "arc": "Season Finale",
+    "summary": "시즌4 마지막 에피소드. 슈라라 군단 사건을 겪으며 성장한 케로로 소대. 더 깊어진 소대원들의 유대와 인간 친구들과의 관계가 확인된다."
+  },
+  {
+    "id": 130,
+    "episode_no": 160,
+    "title": "Keroro's Photo Album / Memories Captured",
+    "title_kr": "케로로의 사진첩 / 포착된 추억",
+    "air_date": "2007-05-05",
+    "season": 4,
+    "arc": "Character Growth",
+    "summary": "케로로가 지구에서의 추억을 사진으로 남기기 시작한다. 소대원들과 히나타 가족의 다양한 순간들이 사진 속에 담기며, 침략보다 소중한 것들이 있음을 깨닫는다."
+  },
+  {
+    "id": 131,
+    "episode_no": 185,
+    "title": "Keroro's Pet Fish / Aquarium Invasion",
+    "title_kr": "케로로의 반려어 / 수족관 침략",
+    "air_date": "2007-10-27",
+    "season": 4,
+    "arc": "Daily Life",
+    "summary": "케로로가 열대어 사육에 빠져든다. 수족관을 점점 확장하다가 비밀 기지 전체가 거대 수족관으로 변하는 사건이 벌어진다."
+  },
+  {
+    "id": 132,
+    "episode_no": 206,
+    "title": "Season 5 Opening / Back to Invasion",
+    "title_kr": "시즌5 개막 / 침략으로 돌아가다",
+    "air_date": "2008-04-05",
+    "season": 5,
+    "arc": "Season Opening",
+    "summary": "다섯 번째 시즌이 시작되며 케로로는 새로운 각오로 침략 계획에 임한다. 하지만 일상의 유혹은 여전히 강하다."
+  },
+  {
+    "id": 133,
+    "episode_no": 208,
+    "title": "Keroro's Space Radio / Signals from Keron",
+    "title_kr": "케로로의 우주 라디오 / 케론으로부터의 신호",
+    "air_date": "2008-04-19",
+    "season": 5,
+    "arc": "New Threats",
+    "summary": "쿠루루가 우주 라디오를 수신하여 케론성의 최신 뉴스를 듣는다. 케로로 소대의 실패담이 케론성 전체에 웃음거리가 되어 있다는 충격적인 사실을 알게 된다."
+  },
+  {
+    "id": 134,
+    "episode_no": 210,
+    "title": "The Anti-Keroro League / Earth's Defense Force",
+    "title_kr": "반(反)케로로 동맹 / 지구 방위군",
+    "air_date": "2008-05-03",
+    "season": 5,
+    "arc": "New Threats",
+    "summary": "지구에 숨어 사는 다양한 외계인들이 케로로 소대에 대항하는 동맹을 결성한다. 하지만 그들도 케로로만큼이나 엉뚱해서 대결이 엉망이 된다."
+  },
+  {
+    "id": 135,
+    "episode_no": 213,
+    "title": "Advanced Weaponry / Kururu's Super Invention",
+    "title_kr": "첨단 무기 / 쿠루루의 초발명",
+    "air_date": "2008-05-24",
+    "season": 5,
+    "arc": "Advanced Technology",
+    "summary": "쿠루루가 역대 최강의 발명품을 완성한다. 지구 전체를 한 번에 정복할 수 있는 장치이지만, 전력 소모가 지구 전체 에너지보다 크다는 결함이 있다."
+  },
+  {
+    "id": 136,
+    "episode_no": 216,
+    "title": "Keroro's Internet Fame / Viral Invasion",
+    "title_kr": "케로로의 인터넷 유명세 / 바이럴 침략",
+    "air_date": "2008-06-14",
+    "season": 5,
+    "arc": "Advanced Technology",
+    "summary": "케로로가 동영상 사이트에 침략 예고 영상을 올린다. 코스프레로 오해받아 대박이 나지만, 정체가 들통날 위기에 처한다."
+  },
+  {
+    "id": 137,
+    "episode_no": 219,
+    "title": "Keron History Revealed / The First Invasion",
+    "title_kr": "케론 역사 공개 / 최초의 침략",
+    "air_date": "2008-07-05",
+    "season": 5,
+    "arc": "Keron History",
+    "summary": "케론성이 수천 년 전에도 지구를 침략하려 했다는 역사가 밝혀진다. 고대 케론인들의 실패 기록이 케로로 소대의 현재와 놀랍도록 닮아 있다."
+  },
+  {
+    "id": 138,
+    "episode_no": 222,
+    "title": "Keroro's Miniature World / Shrink Ray Chaos",
+    "title_kr": "케로로의 미니어처 세계 / 축소광선 대소동",
+    "air_date": "2008-07-26",
+    "season": 5,
+    "arc": "Advanced Technology",
+    "summary": "쿠루루의 축소광선으로 소대원들이 미니어처 크기로 줄어든다. 히나타 집 안에서 벌어지는 초미니 모험에서 일상의 물건들이 거대한 장애물이 된다."
+  },
+  {
+    "id": 139,
+    "episode_no": 224,
+    "title": "Kururu's Secret Lab / Invention Gone Wrong",
+    "title_kr": "쿠루루의 비밀 연구실 / 발명의 역습",
+    "air_date": "2008-08-09",
+    "season": 5,
+    "arc": "Advanced Technology",
+    "summary": "쿠루루의 비밀 연구실이 공개되며 그동안 만든 다양한 발명품들이 소개된다. 하지만 하나의 발명품이 폭주하여 소대 전체가 위기에 빠진다."
+  },
+  {
+    "id": 140,
+    "episode_no": 227,
+    "title": "Alien Exchange Student / Keron Academy on Earth",
+    "title_kr": "외계인 교환학생 / 지구의 케론 학원",
+    "air_date": "2008-08-30",
+    "season": 5,
+    "arc": "New Characters",
+    "summary": "케론 사관학교에서 교환학생이 지구를 방문한다. 후배 케론인의 열정에 케로로가 선배로서 체면을 세우려 하지만, 실상이 들통난다."
+  },
+  {
+    "id": 141,
+    "episode_no": 230,
+    "title": "Keroro's Treasure Map / Pirate Adventure",
+    "title_kr": "케로로의 보물 지도 / 해적 모험",
+    "air_date": "2008-09-20",
+    "season": 5,
+    "arc": "New Characters",
+    "summary": "고대 케론인이 남긴 보물 지도를 발견한 케로로 소대. 보물을 찾아 해저 모험을 떠나지만, 보물의 정체는 예상과 전혀 다른 것이었다."
+  },
+  {
+    "id": 142,
+    "episode_no": 233,
+    "title": "The Parallel Universe / Another Earth",
+    "title_kr": "평행 우주 / 또 다른 지구",
+    "air_date": "2008-10-11",
+    "season": 5,
+    "arc": "Advanced Technology",
+    "summary": "쿠루루의 차원 이동 장치가 작동하여 평행 우주의 지구에 도달한다. 그곳에서는 케로로 소대가 침략에 성공한 세계가 펼쳐지지만, 행복해 보이지 않는다."
+  },
+  {
+    "id": 143,
+    "episode_no": 236,
+    "title": "Natsumi's Birthday / The Perfect Gift",
+    "title_kr": "나츠미의 생일 / 완벽한 선물",
+    "air_date": "2008-11-01",
+    "season": 5,
+    "arc": "Character Focus",
+    "summary": "나츠미의 생일에 케로로와 소대원들이 선물을 준비한다. 기로로는 완벽한 선물을 찾기 위해 분주하고, 케로로는 의외로 감동적인 선물을 준비한다."
+  },
+  {
+    "id": 144,
+    "episode_no": 238,
+    "title": "Keroro's Space Voyage / Return to Keron?",
+    "title_kr": "케로로의 우주 여행 / 케론으로 돌아갈까?",
+    "air_date": "2008-11-15",
+    "season": 5,
+    "arc": "Keron History",
+    "summary": "케론성에 잠시 귀환할 기회가 생긴 케로로. 고향에 대한 그리움과 지구에서의 생활 사이에서 갈등하며, 결국 지구로 돌아오기로 결심한다."
+  },
+  {
+    "id": 145,
+    "episode_no": 240,
+    "title": "Momoka's All-Out Love Battle",
+    "title_kr": "모모카의 사랑 총력전",
+    "air_date": "2008-11-29",
+    "season": 5,
+    "arc": "Character Focus",
+    "summary": "모모카가 후유키에게 고백하기 위해 니시자와 재벌의 재력을 총동원한 대작전을 펼친다. 이중인격의 갈등 속에서 벌어지는 코미디."
+  },
+  {
+    "id": 146,
+    "episode_no": 243,
+    "title": "Keroro's Board Game Invasion / Game Master",
+    "title_kr": "케로로의 보드게임 침략 / 게임 마스터",
+    "air_date": "2008-12-20",
+    "season": 5,
+    "arc": "Complex Plots",
+    "summary": "케로로가 지구인을 거대한 보드게임에 빠뜨리는 침략 계획을 세운다. 주사위의 결과에 따라 현실이 바뀌는 위험한 게임이 시작된다."
+  },
+  {
+    "id": 147,
+    "episode_no": 246,
+    "title": "Dororo's Ninja Tournament / Shadow Warriors",
+    "title_kr": "도로로의 닌자 대회 / 그림자 전사들",
+    "air_date": "2009-01-10",
+    "season": 5,
+    "arc": "Complex Plots",
+    "summary": "닌자들의 비밀 대회가 열리고 도로로가 참가한다. 코유키와 함께 다양한 닌자 기술 대결을 펼치며, 도로로의 진정한 실력이 드러난다."
+  },
+  {
+    "id": 148,
+    "episode_no": 249,
+    "title": "Keroro's Kaiju Battle / Monster Movie Reality",
+    "title_kr": "케로로의 괴수 대결 / 괴수 영화 현실화",
+    "air_date": "2009-01-31",
+    "season": 5,
+    "arc": "Complex Plots",
+    "summary": "쿠루루의 장치로 괴수 영화의 괴물이 현실에 나타난다. 케로로 소대가 로봇에 탑승하여 괴수와 대결하는 특촬물 같은 전투가 벌어진다."
+  },
+  {
+    "id": 149,
+    "episode_no": 252,
+    "title": "The Keroro Awards / Best Invasion Plan",
+    "title_kr": "케로로 어워드 / 최우수 침략 계획상",
+    "air_date": "2009-02-21",
+    "season": 5,
+    "arc": "Complex Plots",
+    "summary": "케론 본부에서 올해의 침략 어워드를 개최한다. 케로로 소대가 최악의 침략 성적으로 불명예스러운 상을 받게 되어 체면을 구기게 된다."
+  },
+  {
+    "id": 150,
+    "episode_no": 254,
+    "title": "Keroro's Graduation Plan / Moving On",
+    "title_kr": "케로로의 졸업 계획 / 한 걸음 앞으로",
+    "air_date": "2009-03-07",
+    "season": 5,
+    "arc": "Character Focus",
+    "summary": "후유키와 나츠미의 학년 말을 맞아 케로로가 졸업 선물을 준비한다. 소대원들도 각자의 방식으로 성장한 한 해를 돌아본다."
+  },
+  {
+    "id": 151,
+    "episode_no": 256,
+    "title": "Season 5 Finale / Promise for Tomorrow",
+    "title_kr": "시즌5 최종화 / 내일을 위한 약속",
+    "air_date": "2009-03-21",
+    "season": 5,
+    "arc": "Season Finale",
+    "summary": "시즌5의 마지막 에피소드. 지구와 케론 사이에서 흔들리던 케로로 소대가 확고한 결의를 다진다. 새로운 시즌에 대한 기대를 남기며 마무리된다."
+  },
+  {
+    "id": 152,
+    "episode_no": 211,
+    "title": "Keroro's Diary / Secret Thoughts of an Invader",
+    "title_kr": "케로로의 일기 / 침략자의 비밀 생각",
+    "air_date": "2008-05-10",
+    "season": 5,
+    "arc": "New Threats",
+    "summary": "케로로가 몰래 쓰고 있던 일기장이 발견된다. 침략 계획 대신 건프라 리뷰, 히나타 가족과의 일상, 소대원들에 대한 애정이 가득 적혀 있어 모두를 놀라게 한다."
+  },
+  {
+    "id": 153,
+    "episode_no": 225,
+    "title": "Keroro's Sports Festival / Olympic Invasion",
+    "title_kr": "케로로의 운동 대회 / 올림픽 침략",
+    "air_date": "2008-08-16",
+    "season": 5,
+    "arc": "Advanced Technology",
+    "summary": "케로로가 올림픽에서 영감을 받아 소대 내 운동 대회를 개최한다. 기로로가 거의 모든 종목에서 우승하지만, 건프라 조립 속도 대결에서는 케로로가 압도한다."
+  },
+  {
+    "id": 154,
+    "episode_no": 235,
+    "title": "Keroro's Magic Show / The Illusionist Invader",
+    "title_kr": "케로로의 마술쇼 / 환술사 침략자",
+    "air_date": "2008-10-25",
+    "season": 5,
+    "arc": "Complex Plots",
+    "summary": "케로로가 마술사로 변장해 마술쇼를 열어 지구인의 관심을 모은다. 케론 기술을 이용한 진짜 마술에 관객이 열광하지만, 556이 마술의 비밀을 밝히겠다고 덤빈다."
+  },
+  {
+    "id": 155,
+    "episode_no": 248,
+    "title": "Keroro's Detective Agency / Mystery Solver",
+    "title_kr": "케로로의 탐정 사무소 / 미스터리 해결사",
+    "air_date": "2009-01-24",
+    "season": 5,
+    "arc": "Complex Plots",
+    "summary": "케로로가 탐정 사무소를 열어 동네 사건을 해결한다. 556과의 탐정 대결이 벌어지며, 의외로 케로로의 추리력이 빛나는 순간이 찾아온다."
+  },
+  {
+    "id": 156,
+    "episode_no": 257,
+    "title": "Season 6 Start / The Invasion Continues",
+    "title_kr": "시즌6 시작 / 침략은 계속된다",
+    "air_date": "2009-04-04",
+    "season": 6,
+    "arc": "Season Opening",
+    "summary": "여섯 번째 시즌이 시작. 케로로 소대의 일상과 침략 소동은 계속되며, 새로운 캐릭터들과의 만남이 예고된다."
+  },
+  {
+    "id": 157,
+    "episode_no": 259,
+    "title": "Keroro's Fitness Camp / Military Training",
+    "title_kr": "케로로의 체력 단련 / 군사 훈련",
+    "air_date": "2009-04-18",
+    "season": 6,
+    "arc": "Earth Defense",
+    "summary": "케론 본부의 체력 검사가 다가오자 케로로 소대가 긴급 체력 단련에 돌입한다. 기로로의 스파르타 훈련에 모두가 고생하지만, 케로로만 도망치려 한다."
+  },
+  {
+    "id": 158,
+    "episode_no": 261,
+    "title": "Alien Pet Shop / Creatures from Space",
+    "title_kr": "외계인 펫숍 / 우주에서 온 생물들",
+    "air_date": "2009-05-02",
+    "season": 6,
+    "arc": "Earth Defense",
+    "summary": "케론에서 온 택배로 외계 생물들이 배달된다. 귀엽지만 위험한 외계 동물들이 마을에 풀려나 케로로 소대가 총출동하여 포획에 나선다."
+  },
+  {
+    "id": 159,
+    "episode_no": 264,
+    "title": "Keroro's Friendship Test / True Bonds",
+    "title_kr": "케로로의 우정 시험 / 진정한 유대",
+    "air_date": "2009-05-23",
+    "season": 6,
+    "arc": "Friendship",
+    "summary": "케론 본부에서 소대원 간의 신뢰도 테스트를 실시한다. 다양한 시험을 통해 소대원들의 진정한 우정이 시험받으며, 의외의 결과가 나온다."
+  },
+  {
+    "id": 160,
+    "episode_no": 267,
+    "title": "Natsumi's Rival Appears / The New Girl",
+    "title_kr": "나츠미의 라이벌 등장 / 새로운 소녀",
+    "air_date": "2009-06-13",
+    "season": 6,
+    "arc": "Character Arcs",
+    "summary": "나츠미에게 강력한 라이벌이 등장한다. 운동과 학업 모든 분야에서 나츠미를 앞서는 전학생에게 나츠미가 자극받아 노력하는 모습이 그려진다."
+  },
+  {
+    "id": 161,
+    "episode_no": 270,
+    "title": "Keroro's Art Museum / Cultural Invasion Plan",
+    "title_kr": "케로로의 미술관 / 문화 침략 작전",
+    "air_date": "2009-07-04",
+    "season": 6,
+    "arc": "Earth Defense",
+    "summary": "케로로가 케론 예술 작품으로 미술관을 열어 문화 침략을 시도한다. 케론 예술에 지구인들이 열광하며, 예상치 못한 문화 교류가 이루어진다."
+  },
+  {
+    "id": 162,
+    "episode_no": 273,
+    "title": "Giroro and Dororo / The Warriors' Past",
+    "title_kr": "기로로와 도로로 / 전사들의 과거",
+    "air_date": "2009-07-25",
+    "season": 6,
+    "arc": "Character Arcs",
+    "summary": "기로로와 도로로의 과거 관계가 깊이 다뤄진다. 한때 최고의 전우였던 두 사람이 서로 다른 길을 걷게 된 이유가 밝혀진다."
+  },
+  {
+    "id": 163,
+    "episode_no": 275,
+    "title": "The Keron Army's Ultimatum",
+    "title_kr": "케론군의 최후통첩",
+    "air_date": "2009-08-08",
+    "season": 6,
+    "arc": "Earth Defense",
+    "summary": "케론군 본부로부터 최후통첩이 내려온다. 침략에 성과를 보이지 않으면 소대를 해산하겠다는 경고에 케로로 소대가 긴장한다."
+  },
+  {
+    "id": 164,
+    "episode_no": 278,
+    "title": "Keroro's Desperate Plan / Last Chance Invasion",
+    "title_kr": "케로로의 필사 작전 / 마지막 기회의 침략",
+    "air_date": "2009-08-29",
+    "season": 6,
+    "arc": "Earth Defense",
+    "summary": "소대 해산 위기에 놓인 케로로가 진심으로 침략 작전을 세운다. 하지만 지구와 인간 친구들에 대한 애정이 작전을 방해한다."
+  },
+  {
+    "id": 165,
+    "episode_no": 281,
+    "title": "Earth Defense Alliance / Humans and Keronians",
+    "title_kr": "지구 방위 동맹 / 인간과 케론인",
+    "air_date": "2009-09-19",
+    "season": 6,
+    "arc": "Earth Defense",
+    "summary": "지구에 다른 외계 세력이 침략해 온다. 케로로 소대가 히나타 가족과 함께 지구를 지키기 위해 싸우며, 진정한 동맹의 의미를 깨닫는다."
+  },
+  {
+    "id": 166,
+    "episode_no": 284,
+    "title": "Tamama and Momoka / The Unlikely Partners",
+    "title_kr": "타마마와 모모카 / 뜻밖의 파트너",
+    "air_date": "2009-10-10",
+    "season": 6,
+    "arc": "Character Arcs",
+    "summary": "타마마와 모모카의 관계가 조명된다. 주인과 반려 외계인으로서의 유대가 깊어지며, 둘 다 후유키/케로로에 대한 복잡한 감정을 공유한다."
+  },
+  {
+    "id": 167,
+    "episode_no": 287,
+    "title": "Keroro's Cooking School / Chef Training",
+    "title_kr": "케로로의 요리 학교 / 셰프 수련",
+    "air_date": "2009-10-31",
+    "season": 6,
+    "arc": "Friendship",
+    "summary": "케로로가 요리 실력을 향상시키기 위해 요리 학교에 다닌다. 다양한 케론 식재료와 지구 식재료를 결합한 퓨전 요리에 도전한다."
+  },
+  {
+    "id": 168,
+    "episode_no": 290,
+    "title": "Everyone's Christmas / A Warm Winter",
+    "title_kr": "모두의 크리스마스 / 따뜻한 겨울",
+    "air_date": "2009-11-21",
+    "season": 6,
+    "arc": "Seasonal Event",
+    "summary": "케로로 소대와 인간 친구들이 함께 크리스마스를 보내는 따뜻한 에피소드. 침략과 일상의 경계 속에서 진정한 우정의 의미를 되새긴다."
+  },
+  {
+    "id": 169,
+    "episode_no": 293,
+    "title": "New Year's Resolution / Keroro's Promise",
+    "title_kr": "새해 결심 / 케로로의 약속",
+    "air_date": "2009-12-12",
+    "season": 6,
+    "arc": "Seasonal Event",
+    "summary": "새해를 맞아 소대원들이 각자의 새해 결심을 발표한다. 케로로의 결심은 언제나 침략이지만, 속마음에는 지구에서의 행복한 일상이 담겨 있다."
+  },
+  {
+    "id": 170,
+    "episode_no": 296,
+    "title": "Kururu's Rival / The Genius from Keron",
+    "title_kr": "쿠루루의 라이벌 / 케론에서 온 천재",
+    "air_date": "2010-01-02",
+    "season": 6,
+    "arc": "Character Arcs",
+    "summary": "쿠루루보다 뛰어난 발명가가 케론에서 온다. 기술력 대결에서 밀린 쿠루루가 자존심을 걸고 궁극의 발명품을 완성하려 한다."
+  },
+  {
+    "id": 171,
+    "episode_no": 299,
+    "title": "Keroro's Phantom Thief / Moonlight Invasion",
+    "title_kr": "케로로의 괴도 / 달빛 침략",
+    "air_date": "2010-01-23",
+    "season": 6,
+    "arc": "Friendship",
+    "summary": "케로로가 괴도로 변장하여 지구의 중요한 물건을 훔치는 침략 작전을 실행한다. 코고로 556이 탐정으로서 케로로를 추격하는 추격전이 벌어진다."
+  },
+  {
+    "id": 172,
+    "episode_no": 302,
+    "title": "The Hinata Family Secret / Mother's Past",
+    "title_kr": "히나타 가족의 비밀 / 엄마의 과거",
+    "air_date": "2010-02-13",
+    "season": 6,
+    "arc": "Character Arcs",
+    "summary": "히나타 아키의 과거에 케론인과의 접촉이 있었다는 사실이 밝혀진다. 아키가 케로로를 쉽게 받아들인 이유에 대한 감동적인 진실이 드러난다."
+  },
+  {
+    "id": 173,
+    "episode_no": 304,
+    "title": "Spring Tournament / Keroro vs. Everyone",
+    "title_kr": "봄 대회 / 케로로 vs. 모두",
+    "air_date": "2010-02-27",
+    "season": 6,
+    "arc": "Friendship",
+    "summary": "봄 체육 대회에서 케로로 소대와 인간 팀이 대결한다. 다양한 종목에서 펼쳐지는 진지하면서도 코믹한 대결에 모두가 열광한다."
+  },
+  {
+    "id": 174,
+    "episode_no": 306,
+    "title": "Pre-Finale / The Calm Before the Storm",
+    "title_kr": "최종화 전 / 폭풍 전의 고요",
+    "air_date": "2010-03-13",
+    "season": 6,
+    "arc": "Season Finale",
+    "summary": "시즌 피날레를 앞두고 케로로가 깊은 고민에 빠진다. 침략자로서의 의무와 지구에서의 생활 사이에서 내적 갈등이 극에 달한다."
+  },
+  {
+    "id": 175,
+    "episode_no": 307,
+    "title": "Season 6 Finale / The Heart of an Invader",
+    "title_kr": "시즌6 최종화 / 침략자의 마음",
+    "air_date": "2010-03-20",
+    "season": 6,
+    "arc": "Season Finale",
+    "summary": "시즌6 마지막 에피소드. 케로로가 자신의 진정한 마음과 마주한다. 침략이라는 명분 아래 숨겨져 있던 지구에 대한 사랑이 고백되며, 소대원들도 공감한다."
+  },
+  {
+    "id": 176,
+    "episode_no": 262,
+    "title": "Keroro's Haunted Mansion / Ghost Invasion",
+    "title_kr": "케로로의 유령 저택 / 유령 침략",
+    "air_date": "2009-05-09",
+    "season": 6,
+    "arc": "Earth Defense",
+    "summary": "폐가에서 유령 소동이 발생한다. 케로로 소대가 조사에 나서지만, 겁쟁이 케로로는 도망치기에 바쁘고, 용감한 나츠미와 코유키가 해결의 실마리를 찾는다."
+  },
+  {
+    "id": 177,
+    "episode_no": 271,
+    "title": "Fuyuki's Birthday Surprise / The Occult Gift",
+    "title_kr": "후유키의 생일 서프라이즈 / 오컬트 선물",
+    "air_date": "2009-07-11",
+    "season": 6,
+    "arc": "Friendship",
+    "summary": "후유키의 생일에 케로로가 케론의 진짜 오컬트 아이템을 선물한다. 오컬트 마니아 후유키가 감격하지만, 아이템이 폭주하여 초자연 현상이 연쇄적으로 발생한다."
+  },
+  {
+    "id": 178,
+    "episode_no": 282,
+    "title": "Keroro's Arcade Adventure / Game Center Invasion",
+    "title_kr": "케로로의 오락실 모험 / 게임센터 침략",
+    "air_date": "2009-09-26",
+    "season": 6,
+    "arc": "Friendship",
+    "summary": "케로로가 오락실의 게임에 중독된다. 특히 크레인 게임에서 건프라를 뽑겠다고 용돈을 전부 쓰는 케로로를 기로로가 끌어내려 하지만, 본인도 격투 게임에 빠진다."
+  },
+  {
+    "id": 179,
+    "episode_no": 297,
+    "title": "Keroro's Time Capsule / Message to the Future",
+    "title_kr": "케로로의 타임캡슐 / 미래에 보내는 메시지",
+    "air_date": "2010-01-09",
+    "season": 6,
+    "arc": "Character Arcs",
+    "summary": "케로로 소대와 히나타 가족이 타임캡슐을 묻기로 한다. 각자 미래의 자신에게 보내는 편지를 쓰며, 케로로의 편지에는 뜻밖의 진심이 담겨 있다."
+  },
+  {
+    "id": 180,
+    "episode_no": 308,
+    "title": "Shin Keroro Arrives! / The New Keronian",
+    "title_kr": "신 케로로 등장! / 새로운 케론인",
+    "air_date": "2010-04-03",
+    "season": 7,
+    "arc": "Shin Keroro Arc",
+    "summary": "케론군이 보낸 새로운 케론인 신 케로로가 지구에 도착한다. 빠른 성장 능력을 가진 신 케로로는 후유키와 특별한 유대를 형성하게 된다."
+  },
+  {
+    "id": 181,
+    "episode_no": 310,
+    "title": "Shin Keroro's Mission / The Replacement",
+    "title_kr": "신 케로로의 임무 / 대체자",
+    "air_date": "2010-04-17",
+    "season": 7,
+    "arc": "Shin Keroro Arc",
+    "summary": "신 케로로가 케로로 소대를 대체하기 위해 보내진 존재라는 사실이 밝혀진다. 케로로 소대에 긴장감이 감돌고, 후유키는 두 케론인 사이에서 고민한다."
+  },
+  {
+    "id": 182,
+    "episode_no": 312,
+    "title": "Keroro vs. Shin Keroro / Generation Battle",
+    "title_kr": "케로로 vs. 신 케로로 / 세대 대결",
+    "air_date": "2010-05-01",
+    "season": 7,
+    "arc": "Shin Keroro Arc",
+    "summary": "케로로와 신 케로로 사이에 침략 계획 대결이 벌어진다. 젊고 열정적인 신 케로로에 밀리는 케로로지만, 경험에서 우러나오는 지혜로 승부한다."
+  },
+  {
+    "id": 183,
+    "episode_no": 314,
+    "title": "Shin Keroro's Doubts / Is This Right?",
+    "title_kr": "신 케로로의 의문 / 이게 맞는 걸까?",
+    "air_date": "2010-05-15",
+    "season": 7,
+    "arc": "Shin Keroro Arc",
+    "summary": "신 케로로가 지구에서 생활하면서 침략에 대한 의문을 품기 시작한다. 후유키와의 교류를 통해 케로로 소대가 왜 변했는지 이해하게 된다."
+  },
+  {
+    "id": 184,
+    "episode_no": 316,
+    "title": "The Two Keronians / Fuyuki's Choice",
+    "title_kr": "두 케론인 / 후유키의 선택",
+    "air_date": "2010-05-29",
+    "season": 7,
+    "arc": "Shin Keroro Arc",
+    "summary": "후유키가 케로로와 신 케로로 사이에서 선택을 강요받는다. 두 외계인 친구 모두를 소중히 여기는 후유키의 결정이 이야기의 향방을 결정한다."
+  },
+  {
+    "id": 185,
+    "episode_no": 318,
+    "title": "Keroro Platoon's Nostalgia / Memories on Earth",
+    "title_kr": "케로로 소대의 향수 / 지구에서의 추억",
+    "air_date": "2010-06-12",
+    "season": 7,
+    "arc": "Final Adventures",
+    "summary": "케로로 소대가 지구에서 보낸 시간을 돌아보는 회상 에피소드. 처음 도착했을 때부터 현재까지의 추억들이 아름답게 그려진다."
+  },
+  {
+    "id": 186,
+    "episode_no": 320,
+    "title": "Giroro's Final Confession Plan / Now or Never",
+    "title_kr": "기로로의 마지막 고백 계획 / 지금이 아니면",
+    "air_date": "2010-06-26",
+    "season": 7,
+    "arc": "Final Adventures",
+    "summary": "기로로가 나츠미에게 진심을 전할 마지막 기회를 만든다. 시리즈 내내 숨겨왔던 감정을 드러내는 감동적인 장면이 펼쳐진다."
+  },
+  {
+    "id": 187,
+    "episode_no": 322,
+    "title": "Tamama's Independence / Standing on My Own",
+    "title_kr": "타마마의 독립 / 혼자 서기",
+    "air_date": "2010-07-10",
+    "season": 7,
+    "arc": "Final Adventures",
+    "summary": "타마마가 케로로에 대한 의존에서 벗어나 독립적인 전사로 성장한다. 타마마 임팩트의 최종 진화형이 공개되며 모두를 놀라게 한다."
+  },
+  {
+    "id": 188,
+    "episode_no": 324,
+    "title": "Kururu's Masterpiece / The Ultimate Invention",
+    "title_kr": "쿠루루의 걸작 / 궁극의 발명품",
+    "air_date": "2010-07-24",
+    "season": 7,
+    "arc": "Final Adventures",
+    "summary": "쿠루루가 지구 생활의 집대성으로 궁극의 발명품을 완성한다. 지구와 케론을 연결하는 차원 게이트로, 두 세계의 평화로운 교류가 가능해진다."
+  },
+  {
+    "id": 189,
+    "episode_no": 325,
+    "title": "Shin Keroro's Growth / Friend or Foe?",
+    "title_kr": "신 케로로의 성장 / 적인가 아군인가?",
+    "air_date": "2010-07-31",
+    "season": 7,
+    "arc": "Shin Keroro Arc",
+    "summary": "급속도로 성장하는 신 케로로의 진짜 목적이 밝혀지기 시작한다. 케로로 소대와의 관계가 복잡해지며, 후유키는 신 케로로를 믿기로 한다."
+  },
+  {
+    "id": 190,
+    "episode_no": 327,
+    "title": "Dororo's Farewell / The Ninja's Journey",
+    "title_kr": "도로로의 작별 / 닌자의 여정",
+    "air_date": "2010-08-14",
+    "season": 7,
+    "arc": "Final Adventures",
+    "summary": "도로로가 닌자 수행을 위해 잠시 소대를 떠난다. 항상 잊혀지던 도로로의 부재에 이번에는 소대원들이 진심으로 그를 그리워한다."
+  },
+  {
+    "id": 191,
+    "episode_no": 329,
+    "title": "Dororo Returns / Stronger Than Before",
+    "title_kr": "도로로 귀환 / 이전보다 강하게",
+    "air_date": "2010-08-28",
+    "season": 7,
+    "arc": "Final Adventures",
+    "summary": "수행을 마치고 돌아온 도로로가 한층 강해진 모습을 보인다. 소대원들의 환영을 받으며, 도로로가 오랜만에 행복한 미소를 짓는다."
+  },
+  {
+    "id": 192,
+    "episode_no": 331,
+    "title": "The Keron Elders' Visit / Judgment Day",
+    "title_kr": "케론 원로회 방문 / 심판의 날",
+    "air_date": "2010-09-11",
+    "season": 7,
+    "arc": "Final Adventures",
+    "summary": "케론 원로회가 직접 지구를 방문하여 케로로 소대를 심사한다. 소대의 존속을 걸고 최후의 시험이 시작된다."
+  },
+  {
+    "id": 193,
+    "episode_no": 333,
+    "title": "Keroro's Defense Speech / Why We Stay",
+    "title_kr": "케로로의 변론 / 우리가 머무는 이유",
+    "air_date": "2010-09-25",
+    "season": 7,
+    "arc": "Final Adventures",
+    "summary": "케론 원로회 앞에서 케로로가 소대가 지구에 남아야 하는 이유를 변론한다. 진심 어린 말에 원로회 멤버들의 마음이 흔들리기 시작한다."
+  },
+  {
+    "id": 194,
+    "episode_no": 335,
+    "title": "Shin Keroro's Decision / Choosing a Side",
+    "title_kr": "신 케로로의 결단 / 편을 선택하다",
+    "air_date": "2010-10-09",
+    "season": 7,
+    "arc": "Shin Keroro Arc",
+    "summary": "신 케로로가 마침내 자신의 입장을 결정한다. 케론군의 명령을 거부하고 케로로 소대의 편에 서기로 결심하며, 이로 인해 큰 파장이 일어난다."
+  },
+  {
+    "id": 195,
+    "episode_no": 337,
+    "title": "The Last Invasion Attempt / All-In Operation",
+    "title_kr": "마지막 침략 시도 / 올인 작전",
+    "air_date": "2010-10-23",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "케론 본부의 압박으로 케로로 소대가 마지막 침략을 시도한다. 모든 기술과 자원을 투입한 대규모 작전이 전개되지만, 소대원들의 마음은 복잡하다."
+  },
+  {
+    "id": 196,
+    "episode_no": 339,
+    "title": "Humanity's Response / Earth Fights Back",
+    "title_kr": "인류의 응답 / 지구의 반격",
+    "air_date": "2010-11-06",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "케로로 소대의 침략에 인간 친구들이 맞선다. 하지만 이것은 싸움이 아닌, 서로의 진심을 확인하기 위한 마지막 대화의 시작이다."
+  },
+  {
+    "id": 197,
+    "episode_no": 340,
+    "title": "The Platoon's Bond / Together We Stand",
+    "title_kr": "소대의 유대 / 함께이기에 강하다",
+    "air_date": "2010-11-13",
+    "season": 7,
+    "arc": "Character Development",
+    "summary": "케로로 소대 5명의 유대와 우정이 시험받는 에피소드. 각자의 약점이 드러나지만, 서로를 보완하며 함께일 때 가장 강해진다는 것을 증명한다."
+  },
+  {
+    "id": 198,
+    "episode_no": 343,
+    "title": "Keroro's Revelation / The Truth About Pekopon",
+    "title_kr": "케로로의 각성 / 페코폰에 대한 진실",
+    "air_date": "2010-12-04",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "케로로가 지구(페코폰)에 대한 진정한 감정과 마주한다. 침략자가 아닌 지구의 친구로서 살아가고 싶다는 진심을 깨닫는 중요한 전환점."
+  },
+  {
+    "id": 199,
+    "episode_no": 346,
+    "title": "The Keron Military's Final Order / Recall Command",
+    "title_kr": "케론군의 최종 명령 / 소환 명령",
+    "air_date": "2010-12-25",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "케론 본부가 케로로 소대에 최종 소환 명령을 내린다. 지구를 떠나야 하는 위기에서 소대원들과 인간 친구들이 대책을 모의한다."
+  },
+  {
+    "id": 200,
+    "episode_no": 349,
+    "title": "Everyone's Feelings / What Invasion Means to Us",
+    "title_kr": "모두의 마음 / 침략이 우리에게 의미하는 것",
+    "air_date": "2011-01-15",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "각 캐릭터가 침략이라는 단어에 담긴 자신만의 의미를 고백한다. 케로로에게 침략은 이제 사랑하는 사람들과 함께하는 일상 그 자체가 되었다."
+  },
+  {
+    "id": 201,
+    "episode_no": 352,
+    "title": "Farewell Keroro? / The Final Mission",
+    "title_kr": "안녕 케로로? / 마지막 임무",
+    "air_date": "2011-02-05",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "케론군의 명령으로 케로로 소대에 귀환 명령이 떨어진다. 지구를 떠나야 할지도 모르는 상황에서 히나타 가족과 친구들은 복잡한 감정에 빠진다."
+  },
+  {
+    "id": 202,
+    "episode_no": 354,
+    "title": "Goodbye Earth / The Departure",
+    "title_kr": "안녕 지구 / 출발의 시간",
+    "air_date": "2011-02-19",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "케로로 소대가 지구를 떠나는 날이 온다. 히나타 가족과 친구들이 눈물로 배웅하며, 케로로 소대도 지구에서의 추억을 가슴에 안고 떠난다."
+  },
+  {
+    "id": 203,
+    "episode_no": 356,
+    "title": "Return to Keron / The Homecoming",
+    "title_kr": "케론으로의 귀환 / 고향에 돌아오다",
+    "air_date": "2011-03-05",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "케론성에 돌아온 케로로 소대. 하지만 고향은 이미 낯설고, 소대원들의 마음은 여전히 지구에 있다. 케로로가 중대한 결심을 한다."
+  },
+  {
+    "id": 204,
+    "episode_no": 357,
+    "title": "Keroro's Rebellion / Going Back to Earth",
+    "title_kr": "케로로의 반역 / 지구로 돌아가다",
+    "air_date": "2011-03-12",
+    "season": 7,
+    "arc": "Series Finale",
+    "summary": "케로로가 케론군의 명령에 반기를 들고 지구로 돌아가겠다고 선언한다. 소대원들이 하나둘 합류하며, 지구를 향한 귀환의 여정이 시작된다."
+  },
+  {
+    "id": 205,
+    "episode_no": 358,
+    "title": "Keroro Forever / Our Invasion Continues",
+    "title_kr": "영원한 케로로 / 우리들의 침략은 계속된다",
+    "air_date": "2011-03-19",
+    "season": 7,
+    "arc": "Series Finale",
+    "summary": "시리즈 최종화. 케로로 소대는 결국 지구에 남기로 결정하고, 침략이라는 명목 하에 인간 친구들과의 일상을 계속해 나간다. 모두에게 따뜻한 결말이 찾아온다."
+  },
+  {
+    "id": 206,
+    "episode_no": 315,
+    "title": "Keroro's School Visit / The Alien Teacher Returns",
+    "title_kr": "케로로의 학교 방문 / 외계인 선생님 귀환",
+    "air_date": "2010-05-22",
+    "season": 7,
+    "arc": "Shin Keroro Arc",
+    "summary": "케로로와 신 케로로가 함께 후유키의 학교를 방문한다. 두 케론인의 경쟁적인 수업 시연에 학생들이 혼란에 빠지지만, 결국 둘의 호흡이 맞아 인기 수업이 된다."
+  },
+  {
+    "id": 207,
+    "episode_no": 345,
+    "title": "Keroro's Last Letter / Words Unspoken",
+    "title_kr": "케로로의 마지막 편지 / 전하지 못한 말",
+    "air_date": "2010-12-18",
+    "season": 7,
+    "arc": "Series Climax",
+    "summary": "케로로가 만약을 대비해 히나타 가족과 소대원들에게 편지를 쓴다. 평소 말하지 못했던 감사의 마음이 담긴 편지에 모두가 감동하며, 함께 있고 싶다는 마음을 재확인한다."
+  },
+  {
+    "id": 208,
+    "episode_no": 1001,
+    "title": "Keroro Gunso the Super Movie",
+    "title_kr": "초극장판 케로로 군조",
+    "air_date": "2006-03-11",
+    "season": 0,
+    "arc": "Movie",
+    "summary": "고대 케론 문명의 궁극 병기 키루루가 깨어난다. 지구를 파괴하려는 키루루에 맞서 케로로 소대와 히나타 가족이 힘을 합쳐 싸운다. 케로로의 진정한 리더십이 빛나는 극장판."
+  },
+  {
+    "id": 209,
+    "episode_no": 1002,
+    "title": "Deep Sea Princess",
+    "title_kr": "심해의 공주",
+    "air_date": "2007-03-17",
+    "season": 0,
+    "arc": "Movie",
+    "summary": "심해에서 온 신비로운 공주 메루가 케로로 소대에게 도움을 요청한다. 해저 왕국의 위기를 구하기 위해 소대가 깊은 바다로 모험을 떠나는 수중 대모험."
+  },
+  {
+    "id": 210,
+    "episode_no": 1003,
+    "title": "Keroro vs. Keroro Sky Battle",
+    "title_kr": "케로로 대 케로로 천공대결전",
+    "air_date": "2008-03-01",
+    "season": 0,
+    "arc": "Movie",
+    "summary": "하늘 위에 떠있는 거대한 공중 요새가 나타난다. 다크 케로로가 이끄는 적군과 케로로 소대의 하늘 위 대결투. 소대원들의 합체 기술이 최초로 공개된다."
+  },
+  {
+    "id": 211,
+    "episode_no": 1004,
+    "title": "Dragon Warriors",
+    "title_kr": "역습의 드래곤 워리어즈",
+    "air_date": "2009-02-28",
+    "season": 0,
+    "arc": "Movie",
+    "summary": "전설의 드래곤 워리어즈가 부활하여 지구를 위협한다. 고대의 용 전사들과 맞서기 위해 케로로 소대가 전설의 무기를 찾아 모험을 떠나는 판타지 대작."
+  },
+  {
+    "id": 212,
+    "episode_no": 1005,
+    "title": "Creation! Ultimate Keroro",
+    "title_kr": "탄생! 궁극 케로로",
+    "air_date": "2010-02-27",
+    "season": 0,
+    "arc": "Movie",
+    "summary": "궁극의 힘을 가진 케론인이 탄생할 수 있는 전설의 의식이 시작된다. 케로로가 궁극 케로로로 변신하여 우주 최강의 적에 맞서는 시리즈 최대 스케일의 극장판."
+  }
+]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="58" fill="#FFF8E1" stroke="#FFE082" stroke-width="2"/>
+  <!-- Cat ears -->
+  <polygon points="28,35 38,10 50,40" fill="#F4A460" stroke="#926239" stroke-width="1.5"/>
+  <polygon points="70,40 82,10 92,35" fill="#F4A460" stroke="#926239" stroke-width="1.5"/>
+  <polygon points="32,35 40,18 48,40" fill="#FFCDD2"/>
+  <polygon points="72,40 80,18 88,35" fill="#FFCDD2"/>
+  <!-- Head -->
+  <ellipse cx="60" cy="58" rx="34" ry="30" fill="#F4A460" stroke="#926239" stroke-width="1.5"/>
+  <!-- Calico patches -->
+  <ellipse cx="42" cy="50" rx="12" ry="10" fill="#FF8A65" opacity="0.6"/>
+  <ellipse cx="75" cy="62" rx="10" ry="8" fill="#212121" opacity="0.3"/>
+  <!-- Eyes -->
+  <ellipse cx="46" cy="55" rx="6" ry="7" fill="#FFF9C4"/>
+  <ellipse cx="74" cy="55" rx="6" ry="7" fill="#FFF9C4"/>
+  <ellipse cx="46" cy="56" rx="2.5" ry="5" fill="#212121"/>
+  <ellipse cx="74" cy="56" rx="2.5" ry="5" fill="#212121"/>
+  <!-- Nose -->
+  <polygon points="58,64 62,64 60,67" fill="#F48FB1"/>
+  <!-- Whiskers -->
+  <line x1="20" y1="62" x2="42" y2="66" stroke="#926239" stroke-width="0.8"/>
+  <line x1="20" y1="68" x2="42" y2="68" stroke="#926239" stroke-width="0.8"/>
+  <line x1="78" y1="66" x2="100" y2="62" stroke="#926239" stroke-width="0.8"/>
+  <line x1="78" y1="68" x2="100" y2="68" stroke="#926239" stroke-width="0.8"/>
+  <!-- Mouth -->
+  <path d="M 55 68 Q 60 73 65 68" fill="none" stroke="#926239" stroke-width="1"/>
+</svg>

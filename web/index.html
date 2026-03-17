@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERORO ARCHIVE | 케로로 아카이브</title>
+    <meta name="description" content="케로로 아카이브 - 케로로 군조 캐릭터 검색, 관계도, 에피소드, 명대사. Keroro Gunso Explorer.">
+    <meta name="theme-color" content="#1a1a2e">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>K</text></svg>">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- ========== Navigation ========== -->
+    <nav id="main-nav">
+        <div class="nav-brand">
+            <span class="nav-logo">K</span>
+            <span class="nav-title">KERORO ARCHIVE</span>
+        </div>
+        <div class="nav-tabs" id="nav-tabs">
+            <button class="nav-tab active" data-page="search">
+                <span class="nav-tab-icon">&#x1F50D;</span>
+                <span class="nav-tab-label">검색</span>
+            </button>
+            <button class="nav-tab" data-page="characters">
+                <span class="nav-tab-icon">&#x1F4D6;</span>
+                <span class="nav-tab-label">도감</span>
+            </button>
+            <button class="nav-tab" data-page="episodes">
+                <span class="nav-tab-icon">&#x1F4FA;</span>
+                <span class="nav-tab-label">에피소드</span>
+            </button>
+            <button class="nav-tab" data-page="quotes">
+                <span class="nav-tab-icon">&#x1F4AC;</span>
+                <span class="nav-tab-label">명대사</span>
+            </button>
+            <button class="nav-tab" data-page="items">
+                <span class="nav-tab-icon">&#x1F52B;</span>
+                <span class="nav-tab-label">아이템</span>
+            </button>
+            <button class="nav-tab" data-page="invasion-plans">
+                <span class="nav-tab-icon">&#x1F4CB;</span>
+                <span class="nav-tab-label">침략작전</span>
+            </button>
+            <button class="nav-tab" data-page="abilities">
+                <span class="nav-tab-icon">&#x26A1;</span>
+                <span class="nav-tab-label">필살기</span>
+            </button>
+            <button class="nav-tab" data-page="ost">
+                <span class="nav-tab-icon">&#x1F3B5;</span>
+                <span class="nav-tab-label">OST</span>
+            </button>
+            <button class="nav-tab" data-page="voice-actors">
+                <span class="nav-tab-icon">&#x1F3A4;</span>
+                <span class="nav-tab-label">성우</span>
+            </button>
+            <button class="nav-tab" data-page="ranks">
+                <span class="nav-tab-icon">&#x2B50;</span>
+                <span class="nav-tab-label">계급</span>
+            </button>
+            <button class="nav-tab" data-page="analytics">
+                <span class="nav-tab-icon">&#x1F4C8;</span>
+                <span class="nav-tab-label">MAL분석</span>
+            </button>
+            <button class="nav-tab" data-page="graph">
+                <span class="nav-tab-icon">&#x1F4CA;</span>
+                <span class="nav-tab-label">관계도</span>
+            </button>
+            <button class="nav-tab" data-page="world">
+                <span class="nav-tab-icon">&#x1F30D;</span>
+                <span class="nav-tab-label">3D월드</span>
+            </button>
+            <button class="nav-tab" data-page="votes">
+                <span class="nav-tab-icon">&#x1F4E5;</span>
+                <span class="nav-tab-label">투표</span>
+            </button>
+            <button class="nav-tab" data-page="quiz">
+                <span class="nav-tab-icon">&#x2753;</span>
+                <span class="nav-tab-label">퀴즈</span>
+            </button>
+            <button class="nav-tab" data-page="community">
+                <span class="nav-tab-icon">&#x1F3E0;</span>
+                <span class="nav-tab-label">커뮤니티</span>
+            </button>
+        </div>
+        <button class="nav-mobile-toggle" id="nav-mobile-toggle" aria-label="메뉴 열기">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ========== Page: Search (검색) ========== -->
+    <section class="page active" id="page-search">
+        <div class="hero-banner" id="hero-banner">
+            <div class="hero-particles" id="hero-particles"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-main">KERORO ARCHIVE</span>
+                </h1>
+                <p class="hero-subtitle">지구 침략 작전 데이터베이스</p>
+                <div class="hero-badges">
+                    <div class="hero-badge">
+                        <span class="hero-badge-value" id="stat-characters">--</span>
+                        <span class="hero-badge-label">캐릭터</span>
+                    </div>
+                    <div class="hero-badge">
+                        <span class="hero-badge-value" id="stat-episodes">--</span>
+                        <span class="hero-badge-label">에피소드</span>
+                    </div>
+                    <div class="hero-badge">
+                        <span class="hero-badge-value" id="stat-quotes">--</span>
+                        <span class="hero-badge-label">명대사</span>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <div class="search-box-wrapper">
+                        <input
+                            type="text"
+                            class="search-box"
+                            id="search-input"
+                            placeholder="케로로, 기로로, 타마마, 쿠루루..."
+                            autocomplete="off"
+                            aria-label="캐릭터 검색"
+                        >
+                        <button class="search-btn" id="search-btn" aria-label="검색">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="search-suggestions" id="search-suggestions"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Results -->
+        <div class="search-results-container" id="search-results-container" style="display:none;">
+            <div class="search-results-header" id="search-results-header"></div>
+            <div class="search-results-grid" id="search-results-grid"></div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats-section">
+            <h2 class="section-title">케로로 군조 통계</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-card-icon stat-card-icon--green">&#x2605;</div>
+                    <div class="stat-card-body">
+                        <span class="stat-card-value" id="stat-card-characters">--</span>
+                        <span class="stat-card-label">전체 캐릭터</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-icon stat-card-icon--blue">&#x1F4FA;</div>
+                    <div class="stat-card-body">
+                        <span class="stat-card-value" id="stat-card-episodes">--</span>
+                        <span class="stat-card-label">에피소드</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-icon stat-card-icon--yellow">&#x1F4AC;</div>
+                    <div class="stat-card-body">
+                        <span class="stat-card-value" id="stat-card-quotes">--</span>
+                        <span class="stat-card-label">명대사</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-icon stat-card-icon--red">&#x1F52B;</div>
+                    <div class="stat-card-body">
+                        <span class="stat-card-value" id="stat-card-items">--</span>
+                        <span class="stat-card-label">아이템</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Characters (도감) ========== -->
+    <section class="page" id="page-characters">
+        <div class="page-header">
+            <h2 class="page-title">캐릭터 도감</h2>
+            <p class="page-description">케로로 군조의 모든 캐릭터를 탐색하세요</p>
+        </div>
+        <div class="ency-container">
+            <div class="ency-toolbar">
+                <div class="ency-search-wrapper">
+                    <input type="text" class="ency-search" id="ency-search" placeholder="캐릭터 이름으로 검색..." aria-label="도감 검색">
+                </div>
+                <div class="ency-filter-group">
+                    <label class="filter-label">종족:</label>
+                    <select class="filter-select" id="filter-race" aria-label="종족 필터">
+                        <option value="">전체</option>
+                        <option value="케론인">케론인</option>
+                        <option value="인간">인간</option>
+                        <option value="기타">기타</option>
+                    </select>
+                </div>
+                <div class="ency-filter-group">
+                    <label class="filter-label">소대:</label>
+                    <select class="filter-select" id="filter-platoon" aria-label="소대 필터">
+                        <option value="">전체</option>
+                        <option value="케로로소대">케로로소대</option>
+                        <option value="가루루소대">가루루소대</option>
+                        <option value="히나타가">히나타가</option>
+                    </select>
+                </div>
+                <span class="ency-count" id="ency-count">0 명</span>
+            </div>
+            <div class="ency-grid" id="ency-grid"></div>
+        </div>
+
+        <!-- Character Detail Modal -->
+        <div class="modal-overlay" id="char-modal-overlay">
+            <div class="modal" id="char-modal">
+                <button class="modal-close" id="char-modal-close" aria-label="닫기">&times;</button>
+                <div class="modal-body" id="char-modal-body"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Episodes (에피소드) ========== -->
+    <section class="page" id="page-episodes">
+        <div class="page-header">
+            <h2 class="page-title">에피소드</h2>
+            <p class="page-description">케로로 군조의 모든 에피소드를 확인하세요</p>
+        </div>
+        <div class="episodes-controls">
+            <div class="season-tabs" id="season-tabs">
+                <button class="season-tab active" data-season="">전체</button>
+                <button class="season-tab" data-season="1">시즌 1</button>
+                <button class="season-tab" data-season="2">시즌 2</button>
+                <button class="season-tab" data-season="3">시즌 3</button>
+                <button class="season-tab" data-season="4">시즌 4</button>
+                <button class="season-tab" data-season="5">시즌 5</button>
+                <button class="season-tab" data-season="6">시즌 6</button>
+                <button class="season-tab" data-season="7">시즌 7</button>
+            </div>
+        </div>
+        <div class="episodes-list" id="episodes-list"></div>
+
+        <!-- Episode Detail Modal -->
+        <div class="modal-overlay" id="ep-modal-overlay">
+            <div class="modal" id="ep-modal">
+                <button class="modal-close" id="ep-modal-close" aria-label="닫기">&times;</button>
+                <div class="modal-body" id="ep-modal-body"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Quotes (명대사) ========== -->
+    <section class="page" id="page-quotes">
+        <div class="page-header">
+            <h2 class="page-title">명대사</h2>
+            <p class="page-description">케로로 군조의 잊지 못할 명대사 모음</p>
+        </div>
+        <div class="quotes-controls">
+            <select class="filter-select" id="quotes-character-filter" aria-label="캐릭터 필터">
+                <option value="">전체 캐릭터</option>
+            </select>
+            <button class="random-quote-btn" id="random-quote-btn">랜덤 명대사</button>
+        </div>
+        <div class="quotes-grid" id="quotes-grid"></div>
+    </section>
+
+    <!-- ========== Page: Items (아이템) ========== -->
+    <section class="page" id="page-items">
+        <div class="page-header">
+            <h2 class="page-title">아이템</h2>
+            <p class="page-description">침략에 사용된 각종 무기와 발명품</p>
+        </div>
+        <div class="items-controls">
+            <div class="category-tabs" id="category-tabs">
+                <button class="category-tab active" data-category="">전체</button>
+                <button class="category-tab" data-category="weapon">무기</button>
+                <button class="category-tab" data-category="gadget">가젯</button>
+                <button class="category-tab" data-category="vehicle">탈것</button>
+                <button class="category-tab" data-category="other">기타</button>
+            </div>
+        </div>
+        <div class="items-grid" id="items-grid"></div>
+
+        <!-- Item Detail Modal -->
+        <div class="modal-overlay" id="item-modal-overlay">
+            <div class="modal" id="item-modal">
+                <button class="modal-close" id="item-modal-close" aria-label="닫기">&times;</button>
+                <div class="modal-body" id="item-modal-body"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Invasion Plans (침략작전) ========== -->
+    <section class="page" id="page-invasion-plans">
+        <div class="page-header">
+            <h2 class="page-title">침략 작전</h2>
+            <p class="page-description">케로로 소대의 지구 침략 작전 기록</p>
+        </div>
+        <div class="invasion-container">
+            <div class="invasion-failure-counter" id="invasion-failure-counter"></div>
+            <div class="invasion-filter-bar">
+                <button class="category-tab active" data-result="" id="invasion-filter-all">전체</button>
+                <button class="category-tab" data-result="failure">실패</button>
+                <button class="category-tab" data-result="partial">부분 성공</button>
+                <button class="category-tab" data-result="interrupted">중단</button>
+                <button class="category-tab" data-result="success">성공</button>
+            </div>
+            <div class="invasion-timeline" id="invasion-timeline"></div>
+        </div>
+        <!-- Invasion Detail Modal -->
+        <div class="modal-overlay" id="invasion-modal-overlay">
+            <div class="modal" id="invasion-modal">
+                <button class="modal-close" id="invasion-modal-close" aria-label="닫기">&times;</button>
+                <div class="modal-body" id="invasion-modal-body"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Abilities (필살기) ========== -->
+    <section class="page" id="page-abilities">
+        <div class="page-header">
+            <h2 class="page-title">필살기</h2>
+            <p class="page-description">케로로 군조 캐릭터들의 특수 능력과 필살기</p>
+        </div>
+        <div class="abilities-container">
+            <div class="abilities-filter-bar">
+                <div class="ency-filter-group">
+                    <label class="filter-label">유형:</label>
+                    <select class="filter-select" id="ability-type-filter" aria-label="유형 필터">
+                        <option value="">전체</option>
+                        <option value="attack">공격</option>
+                        <option value="defense">방어</option>
+                        <option value="support">지원</option>
+                        <option value="passive">패시브</option>
+                        <option value="special">스페셜</option>
+                    </select>
+                </div>
+                <div class="ency-filter-group">
+                    <label class="filter-label">캐릭터:</label>
+                    <select class="filter-select" id="ability-char-filter" aria-label="캐릭터 필터">
+                        <option value="">전체</option>
+                    </select>
+                </div>
+            </div>
+            <div class="abilities-grid" id="abilities-grid"></div>
+        </div>
+        <!-- Ability Detail Modal -->
+        <div class="modal-overlay" id="ability-modal-overlay">
+            <div class="modal" id="ability-modal">
+                <button class="modal-close" id="ability-modal-close" aria-label="닫기">&times;</button>
+                <div class="modal-body" id="ability-modal-body"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: OST (OST) ========== -->
+    <section class="page" id="page-ost">
+        <div class="page-header">
+            <h2 class="page-title">OST</h2>
+            <p class="page-description">케로로 군조의 음악과 사운드트랙</p>
+        </div>
+        <div class="ost-container">
+            <div class="ost-filter-bar">
+                <div class="ency-filter-group">
+                    <label class="filter-label">유형:</label>
+                    <select class="filter-select" id="ost-type-filter" aria-label="유형 필터">
+                        <option value="">전체</option>
+                        <option value="opening">오프닝</option>
+                        <option value="ending">엔딩</option>
+                        <option value="insert">삽입곡</option>
+                        <option value="character">캐릭터송</option>
+                    </select>
+                </div>
+                <div class="ency-filter-group">
+                    <label class="filter-label">시즌:</label>
+                    <select class="filter-select" id="ost-season-filter" aria-label="시즌 필터">
+                        <option value="">전체</option>
+                        <option value="1">시즌 1</option>
+                        <option value="2">시즌 2</option>
+                        <option value="3">시즌 3</option>
+                        <option value="4">시즌 4</option>
+                        <option value="5">시즌 5</option>
+                        <option value="6">시즌 6</option>
+                        <option value="7">시즌 7</option>
+                    </select>
+                </div>
+            </div>
+            <div class="ost-list" id="ost-list"></div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Voice Actors (성우) ========== -->
+    <section class="page" id="page-voice-actors">
+        <div class="page-header">
+            <h2 class="page-title">성우</h2>
+            <p class="page-description">케로로 군조에 생명을 불어넣은 성우진</p>
+        </div>
+        <div class="voice-actors-container">
+            <div class="voice-actors-filter-bar">
+                <div class="ency-filter-group">
+                    <label class="filter-label">언어:</label>
+                    <select class="filter-select" id="va-lang-filter" aria-label="언어 필터">
+                        <option value="">전체</option>
+                        <option value="ja">일본어</option>
+                        <option value="ko">한국어</option>
+                    </select>
+                </div>
+            </div>
+            <div class="voice-actors-grid" id="voice-actors-grid"></div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Ranks (계급) ========== -->
+    <section class="page" id="page-ranks">
+        <div class="page-header">
+            <h2 class="page-title">계급</h2>
+            <p class="page-description">케론군 군사 계급 체계</p>
+        </div>
+        <div class="ranks-container">
+            <div class="ranks-pyramid" id="ranks-pyramid"></div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Analytics (MAL 분석) ========== -->
+    <section class="page" id="page-analytics">
+        <div class="page-header">
+            <h2 class="page-title">MAL 데이터 분석</h2>
+            <p class="page-description">MyAnimeList에서 크롤링한 실제 데이터 기반 분석</p>
+        </div>
+        <div class="analytics-container" id="analytics-container">
+            <!-- Overview Cards -->
+            <div class="analytics-overview" id="analytics-overview">
+                <div class="analytics-card analytics-card--highlight">
+                    <div class="analytics-card-label">MAL 스코어</div>
+                    <div class="analytics-card-value" id="anal-score">--</div>
+                    <div class="analytics-card-sub" id="anal-scored-by">-- 명 평가</div>
+                </div>
+                <div class="analytics-card">
+                    <div class="analytics-card-label">MAL 순위</div>
+                    <div class="analytics-card-value" id="anal-rank">#--</div>
+                    <div class="analytics-card-sub">전체 애니메이션</div>
+                </div>
+                <div class="analytics-card">
+                    <div class="analytics-card-label">인기 순위</div>
+                    <div class="analytics-card-value" id="anal-popularity">#--</div>
+                    <div class="analytics-card-sub" id="anal-members">-- 명 등록</div>
+                </div>
+                <div class="analytics-card">
+                    <div class="analytics-card-label">즐겨찾기</div>
+                    <div class="analytics-card-value" id="anal-favorites">--</div>
+                    <div class="analytics-card-sub">MAL 유저</div>
+                </div>
+            </div>
+
+            <!-- Charts Row 1: Score Distribution + Viewing Status -->
+            <div class="analytics-charts-row">
+                <div class="analytics-chart-panel">
+                    <h3 class="analytics-chart-title">평점 분포</h3>
+                    <div class="analytics-chart" id="chart-score-dist"></div>
+                </div>
+                <div class="analytics-chart-panel">
+                    <h3 class="analytics-chart-title">시청 현황</h3>
+                    <div class="analytics-chart" id="chart-viewing-status"></div>
+                </div>
+            </div>
+
+            <!-- Charts Row 2: Character Popularity -->
+            <div class="analytics-charts-row">
+                <div class="analytics-chart-panel analytics-chart-panel--wide">
+                    <h3 class="analytics-chart-title">캐릭터 인기도 (MAL Favorites)</h3>
+                    <div class="analytics-chart analytics-chart--tall" id="chart-char-popularity"></div>
+                </div>
+            </div>
+
+            <!-- Charts Row 3: Movie Comparison -->
+            <div class="analytics-charts-row">
+                <div class="analytics-chart-panel analytics-chart-panel--wide">
+                    <h3 class="analytics-chart-title">극장판 비교</h3>
+                    <div class="analytics-chart" id="chart-movies"></div>
+                </div>
+            </div>
+
+            <!-- Charts Row: Episode Rating Trend -->
+            <div class="analytics-charts-row">
+                <div class="analytics-chart-panel analytics-chart-panel--wide">
+                    <h3 class="analytics-chart-title">에피소드별 평점 추이 (358화)</h3>
+                    <div class="analytics-chart analytics-chart--tall" id="chart-episode-trend"></div>
+                </div>
+            </div>
+
+            <!-- Charts Row 4: Review Scores -->
+            <div class="analytics-charts-row">
+                <div class="analytics-chart-panel">
+                    <h3 class="analytics-chart-title">리뷰 평점 분포</h3>
+                    <div class="analytics-chart" id="chart-review-scores"></div>
+                </div>
+                <div class="analytics-chart-panel">
+                    <h3 class="analytics-chart-title">추천 작품 TOP 10</h3>
+                    <div class="analytics-list" id="list-recommendations"></div>
+                </div>
+            </div>
+
+            <!-- Recent Reviews -->
+            <div class="analytics-reviews-section">
+                <h3 class="analytics-chart-title">최근 MAL 리뷰</h3>
+                <div class="analytics-reviews" id="analytics-reviews"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Graph (관계도) ========== -->
+    <section class="page" id="page-graph">
+        <div class="page-header">
+            <h2 class="page-title">캐릭터 관계도</h2>
+            <p class="page-description">케로로 군조 캐릭터 간의 관계를 탐색하세요</p>
+        </div>
+        <div id="graph-container" class="graph-container">
+            <div class="graph-canvas" id="graph-canvas"></div>
+            <div class="graph-legend" id="graph-legend">
+                <h4 class="graph-legend-title">관계 유형</h4>
+                <div class="legend-item"><span class="legend-dot" style="background:#55efc4;"></span>친구</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#ff4466;"></span>적</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#4fc3f7;"></span>가족</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#ff9f43;"></span>라이벌</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#a29bfe;"></span>파트너</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#888;"></span>부하</div>
+            </div>
+            <div class="node-tooltip" id="node-tooltip"></div>
+        </div>
+    </section>
+
+    <!-- ========== Page: World (3D월드) ========== -->
+    <section class="page" id="page-world">
+        <div class="page-header">
+            <h2 class="page-title">3D 월드</h2>
+            <p class="page-description">케로로 군조의 세계를 3D로 탐험하세요</p>
+        </div>
+        <div class="world-controls">
+            <button class="world-btn" id="world-reset" aria-label="시점 초기화">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                    <path d="M3 3v5h5"></path>
+                </svg>
+                초기화
+            </button>
+        </div>
+        <div class="world-container" id="world-container">
+            <canvas id="world-canvas"></canvas>
+            <div class="world-overlay" id="world-overlay">
+                <div class="world-loading">
+                    <div class="spinner"></div>
+                    <p>3D 월드 로딩 중...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Votes (투표) ========== -->
+    <section class="page" id="page-votes">
+        <div class="page-header">
+            <h2 class="page-title">인기 투표</h2>
+            <p class="page-description">가장 좋아하는 케로로 캐릭터에게 투표하세요!</p>
+        </div>
+        <div class="votes-container">
+            <div class="votes-ranking-section" id="votes-ranking-section">
+                <h3 class="votes-section-title">TOP 10 랭킹</h3>
+                <div class="votes-ranking-list" id="votes-ranking-list"></div>
+            </div>
+            <div class="votes-section-divider"></div>
+            <h3 class="votes-section-title">캐릭터에게 투표하기</h3>
+            <div class="votes-nickname-bar">
+                <input type="text" class="guestbook-input" id="vote-nickname" placeholder="닉네임을 입력하세요" maxlength="20" aria-label="투표 닉네임">
+            </div>
+            <div class="votes-character-grid" id="votes-character-grid"></div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Quiz (퀴즈) ========== -->
+    <section class="page" id="page-quiz">
+        <div class="page-header">
+            <h2 class="page-title">케로로 퀴즈</h2>
+            <p class="page-description">케로로 군조에 대해 얼마나 알고 있나요?</p>
+        </div>
+        <div class="quiz-container">
+            <div class="quiz-score-bar" id="quiz-score-bar">
+                <span class="quiz-score-label">연속 정답:</span>
+                <span class="quiz-score-value" id="quiz-score-value">0</span>
+            </div>
+            <div class="quiz-card" id="quiz-card">
+                <div class="quiz-start-screen" id="quiz-start-screen">
+                    <p class="quiz-start-text">케로로 군조에 대한 퀴즈에 도전해보세요!</p>
+                    <button class="quiz-start-btn" id="quiz-start-btn">퀴즈 시작</button>
+                </div>
+                <div class="quiz-question-screen" id="quiz-question-screen" style="display:none;">
+                    <div class="quiz-question-text" id="quiz-question-text"></div>
+                    <div class="quiz-options" id="quiz-options"></div>
+                    <div class="quiz-result-msg" id="quiz-result-msg" style="display:none;"></div>
+                    <button class="quiz-next-btn" id="quiz-next-btn" style="display:none;">다음 문제</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Page: Community (커뮤니티) ========== -->
+    <section class="page" id="page-community">
+        <div class="page-header">
+            <h2 class="page-title">커뮤니티</h2>
+            <p class="page-description">케로로 아카이브 방문자들의 공간</p>
+        </div>
+        <div class="community-tabs">
+            <button class="community-tab active" data-section="guestbook">방명록</button>
+            <button class="community-tab" data-section="board">게시판</button>
+        </div>
+
+        <!-- Guestbook -->
+        <div class="community-section active" id="community-guestbook">
+            <div class="guestbook-container">
+                <h3 class="guestbook-title">방명록</h3>
+                <p class="guestbook-description">케로로 아카이브에 방문한 기록을 남겨주세요!</p>
+                <form class="guestbook-form" id="guestbook-form">
+                    <div class="guestbook-form-row">
+                        <input type="text" class="guestbook-input" id="guestbook-name" placeholder="닉네임" required maxlength="20" aria-label="닉네임">
+                        <select class="guestbook-select" id="guestbook-character" aria-label="좋아하는 캐릭터">
+                            <option value="">좋아하는 캐릭터</option>
+                            <option value="케로로">케로로</option>
+                            <option value="기로로">기로로</option>
+                            <option value="타마마">타마마</option>
+                            <option value="쿠루루">쿠루루</option>
+                            <option value="도로로">도로로</option>
+                            <option value="후유키">후유키</option>
+                            <option value="나츠미">나츠미</option>
+                            <option value="모모카">모모카</option>
+                        </select>
+                    </div>
+                    <textarea class="guestbook-textarea" id="guestbook-message" placeholder="메시지를 남겨주세요..." required maxlength="200" rows="3" aria-label="메시지"></textarea>
+                    <button type="submit" class="guestbook-submit-btn">남기기</button>
+                </form>
+                <div class="guestbook-entries" id="guestbook-entries"></div>
+            </div>
+        </div>
+
+        <!-- Board -->
+        <div class="community-section" id="community-board">
+            <div class="board-container">
+                <button class="board-write-btn" id="board-write-btn">글쓰기</button>
+                <div class="board-category-tabs" id="board-category-tabs">
+                    <button class="board-cat-tab active" data-cat="">전체</button>
+                    <button class="board-cat-tab" data-cat="잡담">잡담</button>
+                    <button class="board-cat-tab" data-cat="정보">정보</button>
+                    <button class="board-cat-tab" data-cat="팬아트">팬아트</button>
+                    <button class="board-cat-tab" data-cat="질문">질문</button>
+                </div>
+                <div class="board-list" id="board-list"></div>
+                <div class="board-detail" id="board-detail" style="display:none;"></div>
+                <div class="board-form" id="board-form" style="display:none;">
+                    <h3 class="board-form-title">새 글 작성</h3>
+                    <input type="text" id="board-author" class="board-input" placeholder="닉네임" maxlength="50" required aria-label="닉네임">
+                    <input type="text" id="board-title-input" class="board-input" placeholder="제목" maxlength="200" required aria-label="제목">
+                    <textarea id="board-content" class="board-textarea" placeholder="내용을 입력하세요..." maxlength="5000" required aria-label="내용"></textarea>
+                    <select id="board-category" class="board-input" aria-label="카테고리">
+                        <option value="잡담">잡담</option>
+                        <option value="정보">정보</option>
+                        <option value="팬아트">팬아트</option>
+                        <option value="질문">질문</option>
+                    </select>
+                    <div class="board-form-btns">
+                        <button class="board-submit-btn" id="board-submit-btn">등록</button>
+                        <button class="board-cancel-btn" id="board-cancel-btn">취소</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Global Loading Overlay ========== -->
+    <div class="loading" id="global-loading" style="display:none;">
+        <div class="spinner"></div>
+        <p class="loading-text">데이터를 불러오는 중...</p>
+    </div>
+
+    <!-- ========== Toast Notifications ========== -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- ========== Footer ========== -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                KERORO ARCHIVE &copy; 2024 | 지구 침략 작전 기지
+            </p>
+            <p class="footer-visitor">
+                방문자: <span id="visitor-count">--</span>
+            </p>
+            <p class="footer-disclaimer">
+                문의사항은 rkd5562@naver.com
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/search.js"></script>
+    <script src="/static/js/encyclopedia.js"></script>
+    <script src="/static/js/episodes.js"></script>
+    <script src="/static/js/quotes.js"></script>
+    <script src="/static/js/items.js"></script>
+    <script src="/static/js/invasion.js"></script>
+    <script src="/static/js/abilities.js"></script>
+    <script src="/static/js/ost.js"></script>
+    <script src="/static/js/voice-actors.js"></script>
+    <script src="/static/js/ranks.js"></script>
+    <script src="/static/js/analytics.js"></script>
+    <script src="/static/js/graph.js"></script>
+    <script src="/static/js/world.js"></script>
+    <script src="/static/js/votes.js"></script>
+    <script src="/static/js/quiz.js"></script>
+    <script src="/static/js/community.js"></script>
+</body>
+</html>

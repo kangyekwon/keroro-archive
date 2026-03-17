@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "name": "Tamama Impact",
+    "name_kr": "타마마 임팩트",
+    "character_id": 3,
+    "type": "attack",
+    "power_level": 9,
+    "description": "타마마의 대표 필살기. 입에서 강력한 에너지 빔을 발사한다. 질투심이 강할수록 위력이 증가하는 것이 특징.",
+    "first_used_episode": 3
+  },
+  {
+    "id": 2,
+    "name": "Tamama Impact Hyper",
+    "name_kr": "하이퍼 타마마 임팩트",
+    "character_id": 3,
+    "type": "attack",
+    "power_level": 10,
+    "description": "타마마 임팩트의 강화 버전. 흑화 상태에서 발동하며 파괴력이 수배로 증가한다.",
+    "first_used_episode": 45
+  },
+  {
+    "id": 3,
+    "name": "Keroro Sword",
+    "name_kr": "케로로 검술",
+    "character_id": 1,
+    "type": "attack",
+    "power_level": 4,
+    "description": "케로로가 가끔 보여주는 검술 실력. 평소에는 서툴지만 진지한 상황에서는 의외의 실력을 보여준다.",
+    "first_used_episode": 25
+  },
+  {
+    "id": 4,
+    "name": "Giroro Full Arsenal",
+    "name_kr": "기로로 풀 아머",
+    "character_id": 2,
+    "type": "attack",
+    "power_level": 9,
+    "description": "기로로가 보유한 모든 화기를 동시에 장비하는 최종 형태. 미사일, 기관총, 레이저 등 총동원.",
+    "first_used_episode": 20
+  },
+  {
+    "id": 5,
+    "name": "Dororo Assassination Technique",
+    "name_kr": "도로로 암살술",
+    "character_id": 5,
+    "type": "attack",
+    "power_level": 8,
+    "description": "케론 닌자 전통 암살술. 소리 없이 접근하여 적을 무력화하는 고도의 기술. 실전에서는 거의 사용하지 않음.",
+    "first_used_episode": 15
+  },
+  {
+    "id": 6,
+    "name": "Kururu Invention",
+    "name_kr": "쿠루루 발명",
+    "character_id": 4,
+    "type": "support",
+    "power_level": 10,
+    "description": "쿠루루의 천재적 발명 능력. 어떤 장치든 만들어낼 수 있으며, 케로로 소대의 거의 모든 작전 도구를 제작한다.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 7,
+    "name": "Angol Mois Armageddon 1/1000000",
+    "name_kr": "아르마게돈 1/1000000",
+    "character_id": 14,
+    "type": "attack",
+    "power_level": 10,
+    "description": "앙골 모아의 행성 파괴 능력을 100만분의 1로 축소한 버전. 그래도 도시 하나를 날릴 수 있는 위력.",
+    "first_used_episode": 10
+  },
+  {
+    "id": 8,
+    "name": "Garuru Command Strike",
+    "name_kr": "가루루 지휘 타격",
+    "character_id": 6,
+    "type": "attack",
+    "power_level": 9,
+    "description": "가루루 소대를 지휘하며 동시에 정밀 타격을 가하는 복합 전술. 기로로의 형으로서 뛰어난 전투 센스를 보유.",
+    "first_used_episode": 100
+  },
+  {
+    "id": 9,
+    "name": "Taruru Genocide",
+    "name_kr": "타루루 제노사이드",
+    "character_id": 7,
+    "type": "attack",
+    "power_level": 9,
+    "description": "타루루의 필살기. 타마마 임팩트를 모방하여 독자적으로 발전시킨 파괴 기술.",
+    "first_used_episode": 101
+  },
+  {
+    "id": 10,
+    "name": "Zoruru Blade",
+    "name_kr": "조루루 블레이드",
+    "character_id": 9,
+    "type": "attack",
+    "power_level": 8,
+    "description": "조루루의 사이보그 팔에 내장된 고출력 레이저 블레이드. 도로로를 라이벌로 인식하며 같은 암살 기술 계열.",
+    "first_used_episode": 101
+  },
+  {
+    "id": 11,
+    "name": "Keroro Gunpla Mastery",
+    "name_kr": "케로로 건프라 마스터",
+    "character_id": 1,
+    "type": "passive",
+    "power_level": 10,
+    "description": "건프라 조립에 있어서는 은하계 최고 수준의 실력. 전투에는 쓸모없지만 케로로의 최강 능력.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 12,
+    "name": "Giroro Sniper Shot",
+    "name_kr": "기로로 저격",
+    "character_id": 2,
+    "type": "attack",
+    "power_level": 8,
+    "description": "초장거리 정밀 저격 능력. 케론군 최고의 사격 실력으로 빗나간 적이 거의 없다.",
+    "first_used_episode": 5
+  },
+  {
+    "id": 13,
+    "name": "Giroro Survival Skills",
+    "name_kr": "기로로 서바이벌",
+    "character_id": 2,
+    "type": "passive",
+    "power_level": 7,
+    "description": "어떤 극한 환경에서도 생존할 수 있는 야전 서바이벌 능력. 텐트 생활로 단련됨.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 14,
+    "name": "Dororo Ninja Clone",
+    "name_kr": "도로로 분신술",
+    "character_id": 5,
+    "type": "defense",
+    "power_level": 7,
+    "description": "케론 닌자 전통 분신술. 여러 개의 환영을 만들어 적을 교란하는 방어 기술.",
+    "first_used_episode": 15
+  },
+  {
+    "id": 15,
+    "name": "Dororo Stealth Mode",
+    "name_kr": "도로로 은신",
+    "character_id": 5,
+    "type": "passive",
+    "power_level": 9,
+    "description": "완벽한 은신 능력. 너무 완벽해서 소대원들에게도 존재를 잊혀지는 부작용이 있다.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 16,
+    "name": "Kururu Kukuku Laugh",
+    "name_kr": "쿠루루 쿠쿠쿠 웃음",
+    "character_id": 4,
+    "type": "passive",
+    "power_level": 3,
+    "description": "쿠루루의 특징적인 음흉한 웃음소리. 주변 사람들에게 불쾌감과 공포를 주는 효과가 있다.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 17,
+    "name": "Kururu Electronic Warfare",
+    "name_kr": "쿠루루 전자전",
+    "character_id": 4,
+    "type": "attack",
+    "power_level": 9,
+    "description": "모든 전자 기기를 해킹하고 조종하는 전자전 능력. 사이버 공간에서는 무적.",
+    "first_used_episode": 8
+  },
+  {
+    "id": 18,
+    "name": "Tamama Dark Side",
+    "name_kr": "타마마 흑화",
+    "character_id": 3,
+    "type": "special",
+    "power_level": 8,
+    "description": "질투와 분노가 극에 달하면 발동하는 타마마의 이면 인격. 전투력이 대폭 상승하며 잔인해진다.",
+    "first_used_episode": 7
+  },
+  {
+    "id": 19,
+    "name": "Keroro Strategic Genius",
+    "name_kr": "케로로 천재적 전략",
+    "character_id": 1,
+    "type": "special",
+    "power_level": 8,
+    "description": "극히 드문 상황에서 발동하는 케로로의 천재적 전략 수립 능력. 진지해지면 소대장의 자질이 빛난다.",
+    "first_used_episode": 30
+  },
+  {
+    "id": 20,
+    "name": "Natsumi Hinata Kick",
+    "name_kr": "나츠미 힌트킥",
+    "character_id": 12,
+    "type": "attack",
+    "power_level": 7,
+    "description": "나츠미의 강력한 발차기. 케론인들을 한 방에 날려보내는 위력으로, 사실상 케로로 소대의 천적.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 21,
+    "name": "Natsumi Athletic Power",
+    "name_kr": "나츠미 운동 능력",
+    "character_id": 12,
+    "type": "passive",
+    "power_level": 8,
+    "description": "초인적 운동 능력. 학교 체육에서 항상 1등이며, 케론인의 침략 병기도 물리적으로 파괴 가능.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 22,
+    "name": "Fuyuki Occult Knowledge",
+    "name_kr": "후유키 오컬트 지식",
+    "character_id": 11,
+    "type": "passive",
+    "power_level": 5,
+    "description": "후유키의 방대한 오컬트 지식. 초자연 현상에 대한 이해도가 높아 케론인의 기술도 직감적으로 파악.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 23,
+    "name": "Momoka Money Power",
+    "name_kr": "모모카 재력",
+    "character_id": 15,
+    "type": "support",
+    "power_level": 9,
+    "description": "니시자와 재벌의 막대한 재력을 이용하는 능력. 개인 군대, 비밀 기지, 우주선까지 동원 가능.",
+    "first_used_episode": 12
+  },
+  {
+    "id": 24,
+    "name": "Momoka Split Personality",
+    "name_kr": "모모카 이중인격",
+    "character_id": 15,
+    "type": "special",
+    "power_level": 7,
+    "description": "평소 얌전한 모모카가 분노하면 나타나는 공격적 인격. 전투력이 급상승하며 타마마급의 파괴력을 발휘.",
+    "first_used_episode": 12
+  },
+  {
+    "id": 25,
+    "name": "Koyuki Ninja Arts",
+    "name_kr": "코유키 닌자술",
+    "character_id": 16,
+    "type": "attack",
+    "power_level": 7,
+    "description": "도로로에게 배운 닌자술. 인간이면서도 케론 닌자 기술을 구사하는 희귀한 사례.",
+    "first_used_episode": 30
+  },
+  {
+    "id": 26,
+    "name": "Saburo Reality Pen",
+    "name_kr": "사부로 리얼리티 펜",
+    "character_id": 17,
+    "type": "special",
+    "power_level": 8,
+    "description": "그린 것을 현실로 만드는 특수한 펜. 쿠루루가 선물한 것으로 창작물을 실체화시키는 강력한 능력.",
+    "first_used_episode": 40
+  },
+  {
+    "id": 27,
+    "name": "Angol Mois Hellmageddon",
+    "name_kr": "헬마게돈",
+    "character_id": 14,
+    "type": "attack",
+    "power_level": 10,
+    "description": "아르마게돈의 풀 파워 버전. 행성 단위의 파괴가 가능한 앙골족 최강의 기술. 지구에서는 사용 자제 중.",
+    "first_used_episode": null
+  },
+  {
+    "id": 28,
+    "name": "Angol Mois Transformation",
+    "name_kr": "앙골 모아 변신",
+    "character_id": 14,
+    "type": "special",
+    "power_level": 6,
+    "description": "인간 형태와 앙골족 본래 형태를 자유자재로 전환하는 능력.",
+    "first_used_episode": 5
+  },
+  {
+    "id": 29,
+    "name": "Keroro Anti-Barrier",
+    "name_kr": "케로로 안티 배리어",
+    "character_id": 1,
+    "type": "defense",
+    "power_level": 6,
+    "description": "케론인의 기본 장비인 안티 배리어. 인간에게 보이지 않게 해주는 은폐 기술.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 30,
+    "name": "Giroro Grenade Rain",
+    "name_kr": "기로로 수류탄 비",
+    "character_id": 2,
+    "type": "attack",
+    "power_level": 7,
+    "description": "다수의 수류탄을 동시에 투척하는 범위 공격 기술. 텐트 주변 방어에 주로 사용.",
+    "first_used_episode": 10
+  },
+  {
+    "id": 31,
+    "name": "Tororo Hacking",
+    "name_kr": "토로로 해킹",
+    "character_id": 8,
+    "type": "attack",
+    "power_level": 8,
+    "description": "가루루 소대의 해커. 쿠루루의 시스템도 뚫을 수 있는 천재적 해킹 능력을 보유.",
+    "first_used_episode": 101
+  },
+  {
+    "id": 32,
+    "name": "Pururu Healing",
+    "name_kr": "푸루루 치료",
+    "character_id": 10,
+    "type": "support",
+    "power_level": 7,
+    "description": "케론군 간호장교로서의 치료 능력. 케론인과 지구인 모두 치료 가능.",
+    "first_used_episode": 101
+  },
+  {
+    "id": 33,
+    "name": "Garuru Tactical Analysis",
+    "name_kr": "가루루 전술 분석",
+    "character_id": 6,
+    "type": "support",
+    "power_level": 8,
+    "description": "전장을 순식간에 분석하고 최적의 전술을 수립하는 능력. 기로로의 형으로서 한 수 위의 전투 지능.",
+    "first_used_episode": 100
+  },
+  {
+    "id": 34,
+    "name": "Tamama Jealousy Boost",
+    "name_kr": "타마마 질투 부스트",
+    "character_id": 3,
+    "type": "passive",
+    "power_level": 6,
+    "description": "질투심에 비례하여 전투력이 상승하는 특이 체질. 앙골 모아가 케로로 옆에 있으면 자동 발동.",
+    "first_used_episode": 5
+  },
+  {
+    "id": 35,
+    "name": "Dororo Trauma Mode",
+    "name_kr": "도로로 트라우마 모드",
+    "character_id": 5,
+    "type": "passive",
+    "power_level": 1,
+    "description": "어린 시절 트라우마가 떠오르면 구석에서 웅크리는 모드. 전투력이 0에 수렴하는 약점.",
+    "first_used_episode": 5
+  },
+  {
+    "id": 36,
+    "name": "Kururu Curry of Doom",
+    "name_kr": "쿠루루 저주의 카레",
+    "character_id": 4,
+    "type": "special",
+    "power_level": 5,
+    "description": "쿠루루 특제 카레. 먹으면 인격이 반전되는 특수 효과가 있다. 요리인지 병기인지 불명.",
+    "first_used_episode": 50
+  },
+  {
+    "id": 37,
+    "name": "Keroro House Cleaning",
+    "name_kr": "케로로 청소 능력",
+    "character_id": 1,
+    "type": "passive",
+    "power_level": 7,
+    "description": "히나타 가에서 매일 청소를 담당하며 갈고닦은 청소 능력. 전투보다 청소에서 진가를 발휘.",
+    "first_used_episode": 1
+  },
+  {
+    "id": 38,
+    "name": "Kogoro 556 Punch",
+    "name_kr": "코고로 556 펀치",
+    "character_id": 18,
+    "type": "attack",
+    "power_level": 5,
+    "description": "자칭 우주 형사 코고로의 정의의 펀치. 위력은 평범하지만 본인은 필살기라고 믿고 있다.",
+    "first_used_episode": 55
+  },
+  {
+    "id": 39,
+    "name": "Lavie Psychic Power",
+    "name_kr": "라비 초능력",
+    "character_id": 19,
+    "type": "support",
+    "power_level": 6,
+    "description": "라비의 텔레파시 및 예지 능력. 코고로의 동생으로 오빠보다 훨씬 유능.",
+    "first_used_episode": 55
+  },
+  {
+    "id": 40,
+    "name": "Paul Moriyama Combat Butler",
+    "name_kr": "폴 모리야마 전투 집사",
+    "character_id": 20,
+    "type": "attack",
+    "power_level": 8,
+    "description": "니시자와 가의 집사이자 최강의 전투원. 모모카를 지키기 위해서라면 어떤 적도 제압.",
+    "first_used_episode": 12
+  },
+  {
+    "id": 41,
+    "name": "Alisa Dark Power",
+    "name_kr": "앨리사 어둠의 힘",
+    "character_id": 21,
+    "type": "attack",
+    "power_level": 7,
+    "description": "네뷸라의 힘을 빌려 발동하는 어둠의 에너지. 우주 헌터로서의 전투 능력.",
+    "first_used_episode": 80
+  },
+  {
+    "id": 42,
+    "name": "Shin Keroro Growth",
+    "name_kr": "신 케로로 성장",
+    "character_id": 33,
+    "type": "special",
+    "power_level": 7,
+    "description": "신 케로로의 급속 성장 능력. 경험과 감정에 따라 빠르게 성장하며 잠재력이 무한.",
+    "first_used_episode": 180
+  },
+  {
+    "id": 43,
+    "name": "Dark Keroro Shadow Force",
+    "name_kr": "다크 케로로 그림자의 힘",
+    "character_id": 47,
+    "type": "attack",
+    "power_level": 9,
+    "description": "다크 케로로의 그림자 에너지를 이용한 공격. 케로로의 어둠의 면이 실체화된 존재.",
+    "first_used_episode": 190
+  },
+  {
+    "id": 44,
+    "name": "Shurara Revenge Strike",
+    "name_kr": "슈라라 복수의 일격",
+    "character_id": 31,
+    "type": "attack",
+    "power_level": 8,
+    "description": "슈라라 군단의 수장으로서 케로로에 대한 원한을 담은 공격. 강한 증오가 동력원.",
+    "first_used_episode": 130
+  },
+  {
+    "id": 45,
+    "name": "Giroro Cat Communication",
+    "name_kr": "기로로 고양이 소통",
+    "character_id": 2,
+    "type": "passive",
+    "power_level": 3,
+    "description": "고양이와 교감하는 특수 능력. 전투에는 쓸모없지만 기로로의 숨겨진 부드러운 면을 보여줌.",
+    "first_used_episode": 8
+  },
+  {
+    "id": 46,
+    "name": "Keroro Keron Ball",
+    "name_kr": "케로로 케론 볼",
+    "character_id": 1,
+    "type": "attack",
+    "power_level": 5,
+    "description": "케론 에너지를 모아 발사하는 기본 공격기. 위력은 보통이지만 케론인의 기본 전투 기술.",
+    "first_used_episode": 20
+  },
+  {
+    "id": 47,
+    "name": "Dororo Nature Bond",
+    "name_kr": "도로로 자연과의 교감",
+    "character_id": 5,
+    "type": "passive",
+    "power_level": 6,
+    "description": "자연과 교감하여 환경을 파악하는 능력. 닌자 수행의 결과로 자연 속에서 최대 능력을 발휘.",
+    "first_used_episode": 15
+  },
+  {
+    "id": 48,
+    "name": "Tamama Sweet Attack",
+    "name_kr": "타마마 스위트 어택",
+    "character_id": 3,
+    "type": "attack",
+    "power_level": 6,
+    "description": "과자를 이용한 특수 공격. 대량의 과자를 무기화하여 적에게 던진다. 의외로 효과적.",
+    "first_used_episode": 35
+  },
+  {
+    "id": 49,
+    "name": "Kururu Anti-Barrier Upgrade",
+    "name_kr": "쿠루루 안티 배리어 개량",
+    "character_id": 4,
+    "type": "defense",
+    "power_level": 8,
+    "description": "기존 안티 배리어를 업그레이드한 개량형. 시각뿐 아니라 모든 센서에서 탐지 불가능.",
+    "first_used_episode": 25
+  },
+  {
+    "id": 50,
+    "name": "Aki Hinata Manga Deadline Rush",
+    "name_kr": "아키 히나타 마감 러시",
+    "character_id": 13,
+    "type": "special",
+    "power_level": 6,
+    "description": "만화 편집자로서의 마감 러시 모드. 마감에 쫓기면 초인적 집중력과 체력을 발휘한다.",
+    "first_used_episode": 10
+  },
+  {
+    "id": 51,
+    "name": "Keroro Star Power",
+    "name_kr": "케로로 케론 스타 파워",
+    "character_id": 1,
+    "type": "special",
+    "power_level": 9,
+    "description": "케로로의 배 위의 케론 스타가 빛날 때 발동하는 숨겨진 힘. 소대원들의 마음이 하나가 될 때 나타난다.",
+    "first_used_episode": 150
+  },
+  {
+    "id": 52,
+    "name": "Giroro Berserker Mode",
+    "name_kr": "기로로 광전사 모드",
+    "character_id": 2,
+    "type": "attack",
+    "power_level": 9,
+    "description": "나츠미가 위험에 처했을 때 발동하는 초전투 모드. 이성을 잃고 순수한 전투 본능으로 싸운다.",
+    "first_used_episode": 60
+  },
+  {
+    "id": 53,
+    "name": "Nevula Possession",
+    "name_kr": "네뷸라 빙의",
+    "character_id": 60,
+    "type": "special",
+    "power_level": 7,
+    "description": "앨리사와 공생하는 네뷸라의 빙의 능력. 숙주의 신체 능력을 대폭 강화시킨다.",
+    "first_used_episode": 80
+  },
+  {
+    "id": 54,
+    "name": "Kiruru Destruction Wave",
+    "name_kr": "키루루 파괴파",
+    "character_id": 49,
+    "type": "attack",
+    "power_level": 10,
+    "description": "고대 케론 병기 키루루의 파괴 에너지파. 도시 규모의 파괴가 가능한 최종 병기급 위력.",
+    "first_used_episode": null
+  }
+]

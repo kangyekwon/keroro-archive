@@ -1,0 +1,17 @@
+[
+  {"id": 1, "rank_name": "Supreme Commander", "rank_name_kr": "총사령관", "rank_level": 12, "description": "케론군 최고 지휘관. 전군의 작전을 총괄하며 모든 침략 계획의 최종 승인권을 가진다.", "notable_holders": "케론군 총사령관"},
+  {"id": 2, "rank_name": "General", "rank_name_kr": "대장", "rank_level": 11, "description": "군단급 지휘관으로 대규모 침략 작전을 지휘한다. 케론군에서 가장 높은 실전 계급.", "notable_holders": ""},
+  {"id": 3, "rank_name": "Lieutenant General", "rank_name_kr": "중장", "rank_level": 10, "description": "사단급 지휘관. 여러 소대를 통합 지휘하며 전략적 결정을 내린다.", "notable_holders": ""},
+  {"id": 4, "rank_name": "Major General", "rank_name_kr": "소장", "rank_level": 9, "description": "여단급 지휘관으로 특수 작전이나 행성 침략의 중간 지휘를 담당한다.", "notable_holders": ""},
+  {"id": 5, "rank_name": "Colonel", "rank_name_kr": "대령", "rank_level": 8, "description": "연대급 지휘관. 다수의 소대를 관할하며 상급 지휘부와 일선 부대 사이를 조율한다.", "notable_holders": "바리리"},
+  {"id": 6, "rank_name": "Lieutenant Colonel", "rank_name_kr": "중령", "rank_level": 7, "description": "부연대장급 지휘관으로 대령을 보좌하며 전술 실행을 담당한다.", "notable_holders": ""},
+  {"id": 7, "rank_name": "Major", "rank_name_kr": "소령", "rank_level": 6, "description": "대대급 지휘관. 작전 기획과 실행의 중간 관리 역할을 수행한다.", "notable_holders": ""},
+  {"id": 8, "rank_name": "Captain", "rank_name_kr": "대위", "rank_level": 5, "description": "중대급 지휘관으로 소대 여러 개를 관할하는 중견 장교.", "notable_holders": ""},
+  {"id": 9, "rank_name": "Lieutenant", "rank_name_kr": "중위", "rank_level": 4, "description": "소대 지휘관급 장교. 실전에서 소대를 직접 이끄는 최전선 지휘관.", "notable_holders": "가루루"},
+  {"id": 10, "rank_name": "Sergeant Major", "rank_name_kr": "조장", "rank_level": 3.5, "description": "부사관 최고 계급으로 기술 및 전문 분야의 최고 전문가.", "notable_holders": "쿠루루"},
+  {"id": 11, "rank_name": "Sergeant", "rank_name_kr": "병장", "rank_level": 3, "description": "분대급 지휘를 맡는 부사관. 소대 내에서 실질적인 리더 역할을 수행한다.", "notable_holders": "케로로"},
+  {"id": 12, "rank_name": "Corporal", "rank_name_kr": "하사", "rank_level": 2, "description": "전투 경험이 풍부한 하급 부사관. 병사들을 직접 지도하는 역할.", "notable_holders": "기로로"},
+  {"id": 13, "rank_name": "Lance Corporal", "rank_name_kr": "상등병", "rank_level": 1.5, "description": "경험 있는 병사로 일반 병사보다 높은 책임을 가진다.", "notable_holders": "도로로"},
+  {"id": 14, "rank_name": "Private 2nd Class", "rank_name_kr": "이등병", "rank_level": 1, "description": "케론군의 가장 기본적인 병사 계급. 신병으로 입대하면 이 계급부터 시작한다.", "notable_holders": "타마마"},
+  {"id": 15, "rank_name": "New Recruit", "rank_name_kr": "신병", "rank_level": 0.5, "description": "아직 정식 계급을 받지 못한 신입 훈련병.", "notable_holders": "토로로"}
+]

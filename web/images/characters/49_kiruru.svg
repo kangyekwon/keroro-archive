@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="58" fill="#263238" stroke="#B0BEC5" stroke-width="2"/>
+  <!-- Mechanical body -->
+  <circle cx="60" cy="60" r="35" fill="#B0BEC5" stroke="#697276" stroke-width="2"/>
+  <circle cx="60" cy="60" r="28" fill="#697276" stroke="#4F5558" stroke-width="1.5"/>
+  <!-- Eye/sensor -->
+  <circle cx="60" cy="55" r="12" fill="#F44336" opacity="0.9"/>
+  <circle cx="60" cy="55" r="7" fill="#FF8A80"/>
+  <circle cx="60" cy="55" r="3" fill="white"/>
+  <!-- Gear teeth -->
+  <rect x="57" y="22" width="6" height="8" rx="1" fill="#B0BEC5"/>
+  <rect x="57" y="90" width="6" height="8" rx="1" fill="#B0BEC5"/>
+  <rect x="22" y="57" width="8" height="6" rx="1" fill="#B0BEC5"/>
+  <rect x="90" y="57" width="8" height="6" rx="1" fill="#B0BEC5"/>
+  <!-- Bolts -->
+  <circle cx="40" cy="40" r="3" fill="#4F5558" stroke="#697276" stroke-width="1"/>
+  <circle cx="80" cy="40" r="3" fill="#4F5558" stroke="#697276" stroke-width="1"/>
+  <circle cx="40" cy="80" r="3" fill="#4F5558" stroke="#697276" stroke-width="1"/>
+  <circle cx="80" cy="80" r="3" fill="#4F5558" stroke="#697276" stroke-width="1"/>
+</svg>

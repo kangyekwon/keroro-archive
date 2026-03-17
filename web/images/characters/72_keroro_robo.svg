@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="58" fill="#E8F5E9" stroke="#66BB6A" stroke-width="2"/>
+  <!-- Robot head -->
+  <rect x="30" y="28" width="60" height="55" rx="10" fill="#66BB6A" stroke="#3D703F" stroke-width="2"/>
+  <!-- Antenna -->
+  <line x1="60" y1="28" x2="60" y2="15" stroke="#3D703F" stroke-width="2"/>
+  <circle cx="60" cy="12" r="4" fill="#F44336"/>
+  <!-- Visor -->
+  <rect x="36" y="42" width="48" height="18" rx="9" fill="#3D703F"/>
+  <!-- Eyes in visor -->
+  <circle cx="48" cy="51" r="5" fill="#69F0AE"/>
+  <circle cx="72" cy="51" r="5" fill="#69F0AE"/>
+  <circle cx="49" cy="49.5" r="2" fill="white"/>
+  <circle cx="73" cy="49.5" r="2" fill="white"/>
+  <!-- Mouth plate -->
+  <rect x="44" y="68" width="32" height="6" rx="3" fill="#3D703F"/>
+  <line x1="52" y1="68" x2="52" y2="74" stroke="#66BB6A" stroke-width="1"/>
+  <line x1="60" y1="68" x2="60" y2="74" stroke="#66BB6A" stroke-width="1"/>
+  <line x1="68" y1="68" x2="68" y2="74" stroke="#66BB6A" stroke-width="1"/>
+  <!-- Body -->
+  <rect x="38" y="85" width="44" height="25" rx="5" fill="#66BB6A" stroke="#3D703F" stroke-width="1.5"/>
+  <!-- Keron star on chest -->
+  <polygon points="60.0,88.0 57.9,93.2 52.4,93.5 56.7,97.1 55.3,102.5 60.0,99.5 64.7,102.5 63.3,97.1 67.6,93.5 62.1,93.2" fill="#335D35" stroke="#3D703F" stroke-width="0.8"/>
+</svg>

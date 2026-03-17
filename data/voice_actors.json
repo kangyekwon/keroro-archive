@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "character_id": 1,
+    "actor_name": "Kumiko Watanabe",
+    "actor_name_kr": "와타나베 쿠미코",
+    "language": "ja",
+    "other_roles": "나루토의 야마나카 이노이치, 원피스의 올드 하네냐볼 등"
+  },
+  {
+    "id": 2,
+    "character_id": 1,
+    "actor_name": "Jung Mi-sook",
+    "actor_name_kr": "정미숙",
+    "language": "ko",
+    "other_roles": "도라에몽의 도라에몽, 크레용 신짱의 신짱 엄마 등 다수"
+  },
+  {
+    "id": 3,
+    "character_id": 2,
+    "actor_name": "Jouji Nakata",
+    "actor_name_kr": "나카타 죠지",
+    "language": "ja",
+    "other_roles": "페이트 시리즈의 키레이 코토미네, 헬싱의 아카드 등"
+  },
+  {
+    "id": 4,
+    "character_id": 2,
+    "actor_name": "Si Young-jun",
+    "actor_name_kr": "시영준",
+    "language": "ko",
+    "other_roles": "짱구는 못말려의 짱구 아빠, 명탐정 코난의 모리 코고로 등"
+  },
+  {
+    "id": 5,
+    "character_id": 3,
+    "actor_name": "Etsuko Kozakura",
+    "actor_name_kr": "코자쿠라 에츠코",
+    "language": "ja",
+    "other_roles": "원피스의 쵸퍼 목소리 담당 (초기), 다수의 귀여운 캐릭터 전문"
+  },
+  {
+    "id": 6,
+    "character_id": 3,
+    "actor_name": "Yeo Min-jeong",
+    "actor_name_kr": "여민정",
+    "language": "ko",
+    "other_roles": "원피스의 루피, 이누야사의 시폰마루 등 소년 캐릭터 전문"
+  },
+  {
+    "id": 7,
+    "character_id": 4,
+    "actor_name": "Takehito Koyasu",
+    "actor_name_kr": "코야스 타케히토",
+    "language": "ja",
+    "other_roles": "죠죠의 기묘한 모험의 DIO, 건담 SEED의 무우 라 프라가 등"
+  },
+  {
+    "id": 8,
+    "character_id": 4,
+    "actor_name": "Kim Young-sun",
+    "actor_name_kr": "김영선",
+    "language": "ko",
+    "other_roles": "나루토의 카카시, 원피스의 상디 등 다수의 인기 캐릭터"
+  },
+  {
+    "id": 9,
+    "character_id": 5,
+    "actor_name": "Takeshi Kusao",
+    "actor_name_kr": "쿠사오 타케시",
+    "language": "ja",
+    "other_roles": "드래곤볼의 트랭크스, 슬램덩크의 류가와 카에데 등"
+  },
+  {
+    "id": 10,
+    "character_id": 5,
+    "actor_name": "Eom Sang-hyun",
+    "actor_name_kr": "엄상현",
+    "language": "ko",
+    "other_roles": "디지몬의 태일, 포켓몬스터의 오박사 등"
+  },
+  {
+    "id": 11,
+    "character_id": 12,
+    "actor_name": "Chiwa Saito",
+    "actor_name_kr": "사이토 치와",
+    "language": "ja",
+    "other_roles": "마법소녀 마도카 마기카의 아케미 호무라, 모노가타리 시리즈의 센조가하라 등"
+  },
+  {
+    "id": 12,
+    "character_id": 12,
+    "actor_name": "Park Shin-hee",
+    "actor_name_kr": "박신희",
+    "language": "ko",
+    "other_roles": "세일러문의 세일러 비너스, 카드캡터 사쿠라의 다이도우지 토모요 등"
+  },
+  {
+    "id": 13,
+    "character_id": 11,
+    "actor_name": "Tomoko Kaneda",
+    "actor_name_kr": "카네다 토모코",
+    "language": "ja",
+    "other_roles": "아즈망가 대왕의 치요, 블리치의 요루이치(고양이) 등"
+  },
+  {
+    "id": 14,
+    "character_id": 11,
+    "actor_name": "Jeong Hye-won",
+    "actor_name_kr": "정혜원",
+    "language": "ko",
+    "other_roles": "나루토의 히나타, 원피스의 비비 등"
+  },
+  {
+    "id": 15,
+    "character_id": 14,
+    "actor_name": "Mamiko Noto",
+    "actor_name_kr": "노토 마미코",
+    "language": "ja",
+    "other_roles": "지옥소녀의 엔마 아이, 클라나드의 이치노세 코토미 등 청초한 캐릭터 전문"
+  },
+  {
+    "id": 16,
+    "character_id": 14,
+    "actor_name": "Lee Hyun-jin",
+    "actor_name_kr": "이현진",
+    "language": "ko",
+    "other_roles": "세일러문의 세일러 문, 이누야사의 카고메 등"
+  },
+  {
+    "id": 17,
+    "character_id": 15,
+    "actor_name": "Haruna Ikezawa",
+    "actor_name_kr": "이케자와 하루나",
+    "language": "ja",
+    "other_roles": "듀얼의 모리 카즈키, 갤럭시 엔젤의 바닐라 등"
+  },
+  {
+    "id": 18,
+    "character_id": 15,
+    "actor_name": "Jeon Sook-kyung",
+    "actor_name_kr": "전숙경",
+    "language": "ko",
+    "other_roles": "명탐정 코난의 하이바라 아이, 이누야사의 산고 등"
+  },
+  {
+    "id": 19,
+    "character_id": 13,
+    "actor_name": "Akiko Hiramatsu",
+    "actor_name_kr": "히라마츠 아키코",
+    "language": "ja",
+    "other_roles": "오쟈마녀 도레미의 세키 선생, 원피스의 벨메르 등"
+  },
+  {
+    "id": 20,
+    "character_id": 13,
+    "actor_name": "Song Do-young",
+    "actor_name_kr": "송도영",
+    "language": "ko",
+    "other_roles": "원피스의 니코 로빈, 나루토의 미타라시 앙코 등"
+  },
+  {
+    "id": 21,
+    "character_id": 6,
+    "actor_name": "Fumihiko Tachiki",
+    "actor_name_kr": "타치키 후미히코",
+    "language": "ja",
+    "other_roles": "에반게리온의 이카리 겐도, 블리치의 자라키 켄파치 등"
+  },
+  {
+    "id": 22,
+    "character_id": 7,
+    "actor_name": "Akeno Watanabe",
+    "actor_name_kr": "와타나베 아케노",
+    "language": "ja",
+    "other_roles": "에우레카 세븐의 에우레카, 나루토의 코난 등"
+  },
+  {
+    "id": 23,
+    "character_id": 8,
+    "actor_name": "Miyako Ito",
+    "actor_name_kr": "이토 미야코",
+    "language": "ja",
+    "other_roles": "프리큐어 시리즈의 다수 캐릭터, 쿠로코의 농구의 모모이 등"
+  },
+  {
+    "id": 24,
+    "character_id": 9,
+    "actor_name": "Nobuo Tobita",
+    "actor_name_kr": "토비타 노부오",
+    "language": "ja",
+    "other_roles": "기동전사 건담 ZZ의 쥬도 아시타, 캡틴 츠바사의 휴가 코지로 등"
+  },
+  {
+    "id": 25,
+    "character_id": 10,
+    "actor_name": "Satsuki Yukino",
+    "actor_name_kr": "유키노 사츠키",
+    "language": "ja",
+    "other_roles": "이누야사의 히구라시 카고메 (후기), 풀 메탈 패닉의 치도리 카나메 등"
+  },
+  {
+    "id": 26,
+    "character_id": 16,
+    "actor_name": "Ryo Hirohashi",
+    "actor_name_kr": "히로하시 료",
+    "language": "ja",
+    "other_roles": "에우레카 세븐의 탈호, 스쿨 럼블의 츠카모토 야쿠모 등"
+  },
+  {
+    "id": 27,
+    "character_id": 16,
+    "actor_name": "Lee Yong-shin",
+    "actor_name_kr": "이용신",
+    "language": "ko",
+    "other_roles": "에반게리온의 아스카, 세일러문의 세일러 주피터 등"
+  },
+  {
+    "id": 28,
+    "character_id": 17,
+    "actor_name": "Akira Ishida",
+    "actor_name_kr": "이시다 아키라",
+    "language": "ja",
+    "other_roles": "에반게리온의 나기사 카오루, 나루토의 가아라, 건담 SEED의 아스란 자라 등"
+  },
+  {
+    "id": 29,
+    "character_id": 17,
+    "actor_name": "Choi Won-hyung",
+    "actor_name_kr": "최원형",
+    "language": "ko",
+    "other_roles": "나루토의 사스케, 블리치의 이치고 등"
+  },
+  {
+    "id": 30,
+    "character_id": 18,
+    "actor_name": "Jurota Kosugi",
+    "actor_name_kr": "코스기 주로타",
+    "language": "ja",
+    "other_roles": "북두의 권의 켄시로 (극장판), 원피스의 아카이누 (초기) 등"
+  },
+  {
+    "id": 31,
+    "character_id": 19,
+    "actor_name": "Sakura Nogawa",
+    "actor_name_kr": "노가와 사쿠라",
+    "language": "ja",
+    "other_roles": "다카포의 아사쿠라 넨무, 마법선생 네기마의 미야자키 노도카 등"
+  },
+  {
+    "id": 32,
+    "character_id": 20,
+    "actor_name": "Keiji Fujiwara",
+    "actor_name_kr": "후지와라 게이지",
+    "language": "ja",
+    "other_roles": "크레용 신짱의 노하라 히로시, 강철의 연금술사의 매즈 휴즈 등 (2020년 작고)"
+  },
+  {
+    "id": 33,
+    "character_id": 21,
+    "actor_name": "Nana Mizuki",
+    "actor_name_kr": "미즈키 나나",
+    "language": "ja",
+    "other_roles": "나루토의 히나타 (일본판), 마법소녀 리리컬 나노하의 페이트 테스타로사 등"
+  },
+  {
+    "id": 34,
+    "character_id": 31,
+    "actor_name": "Mugihito",
+    "actor_name_kr": "무기히토",
+    "language": "ja",
+    "other_roles": "원피스의 니코 로빈의 아버지, 나루토의 3대 호카게 등"
+  },
+  {
+    "id": 35,
+    "character_id": 33,
+    "actor_name": "Kumiko Watanabe",
+    "actor_name_kr": "와타나베 쿠미코",
+    "language": "ja",
+    "other_roles": "케로로와 동일 성우가 1인 2역. 케로로와의 차이를 미묘한 톤 변화로 표현"
+  },
+  {
+    "id": 36,
+    "character_id": 47,
+    "actor_name": "Kumiko Watanabe",
+    "actor_name_kr": "와타나베 쿠미코",
+    "language": "ja",
+    "other_roles": "케로로와 동일 성우가 1인 3역. 어두운 톤으로 다크 케로로를 연기"
+  },
+  {
+    "id": 37,
+    "character_id": 6,
+    "actor_name": "Kim Jang",
+    "actor_name_kr": "김장",
+    "language": "ko",
+    "other_roles": "드래곤볼의 베지터, 슬램덩크의 서태웅 등"
+  },
+  {
+    "id": 38,
+    "character_id": 18,
+    "actor_name": "Lee In-sung",
+    "actor_name_kr": "이인성",
+    "language": "ko",
+    "other_roles": "짱구는 못말려의 철수, 드래곤볼의 손오공 등"
+  },
+  {
+    "id": 39,
+    "character_id": 44,
+    "actor_name": "Bin Shimada",
+    "actor_name_kr": "시마다 빈",
+    "language": "ja",
+    "other_roles": "기동전사 건담 ZZ의 마시마 세로 등"
+  },
+  {
+    "id": 40,
+    "character_id": 45,
+    "actor_name": "Jouji Nakata",
+    "actor_name_kr": "나카타 죠지",
+    "language": "ja",
+    "other_roles": "기로로와 동일 성우. 내레이터와 기로로를 동시에 담당하며 때때로 메타 유머를 구사"
+  },
+  {
+    "id": 41,
+    "character_id": 57,
+    "actor_name": "Satsuki Yukino",
+    "actor_name_kr": "유키노 사츠키",
+    "language": "ja",
+    "other_roles": "푸루루와 동일 성우의 1인 2역"
+  },
+  {
+    "id": 42,
+    "character_id": 52,
+    "actor_name": "Unsho Ishizuka",
+    "actor_name_kr": "이시즈카 운쇼",
+    "language": "ja",
+    "other_roles": "포켓몬스터의 오박사 (일본판), 죠죠의 기묘한 모험의 죠셉 죠스타 등 (2018년 작고)"
+  }
+]

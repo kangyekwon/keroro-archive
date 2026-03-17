@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "character_id": 1,
+    "content": "であります！(de arimasu!)",
+    "content_kr": "~이であります! (~데 아리마스!)",
+    "episode_id": null,
+    "context": "케로로의 말끝마다 붙이는 특유의 말버릇. 군인 경어체로, 거의 모든 문장 끝에 사용한다."
+  },
+  {
+    "id": 2,
+    "character_id": 1,
+    "content": "ガンプラは人生であります！(Gunpla wa jinsei de arimasu!)",
+    "content_kr": "건프라는 인생이であります!",
+    "episode_id": null,
+    "context": "건프라에 대한 케로로의 무한한 사랑을 표현하는 명대사. 침략보다 건프라를 우선시하는 그의 본심."
+  },
+  {
+    "id": 3,
+    "character_id": 1,
+    "content": "地球侵略作戦…始めるであります！(Chikyuu shinryaku sakusen... hajimeru de arimasu!)",
+    "content_kr": "지구 침략 작전... 시작하겠であります!",
+    "episode_id": 1,
+    "context": "케로로가 새로운 침략 작전을 발표할 때마다 하는 대사. 항상 실패로 끝나지만 매번 의욕적으로 선언한다."
+  },
+  {
+    "id": 4,
+    "character_id": 1,
+    "content": "我輩はケロン人である！(Wagahai wa Keron-jin de aru!)",
+    "content_kr": "나는 케론인이다!",
+    "episode_id": null,
+    "context": "케로로가 자신의 정체성을 당당하게 선언할 때 사용하는 대사."
+  },
+  {
+    "id": 5,
+    "character_id": 2,
+    "content": "俺は戦士だ…(Ore wa senshi da...)",
+    "content_kr": "나는 전사다...",
+    "episode_id": null,
+    "context": "기로로가 전투 전에 자신을 다잡으며 하는 대사. 그러나 나츠미 생각에 집중력을 잃곤 한다."
+  },
+  {
+    "id": 6,
+    "character_id": 2,
+    "content": "夏美殿…(Natsumi-dono...)",
+    "content_kr": "나츠미 공...",
+    "episode_id": null,
+    "context": "기로로가 나츠미를 부를 때 사용하는 경칭. 나츠미에 대한 존경과 호감이 담겨있다."
+  },
+  {
+    "id": 7,
+    "character_id": 2,
+    "content": "ケロロ！いい加減にしろ！(Keroro! Ii kagen ni shiro!)",
+    "content_kr": "케로로! 적당히 해라!",
+    "episode_id": null,
+    "context": "게으름 피우는 케로로에게 화를 내며 하는 기로로의 단골 대사."
+  },
+  {
+    "id": 8,
+    "character_id": 3,
+    "content": "タマタマ…許さないですぅ！(Tama tama... yurusanai desu!)",
+    "content_kr": "타마타마... 용서 못 해요!",
+    "episode_id": null,
+    "context": "타마마가 질투심이 폭발하여 흑화할 때 하는 대사. 특히 앙골 모아에게 질투를 느낄 때."
+  },
+  {
+    "id": 9,
+    "character_id": 3,
+    "content": "タママインパクト！(Tamama Inpakuto!)",
+    "content_kr": "타마마 임팩트!",
+    "episode_id": null,
+    "context": "타마마의 필살기인 에너지 빔을 발사할 때 외치는 대사. 입에서 강력한 에너지 빔이 나온다."
+  },
+  {
+    "id": 10,
+    "character_id": 3,
+    "content": "大尉殿、大好きですぅ！(Taii-dono, daisuki desu!)",
+    "content_kr": "대위님, 정말 좋아해요!",
+    "episode_id": null,
+    "context": "케로로 대장에 대한 타마마의 맹목적인 존경과 사랑을 표현하는 대사."
+  },
+  {
+    "id": 11,
+    "character_id": 4,
+    "content": "クックックッ…(Ku ku ku...)",
+    "content_kr": "쿠쿠쿠...",
+    "episode_id": null,
+    "context": "쿠루루의 트레이드마크인 음침한 웃음소리. 남을 괴롭히거나 음흉한 계획을 꾸밀 때 나온다."
+  },
+  {
+    "id": 12,
+    "character_id": 4,
+    "content": "面白い実験ができそうだ。クックックッ。(Omoshiroi jikken ga dekisou da. Ku ku ku.)",
+    "content_kr": "재미있는 실험을 할 수 있겠군. 쿠쿠쿠.",
+    "episode_id": null,
+    "context": "쿠루루가 새로운 발명이나 실험에 흥미를 느낄 때 하는 대사. 대부분 소대원들이 실험 대상이 된다."
+  },
+  {
+    "id": 13,
+    "character_id": 4,
+    "content": "俺様の頭脳に不可能はない。(Ore-sama no zunou ni fukanou wa nai.)",
+    "content_kr": "이 몸의 두뇌에 불가능은 없다.",
+    "episode_id": null,
+    "context": "자신의 천재성에 대한 쿠루루의 자부심이 담긴 대사."
+  },
+  {
+    "id": 14,
+    "character_id": 5,
+    "content": "拙者は…忘れられている…(Sessha wa... wasurerarete iru...)",
+    "content_kr": "소인은... 잊혀져 있습니다...",
+    "episode_id": null,
+    "context": "도로로가 소대원들에게 또 잊혀졌음을 깨달았을 때의 슬픈 독백. 트라우마 스위치가 켜지는 순간."
+  },
+  {
+    "id": 15,
+    "character_id": 5,
+    "content": "自然を守ることこそ、本当の使命。(Shizen wo mamoru koto koso, hontou no shimei.)",
+    "content_kr": "자연을 지키는 것이야말로 진정한 사명.",
+    "episode_id": null,
+    "context": "도로로가 지구의 자연을 사랑하며 침략에 반대하는 이유를 밝히는 대사."
+  },
+  {
+    "id": 16,
+    "character_id": 5,
+    "content": "トラウマスイッチ…オン！(Torauma suicchi... on!)",
+    "content_kr": "트라우마 스위치... 온!",
+    "episode_id": null,
+    "context": "도로로의 어린 시절 트라우마가 촉발될 때 나오는 내레이션. 케로로에게 왕따당한 기억이 되살아난다."
+  },
+  {
+    "id": 17,
+    "character_id": 14,
+    "content": "おじさま！(Oji-sama!)",
+    "content_kr": "아저씨!",
+    "episode_id": null,
+    "context": "앙골 모아가 케로로를 부르는 호칭. 실제로 삼촌은 아니지만 맹목적으로 따르며 이렇게 부른다."
+  },
+  {
+    "id": 18,
+    "character_id": 14,
+    "content": "アルマゲドン…1/10000！(Arumagedon... ichi man bun no ichi!)",
+    "content_kr": "아마겟돈... 만분의 1!",
+    "episode_id": null,
+    "context": "앙골 모아의 루시퍼 스피어 공격 시 위력을 조절하는 대사. 만분의 1이라도 엄청난 파괴력."
+  },
+  {
+    "id": 19,
+    "character_id": 12,
+    "content": "このバカガエル！(Kono baka gaeru!)",
+    "content_kr": "이 바보 개구리!",
+    "episode_id": null,
+    "context": "나츠미가 케로로에게 화날 때 외치는 단골 대사. 케로로에게는 공포의 한마디."
+  },
+  {
+    "id": 20,
+    "character_id": 12,
+    "content": "掃除は終わったの？ケロロ！(Souji wa owatta no? Keroro!)",
+    "content_kr": "청소는 끝난 거야? 케로로!",
+    "episode_id": null,
+    "context": "나츠미가 케로로에게 집안일을 시키며 확인하는 대사. 케로로를 엄하게 관리한다."
+  },
+  {
+    "id": 21,
+    "character_id": 11,
+    "content": "すごいよ、軍曹！(Sugoi yo, Gunsou!)",
+    "content_kr": "대단해, 군조!",
+    "episode_id": null,
+    "context": "후유키가 케로로의 외계 기술이나 능력에 감탄하며 하는 대사. 케로로와의 우정을 보여주는 장면."
+  },
+  {
+    "id": 22,
+    "character_id": 11,
+    "content": "オカルトの世界にはロマンがあるんだ！(Okaruto no sekai ni wa roman ga arun da!)",
+    "content_kr": "오컬트의 세계에는 로망이 있다고!",
+    "episode_id": null,
+    "context": "후유키가 자신의 오컬트 취미를 변호할 때 하는 대사."
+  },
+  {
+    "id": 23,
+    "character_id": 15,
+    "content": "ふ、冬樹くん…(Fu, Fuyuki-kun...)",
+    "content_kr": "후, 후유키 군...",
+    "episode_id": null,
+    "context": "모모카가 후유키 앞에서 수줍어하며 더듬거리는 대사. 얌전한 인격의 전형적인 모습."
+  },
+  {
+    "id": 24,
+    "character_id": 15,
+    "content": "冬樹は私のものよ！(Fuyuki wa watashi no mono yo!)",
+    "content_kr": "후유키는 내 거야!",
+    "episode_id": null,
+    "context": "모모카의 공격적 이중인격이 나타났을 때의 대사. 후유키를 차지하겠다는 강한 의지."
+  },
+  {
+    "id": 25,
+    "character_id": 6,
+    "content": "任務は必ず遂行する。(Ninmu wa kanarazu suikou suru.)",
+    "content_kr": "임무는 반드시 수행한다.",
+    "episode_id": 15,
+    "context": "가루루의 엘리트 군인다운 냉철한 각오. 케로로 소대와의 대결 전에 한 대사."
+  },
+  {
+    "id": 26,
+    "character_id": 7,
+    "content": "タマタマ先輩には負けないっす！(Tamama-senpai ni wa makenai ssu!)",
+    "content_kr": "타마마 선배한테는 지지 않겠어요!",
+    "episode_id": 15,
+    "context": "타루루가 라이벌 타마마에 대한 대항심을 보이며 하는 대사."
+  },
+  {
+    "id": 27,
+    "character_id": 8,
+    "content": "クルル先輩のプログラムなんて、ハックしてやるっす！(Kururu-senpai no puroguramu nante, hakku shite yaru ssu!)",
+    "content_kr": "쿠루루 선배의 프로그램 따위, 해킹해 주겠어요!",
+    "episode_id": 15,
+    "context": "토로로가 쿠루루에 대한 라이벌 의식으로 그의 시스템을 해킹하겠다고 선언하는 대사."
+  },
+  {
+    "id": 28,
+    "character_id": 16,
+    "content": "ドロロ殿、一緒に頑張りましょう！(Dororo-dono, issho ni ganbarimashou!)",
+    "content_kr": "도로로 님, 같이 힘냅시다!",
+    "episode_id": null,
+    "context": "코유키가 파트너 도로로를 격려하며 하는 대사. 밝고 긍정적인 성격이 드러난다."
+  },
+  {
+    "id": 29,
+    "character_id": 18,
+    "content": "宇宙人め、この556が成敗してやる！(Uchuujin me, kono Kogoro ga seibai shite yaru!)",
+    "content_kr": "외계인 녀석, 이 556이 퇴치해 주마!",
+    "episode_id": null,
+    "context": "자칭 우주 탐정 556이 외계인 퇴치를 선언하는 대사. 정작 옆집 케로로가 외계인인 것은 모른다."
+  },
+  {
+    "id": 30,
+    "character_id": 13,
+    "content": "ママは忙しいからね〜。でも大丈夫！(Mama wa isogashii kara ne. Demo daijoubu!)",
+    "content_kr": "엄마는 바쁘니까~ 하지만 괜찮아!",
+    "episode_id": null,
+    "context": "아키가 바쁜 와중에도 밝게 웃으며 아이들에게 하는 대사. 쿨한 엄마의 모습."
+  },
+  {
+    "id": 31,
+    "character_id": 1,
+    "content": "地球侵略は…明日からにするであります！(Chikyuu shinryaku wa... ashita kara ni suru de arimasu!)",
+    "content_kr": "지구 침략은... 내일부터 하겠であります!",
+    "episode_id": null,
+    "context": "케로로가 건프라 조립이나 TV 시청에 빠져서 침략을 미루는 전형적인 대사. 이 '내일'은 절대 오지 않는다."
+  },
+  {
+    "id": 32,
+    "character_id": 1,
+    "content": "ガンプラは自由であります！(Gunpla wa jiyuu de arimasu!)",
+    "content_kr": "건프라는 자유であります!",
+    "episode_id": null,
+    "context": "건프라를 조립하면서 느끼는 해방감을 표현하는 케로로의 명대사. 군인의 의무보다 취미를 우선시하는 그의 철학."
+  },
+  {
+    "id": 33,
+    "character_id": 1,
+    "content": "今度の作戦は完璧であります！(Kondo no sakusen wa kanpeki de arimasu!)",
+    "content_kr": "이번 작전은 완벽하であります!",
+    "episode_id": 5,
+    "context": "매번 새 침략 작전을 발표할 때마다 하는 자신감 넘치는 대사. 한 번도 성공한 적이 없다."
+  },
+  {
+    "id": 34,
+    "character_id": 1,
+    "content": "この星の文化は侵略に値するであります！(Kono hoshi no bunka wa shinryaku ni atai suru de arimasu!)",
+    "content_kr": "이 별의 문화는 침략할 가치가 있であります!",
+    "episode_id": null,
+    "context": "지구의 오타쿠 문화에 감탄하면서 침략의 정당성을 주장하는 케로로. 사실은 단순히 지구가 좋은 것."
+  },
+  {
+    "id": 35,
+    "character_id": 1,
+    "content": "予算が…予算がないであります！(Yosan ga... yosan ga nai de arimasu!)",
+    "content_kr": "예산이... 예산이 없であります!",
+    "episode_id": null,
+    "context": "침략 예산을 전부 건프라에 써버린 후 울부짖는 케로로의 대사. 자업자득의 결과."
+  },
+  {
+    "id": 36,
+    "character_id": 1,
+    "content": "ペコポン人は理解できないであります！(Pekopon-jin wa rikai dekinai de arimasu!)",
+    "content_kr": "페코폰인은 이해할 수 없であります!",
+    "episode_id": null,
+    "context": "지구인들의 예상치 못한 행동에 당황하면서도, 사실 자기가 더 이상한 케로로의 독백."
+  },
+  {
+    "id": 37,
+    "character_id": 2,
+    "content": "戦場こそ俺の居場所だ。(Senjou koso ore no ibasho da.)",
+    "content_kr": "전장이야말로 나의 자리다.",
+    "episode_id": null,
+    "context": "기로로가 자신의 전사 정체성을 확인하며 무기를 정비할 때의 독백. 고독한 전사의 모습."
+  },
+  {
+    "id": 38,
+    "character_id": 2,
+    "content": "夏美殿の笑顔を守るためなら…(Natsumi-dono no egao wo mamoru tame nara...)",
+    "content_kr": "나츠미 공의 미소를 지키기 위해서라면...",
+    "episode_id": null,
+    "context": "나츠미를 향한 기로로의 속마음. 혼잣말로 중얼거리다가 들킬 뻔해서 당황하는 장면."
+  },
+  {
+    "id": 39,
+    "character_id": 2,
+    "content": "俺の武器に狂いはない！(Ore no buki ni kurui wa nai!)",
+    "content_kr": "내 무기에는 오차가 없다!",
+    "episode_id": null,
+    "context": "전투 중 무기의 정확도에 자신감을 보이는 기로로. 케론군 최고의 사수다운 각오."
+  },
+  {
+    "id": 40,
+    "character_id": 2,
+    "content": "ケロロ、お前に隊長の資格があるのか！(Keroro, omae ni taichou no shikaku ga aru no ka!)",
+    "content_kr": "케로로, 너에게 대장의 자격이 있는 거냐!",
+    "episode_id": 10,
+    "context": "케로로의 무책임한 태도에 폭발하는 기로로. 진지한 군인으로서 대장의 자질을 의심하는 대사."
+  },
+  {
+    "id": 41,
+    "character_id": 2,
+    "content": "こ、これは戦略的後退だ！(Ko, kore wa senryakuteki koutai da!)",
+    "content_kr": "이, 이건 전략적 후퇴다!",
+    "episode_id": null,
+    "context": "나츠미 앞에서 부끄러운 상황이 되어 도망칠 때의 변명. 사실은 얼굴이 빨개져서 도망치는 것."
+  },
+  {
+    "id": 42,
+    "character_id": 3,
+    "content": "あの女…大尉殿に近づくな！(Ano onna... Taii-dono ni chikazuku na!)",
+    "content_kr": "저 여자... 대위님에게 가까이 오지 마!",
+    "episode_id": null,
+    "context": "앙골 모아에 대한 타마마의 격렬한 질투. 귀여운 외모 뒤에 숨겨진 흑화 모드의 시작."
+  },
+  {
+    "id": 43,
+    "character_id": 3,
+    "content": "タマタマ…ジェラシー…！(Tama tama... jerashii...!)",
+    "content_kr": "타마타마... 질투...!",
+    "episode_id": null,
+    "context": "질투심이 끓어오를 때 타마마의 눈이 뒤집히며 나오는 대사. 흑화의 징조."
+  },
+  {
+    "id": 44,
+    "character_id": 3,
+    "content": "お菓子くれないと…怒りますよ？(Okashi kurenai to... okorimasu yo?)",
+    "content_kr": "간식 안 주면... 화낼 거예요?",
+    "episode_id": null,
+    "context": "간식에 대한 타마마의 집착을 보여주는 대사. 귀여운 말투지만 그 뒤의 압력은 강력하다."
+  },
+  {
+    "id": 45,
+    "character_id": 3,
+    "content": "ハイパータママインパクト！(Haipaa Tamama Inpakuto!)",
+    "content_kr": "하이퍼 타마마 임팩트!",
+    "episode_id": 20,
+    "context": "타마마 임팩트의 강화 버전. 질투와 분노가 극에 달했을 때 발동하는 최강의 에너지 빔."
+  },
+  {
+    "id": 46,
+    "character_id": 4,
+    "content": "新しい発明ができたぜ。実験台はお前らだ。クックックッ。(Atarashii hatsumei ga dekita ze. Jikkendai wa omaera da. Ku ku ku.)",
+    "content_kr": "새로운 발명이 완성됐다. 실험 대상은 너희들이야. 쿠쿠쿠.",
+    "episode_id": null,
+    "context": "새 발명품의 실험 대상으로 소대원들을 지목하는 쿠루루. 아무도 거부할 수 없는 공포의 선언."
+  },
+  {
+    "id": 47,
+    "character_id": 4,
+    "content": "データは嘘をつかない。嘘をつくのは人間だけだ。(Deeta wa uso wo tsukanai. Uso wo tsuku no wa ningen dake da.)",
+    "content_kr": "데이터는 거짓말하지 않아. 거짓말하는 건 인간뿐이지.",
+    "episode_id": null,
+    "context": "쿠루루의 냉소적 세계관이 드러나는 대사. 오직 데이터와 과학만을 신뢰하는 그의 철학."
+  },
+  {
+    "id": 48,
+    "character_id": 4,
+    "content": "迷惑？知ったことか。クックックッ。(Meiwaku? Shitta koto ka. Ku ku ku.)",
+    "content_kr": "폐 끼친다고? 알 바 아니야. 쿠쿠쿠.",
+    "episode_id": null,
+    "context": "자신의 발명이 초래한 소동에 전혀 책임을 느끼지 않는 쿠루루의 냉담한 반응."
+  },
+  {
+    "id": 49,
+    "character_id": 4,
+    "content": "この程度のハッキング、朝飯前だぜ。(Kono teido no hakkingu, asameshi mae da ze.)",
+    "content_kr": "이 정도 해킹은 식은 죽 먹기야.",
+    "episode_id": null,
+    "context": "지구의 시스템을 손쉽게 해킹하며 자만하는 쿠루루. 케론 기술의 위력을 보여주는 장면."
+  },
+  {
+    "id": 50,
+    "character_id": 5,
+    "content": "ケロロ殿…また拙者を仲間外れに…(Keroro-dono... mata sessha wo nakama hazure ni...)",
+    "content_kr": "케로로 님... 또 소인을 따돌리다니...",
+    "episode_id": null,
+    "context": "소대 모임에서 자신만 빠졌음을 알게 된 도로로의 비통한 독백. 트라우마 재발의 순간."
+  },
+  {
+    "id": 51,
+    "character_id": 5,
+    "content": "忍とは耐え忍ぶこと。(Shinobi to wa taeshinobu koto.)",
+    "content_kr": "닌자란 참고 견디는 것.",
+    "episode_id": null,
+    "context": "닌자 철학을 설파하는 도로로의 명언. 소외에도 불구하고 인내하는 자신을 위로하는 대사이기도 하다."
+  },
+  {
+    "id": 52,
+    "character_id": 5,
+    "content": "この花の美しさ…ペコポンは守らなければ。(Kono hana no utsukushisa... Pekopon wa mamoranakereba.)",
+    "content_kr": "이 꽃의 아름다움... 페코폰은 지켜야 해.",
+    "episode_id": null,
+    "context": "지구의 자연에 감동하는 도로로. 침략 대상이 아니라 보호 대상으로 보는 그의 환경주의적 시각."
+  },
+  {
+    "id": 53,
+    "character_id": 5,
+    "content": "あの頃…ケロロ殿に仲間外れにされて…(Ano koro... Keroro-dono ni nakama hazure ni sarete...)",
+    "content_kr": "그때... 케로로 님에게 따돌림당하고...",
+    "episode_id": null,
+    "context": "어린 시절 케로로에게 왕따당한 기억이 되살아나는 트라우마 플래시백. 구석에서 웅크리며 과거를 회상한다."
+  },
+  {
+    "id": 54,
+    "character_id": 12,
+    "content": "あたしが守るから、フユキ！(Atashi ga mamoru kara, Fuyuki!)",
+    "content_kr": "내가 지킬 테니까, 후유키!",
+    "episode_id": null,
+    "context": "동생 후유키를 보호하려는 나츠미의 강한 의지. 외계인의 위협에도 두려움 없이 맞서는 누나의 모습."
+  },
+  {
+    "id": 55,
+    "character_id": 12,
+    "content": "ケロロ！また変な物持ち込んで！(Keroro! Mata hen na mono mochikonde!)",
+    "content_kr": "케로로! 또 이상한 물건 가지고 들어와서!",
+    "episode_id": null,
+    "context": "쿠루루의 발명품이나 케론 기기를 집에 들여온 케로로에게 분노하는 나츠미의 일상적 잔소리."
+  },
+  {
+    "id": 56,
+    "character_id": 12,
+    "content": "どうせまた侵略計画でしょ？くだらない！(Douse mata shinryaku keikaku desho? Kudaranai!)",
+    "content_kr": "어차피 또 침략 계획이지? 시시해!",
+    "episode_id": null,
+    "context": "케로로의 침략 계획을 코웃음 치는 나츠미. 한 번도 성공한 적 없는 것을 잘 알고 있다."
+  },
+  {
+    "id": 57,
+    "character_id": 12,
+    "content": "あんたたち、この家でただ飯食べてるんだから、ちゃんと働きなさい！(Antatachi, kono ie de tada meshi tabeteru n dakara, chanto hatarakinasai!)",
+    "content_kr": "너희들, 이 집에서 공짜밥 먹고 있으니까, 제대로 일해!",
+    "episode_id": null,
+    "context": "케로로 소대에게 집안일을 시키는 나츠미의 강압적 선언. 소대원들에게는 진정한 공포."
+  },
+  {
+    "id": 58,
+    "character_id": 11,
+    "content": "軍曹は悪い宇宙人じゃないよ！(Gunsou wa warui uchuujin ja nai yo!)",
+    "content_kr": "군조는 나쁜 외계인이 아니야!",
+    "episode_id": null,
+    "context": "케로로를 변호하는 후유키의 순수한 대사. 나츠미나 다른 사람에게 케로로의 편을 드는 장면."
+  },
+  {
+    "id": 59,
+    "character_id": 11,
+    "content": "この現象、きっとオカルト的な何かが…！(Kono genshou, kitto okarutoteki na nanika ga...!)",
+    "content_kr": "이 현상, 분명 오컬트적인 뭔가가...!",
+    "episode_id": null,
+    "context": "사소한 일에도 오컬트를 연결하는 후유키의 흥분된 추측. 대부분 케론인의 장난이다."
+  },
+  {
+    "id": 60,
+    "character_id": 11,
+    "content": "宇宙人と友達になれるなんて、すごいことだよ！(Uchuujin to tomodachi ni nareru nante, sugoi koto da yo!)",
+    "content_kr": "외계인과 친구가 될 수 있다니, 대단한 일이야!",
+    "episode_id": 1,
+    "context": "케로로와의 만남에 감격하는 후유키. 오컬트 소년의 꿈이 현실이 된 순간."
+  },
+  {
+    "id": 61,
+    "character_id": 14,
+    "content": "おじさまの為なら、ペコポンの一つや二つ…♪(Oji-sama no tame nara, Pekopon no hitotsu ya futatsu... ♪)",
+    "content_kr": "아저씨를 위해서라면, 페코폰 하나 둘 정도는... ♪",
+    "episode_id": null,
+    "context": "케로로를 위해서라면 행성 파괴도 가볍게 언급하는 앙골 모아. 무서운 대사를 밝은 톤으로 말한다."
+  },
+  {
+    "id": 62,
+    "character_id": 14,
+    "content": "お正月って何ですか？ペコポンの文化、面白いです！(Oshougatsu tte nan desu ka? Pekopon no bunka, omoshiroi desu!)",
+    "content_kr": "설날이 뭐예요? 페코폰의 문화, 재미있어요!",
+    "episode_id": null,
+    "context": "지구 문화에 호기심을 보이는 앙골 모아의 순수한 모습. 행성 파괴자라고는 믿기 어려운 천진함."
+  },
+  {
+    "id": 63,
+    "character_id": 14,
+    "content": "滅亡はスケジュール通りにしないと♪(Metsubou wa sukejuuru doori ni shinai to ♪)",
+    "content_kr": "멸망은 스케줄대로 해야죠 ♪",
+    "episode_id": null,
+    "context": "행성 파괴를 가벼운 일정처럼 이야기하는 앙골 모아의 무서운 천연 대사."
+  },
+  {
+    "id": 64,
+    "character_id": 15,
+    "content": "冬樹くんの為なら…お金なんていくらでも！(Fuyuki-kun no tame nara... okane nante ikura demo!)",
+    "content_kr": "후유키 군을 위해서라면... 돈 따위 얼마든지!",
+    "episode_id": null,
+    "context": "후유키를 위해 니시자와 재벌의 자산을 아낌없이 쓰겠다는 모모카의 공격적 인격 대사."
+  },
+  {
+    "id": 65,
+    "character_id": 15,
+    "content": "あ、あの…一緒にお弁当…食べませんか？(A, ano... issho ni obentou... tabemasen ka?)",
+    "content_kr": "저, 저기... 같이 도시락... 먹을래요?",
+    "episode_id": null,
+    "context": "후유키에게 용기를 내어 말을 거는 얌전한 인격의 모모카. 이 한마디를 위해 엄청난 준비를 한다."
+  },
+  {
+    "id": 66,
+    "character_id": 15,
+    "content": "西澤家の財力を見せてやるわ！(Nishizawa-ke no zairyoku wo misete yaru wa!)",
+    "content_kr": "니시자와 가문의 재력을 보여주겠어!",
+    "episode_id": null,
+    "context": "라이벌이 등장했을 때 모모카의 이중인격이 발동하며 재력으로 승부를 걸겠다는 선언."
+  },
+  {
+    "id": 67,
+    "character_id": 6,
+    "content": "ケロロ、お前は軟弱すぎる。(Keroro, omae wa nanjaku sugiru.)",
+    "content_kr": "케로로, 넌 너무 나약하다.",
+    "episode_id": 15,
+    "context": "동생 케로로의 무능함을 질타하는 가루루의 차가운 평가. 엘리트 군인의 기준에서 본 판단."
+  },
+  {
+    "id": 68,
+    "character_id": 6,
+    "content": "ガルル小隊、作戦開始！(Garuru Shoutai, sakusen kaishi!)",
+    "content_kr": "가루루 소대, 작전 개시!",
+    "episode_id": 15,
+    "context": "가루루 소대에 작전 개시를 명령하는 대사. 케로로와 달리 카리스마와 통솔력이 느껴진다."
+  },
+  {
+    "id": 69,
+    "character_id": 6,
+    "content": "この星で遊んでいる場合ではない。(Kono hoshi de asonde iru baai de wa nai.)",
+    "content_kr": "이 별에서 놀고 있을 때가 아니다.",
+    "episode_id": 15,
+    "context": "지구에서 빈둥거리는 케로로 소대를 꾸짖는 가루루의 냉정한 한마디."
+  },
+  {
+    "id": 70,
+    "character_id": 9,
+    "content": "ドロロ…必ず決着をつける…(Dororo... kanarazu ketchaku wo tsukeru...)",
+    "content_kr": "도로로... 반드시 결판을 내겠다...",
+    "episode_id": 15,
+    "context": "도로로에 대한 복수를 다짐하는 조루루의 음침한 독백. 사이보그가 된 원인인 도로로에 대한 원한."
+  },
+  {
+    "id": 71,
+    "character_id": 10,
+    "content": "みんな、怪我はない？(Minna, kega wa nai?)",
+    "content_kr": "다들, 다친 데 없어?",
+    "episode_id": null,
+    "context": "의료병답게 동료들의 안전을 먼저 확인하는 푸루루의 따뜻한 대사. 케로로 소대의 소꿉친구."
+  },
+  {
+    "id": 72,
+    "character_id": 10,
+    "content": "ケロロくん、昔から変わらないね。(Keroro-kun, mukashi kara kawaranai ne.)",
+    "content_kr": "케로로 군, 옛날부터 안 변했네.",
+    "episode_id": null,
+    "context": "케로로의 변함없는 엉뚱함에 웃으며 하는 푸루루의 추억 어린 한마디."
+  },
+  {
+    "id": 73,
+    "character_id": 13,
+    "content": "ケロロ君、いつもお世話になってるわね～。(Keroro-kun, itsumo osewa ni natteru wa ne~.)",
+    "content_kr": "케로로 군, 항상 신세지고 있네~.",
+    "episode_id": null,
+    "context": "케로로에게 느긋하게 인사하는 아키. 외계인인 것을 알면서도 전혀 개의치 않는 대범한 성격."
+  },
+  {
+    "id": 74,
+    "character_id": 13,
+    "content": "締め切りが…締め切りが迫ってる！(Shimekiri ga... shimekiri ga sematteru!)",
+    "content_kr": "마감이... 마감이 다가오고 있어!",
+    "episode_id": null,
+    "context": "만화 편집자로서 마감에 쫓기는 아키의 비명. 외계인보다 마감이 더 무서운 워킹맘."
+  },
+  {
+    "id": 75,
+    "character_id": 17,
+    "content": "面白いね、この世界は。(Omoshiroi ne, kono sekai wa.)",
+    "content_kr": "재미있네, 이 세상은.",
+    "episode_id": null,
+    "context": "어떤 상황에서도 쿨한 사부로의 대사. 리얼리티 펜으로 만든 것이든 현실이든 관조하는 태도."
+  },
+  {
+    "id": 76,
+    "character_id": 17,
+    "content": "623のラジオ、今夜も始めようか。(Mutsumi no rajio, konya mo hajimeyou ka.)",
+    "content_kr": "623의 라디오, 오늘 밤도 시작할까.",
+    "episode_id": null,
+    "context": "비밀 라디오 DJ 623으로서의 사부로. 나츠미는 623의 정체가 사부로인 줄 모른 채 팬이 된다."
+  },
+  {
+    "id": 77,
+    "character_id": 16,
+    "content": "忍者として、人々を守ることが使命です！(Ninja toshite, hitobito wo mamoru koto ga shimei desu!)",
+    "content_kr": "닌자로서, 사람들을 지키는 것이 사명이에요!",
+    "episode_id": null,
+    "context": "닌자의 사명감을 밝히는 코유키의 밝고 활기찬 대사. 도로로와 함께 정의를 지킨다."
+  },
+  {
+    "id": 78,
+    "character_id": 16,
+    "content": "ナツミちゃん、今日も元気だね！(Natsumi-chan, kyou mo genki da ne!)",
+    "content_kr": "나츠미 짱, 오늘도 기운차네!",
+    "episode_id": null,
+    "context": "친구 나츠미에게 인사하는 코유키. 닌자 수행과 일상의 밸런스를 잘 유지하는 소녀."
+  },
+  {
+    "id": 79,
+    "character_id": 18,
+    "content": "事件の匂いがするぜ！(Jiken no nioi ga suru ze!)",
+    "content_kr": "사건 냄새가 나는군!",
+    "episode_id": null,
+    "context": "자칭 우주 탐정 556이 사건을 감지했다며 흥분하는 대사. 실제로는 대부분 착각이다."
+  },
+  {
+    "id": 80,
+    "character_id": 18,
+    "content": "556は常に正義の味方である！(Kogoro wa tsune ni seigi no mikata de aru!)",
+    "content_kr": "556은 항상 정의의 편이다!",
+    "episode_id": null,
+    "context": "정의의 사도를 자처하는 556의 자기 과시. 열정은 있지만 능력이 따라가지 않는다."
+  },
+  {
+    "id": 81,
+    "character_id": 19,
+    "content": "お兄ちゃん、また失敗したの？(Onii-chan, mata shippai shita no?)",
+    "content_kr": "오빠, 또 실패한 거야?",
+    "episode_id": null,
+    "context": "556의 여동생 라비에가 오빠의 실패에 담담하게 반응하는 대사. 익숙해진 일상."
+  },
+  {
+    "id": 82,
+    "character_id": 7,
+    "content": "俺っち、もっと強くなるっす！(Orecchi, motto tsuyoku naru ssu!)",
+    "content_kr": "나, 더 강해질 거예요!",
+    "episode_id": null,
+    "context": "급속 성장하며 타마마를 넘어서겠다는 타루루의 의지. 가루루 소대의 신예로서의 야망."
+  },
+  {
+    "id": 83,
+    "character_id": 8,
+    "content": "クルル先輩のシステム、もう古いっすよ。(Kururu-senpai no shisutemu, mou furui ssu yo.)",
+    "content_kr": "쿠루루 선배의 시스템, 이제 구식이에요.",
+    "episode_id": null,
+    "context": "쿠루루의 기술을 도발하는 토로로. 해킹 실력은 인정하지만 항상 쿠루루에게 한 수 밀린다."
+  },
+  {
+    "id": 84,
+    "character_id": 8,
+    "content": "ハッキングは芸術っす！(Hakkingu wa geijutsu ssu!)",
+    "content_kr": "해킹은 예술이에요!",
+    "episode_id": null,
+    "context": "자신의 해킹 실력에 자부심을 가진 토로로의 선언. 어린 나이지만 천재적 IT 능력의 소유자."
+  },
+  {
+    "id": 85,
+    "character_id": 1,
+    "content": "掃除…したくないであります…(Souji... shitakunai de arimasu...)",
+    "content_kr": "청소... 하기 싫であります...",
+    "episode_id": null,
+    "context": "나츠미에게 청소를 강요당하는 케로로의 처절한 한탄. 침략자의 위엄은 어디에도 없다."
+  },
+  {
+    "id": 86,
+    "character_id": 1,
+    "content": "侵略は計画的に行うであります！…来月から。(Shinryaku wa keikakuteki ni okonau de arimasu!... raigetsu kara.)",
+    "content_kr": "침략은 계획적으로 실행하겠であります!... 다음 달부터.",
+    "episode_id": null,
+    "context": "침략의 의지를 표명하면서도 결국 미루는 케로로의 전형적 패턴. 다음 달도 오지 않는다."
+  },
+  {
+    "id": 87,
+    "character_id": 2,
+    "content": "猫…お前だけが俺を理解してくれる。(Neko... omae dake ga ore wo rikai shite kureru.)",
+    "content_kr": "고양이... 너만이 나를 이해해 주는구나.",
+    "episode_id": null,
+    "context": "텐트에서 키우는 길고양이에게 마음을 터놓는 기로로의 쓸쓸한 독백. 전사의 외로움."
+  },
+  {
+    "id": 88,
+    "character_id": 5,
+    "content": "拙者のことは…いいのであります。(Sessha no koto wa... ii no de arimasu.)",
+    "content_kr": "소인의 일은... 괜찮습니다.",
+    "episode_id": null,
+    "context": "자신이 무시당해도 괜찮다며 체념하는 도로로의 슬픈 자기희생. 눈물이 흐르지만 미소 짓는다."
+  },
+  {
+    "id": 89,
+    "character_id": 36,
+    "content": "ケロロ小隊…必ず復讐してやる！(Keroro Shoutai... kanarazu fukushuu shite yaru!)",
+    "content_kr": "케로로 소대... 반드시 복수해 주겠다!",
+    "episode_id": 100,
+    "context": "슈라라가 케로로 소대에 대한 복수를 선언하는 대사. 슈라라 군단의 리더로서의 결의."
+  },
+  {
+    "id": 90,
+    "character_id": 36,
+    "content": "我がシュララ軍団の力を見せてやる！(Waga Shurara Gundan no chikara wo misete yaru!)",
+    "content_kr": "나의 슈라라 군단의 힘을 보여주겠다!",
+    "episode_id": 101,
+    "context": "슈라라 군단을 이끌며 총공격을 명령하는 장면. 각 군단원의 특수 능력을 조합한 전략."
+  },
+  {
+    "id": 91,
+    "character_id": 3,
+    "content": "大尉殿の一番は…タマタマでありますぅ！(Taii-dono no ichiban wa... Tamama de arimasu!)",
+    "content_kr": "대위님의 1번은... 타마마예요!",
+    "episode_id": null,
+    "context": "케로로의 최측근은 자신이라고 주장하는 타마마의 집착 어린 선언."
+  },
+  {
+    "id": 92,
+    "character_id": 1,
+    "content": "限定版であります！これは買わねば！(Gentei-ban de arimasu! Kore wa kawaneba!)",
+    "content_kr": "한정판であります! 이건 사야 해!",
+    "episode_id": null,
+    "context": "한정판 건프라를 발견한 케로로의 흥분. 침략 자금이 또 건프라로 사라지는 순간."
+  },
+  {
+    "id": 93,
+    "character_id": 2,
+    "content": "サツマイモ…焼けた。夏美殿に…いや、何でもない。(Satsumaimo... yaketa. Natsumi-dono ni... iya, nan demo nai.)",
+    "content_kr": "고구마... 구워졌다. 나츠미 공에게... 아니, 아무것도 아니야.",
+    "episode_id": null,
+    "context": "구운 고구마를 나츠미에게 주려다 부끄러워서 말을 멈추는 기로로의 츤데레 장면."
+  },
+  {
+    "id": 94,
+    "character_id": 4,
+    "content": "感情なんて非合理的だ。クックックッ。(Kanjou nante higouriteki da. Ku ku ku.)",
+    "content_kr": "감정 따위 비합리적이야. 쿠쿠쿠.",
+    "episode_id": null,
+    "context": "감정에 휘둘리는 동료들을 비웃는 쿠루루. 하지만 그 역시 카레에 약한 의외의 일면이 있다."
+  },
+  {
+    "id": 95,
+    "character_id": 12,
+    "content": "うちに宇宙人が住んでるなんて…信じられない。(Uchi ni uchuujin ga sunderu nante... shinjirarenai.)",
+    "content_kr": "우리 집에 외계인이 살고 있다니... 믿을 수 없어.",
+    "episode_id": 1,
+    "context": "처음 케로로 소대의 존재를 알았을 때 나츠미의 경악. 하지만 금세 적응하여 지배하게 된다."
+  },
+  {
+    "id": 96,
+    "character_id": 20,
+    "content": "お嬢様のお力になれて光栄です。(Ojou-sama no ochikara ni narete kouei desu.)",
+    "content_kr": "아가씨의 힘이 되어 영광입니다.",
+    "episode_id": null,
+    "context": "모모카의 충실한 집사 폴의 공손한 대사. 어떤 무리한 요구에도 완벽하게 수행한다."
+  },
+  {
+    "id": 97,
+    "character_id": 11,
+    "content": "軍曹、今日は何の作戦？(Gunsou, kyou wa nan no sakusen?)",
+    "content_kr": "군조, 오늘은 무슨 작전이야?",
+    "episode_id": null,
+    "context": "매일 새로운 작전에 기대감을 보이는 후유키. 침략 대상인데 오히려 즐기고 있다."
+  },
+  {
+    "id": 98,
+    "character_id": 1,
+    "content": "友情は宇宙を超えるであります！(Yuujou wa uchuu wo koeru de arimasu!)",
+    "content_kr": "우정은 우주를 넘는であります!",
+    "episode_id": null,
+    "context": "후유키와의 우정을 확인하는 감동적인 장면에서의 케로로 대사. 침략자와 침략 대상의 기묘한 우정."
+  },
+  {
+    "id": 99,
+    "character_id": 5,
+    "content": "小雪殿、共にこの星を守りましょう。(Koyuki-dono, tomo ni kono hoshi wo mamorimashou.)",
+    "content_kr": "코유키 님, 함께 이 별을 지킵시다.",
+    "episode_id": null,
+    "context": "파트너 코유키와 함께 지구를 지키겠다는 도로로의 맹세. 닌자 콤비의 유대감."
+  },
+  {
+    "id": 100,
+    "character_id": 14,
+    "content": "ペコポン滅亡まであと…あ、おじさま、お茶いりますか？(Pekopon metsubou made ato... a, Oji-sama, ocha irimasu ka?)",
+    "content_kr": "페코폰 멸망까지 앞으로... 아, 아저씨, 차 드실래요?",
+    "episode_id": null,
+    "context": "행성 멸망 카운트다운 중에 느닷없이 케로로에게 차를 권하는 앙골 모아의 초현실적 일상."
+  },
+  {
+    "id": 101,
+    "character_id": 6,
+    "content": "弟よ、お前の甘さが敗因だ。(Otouto yo, omae no amasa ga haiin da.)",
+    "content_kr": "동생아, 네 안이함이 패인이다.",
+    "episode_id": 15,
+    "context": "케로로의 나태함을 냉정하게 분석하는 형 가루루. 군인으로서의 엄격한 기준을 적용한다."
+  },
+  {
+    "id": 102,
+    "character_id": 9,
+    "content": "影に潜む者…それが暗殺者。(Kage ni hisomu mono... sore ga ansatsusha.)",
+    "content_kr": "그림자에 숨는 자... 그것이 암살자.",
+    "episode_id": null,
+    "context": "자신의 존재를 정의하는 조루루의 독백. 사이보그 반쪽이 어둠 속에서 빛나는 장면."
+  },
+  {
+    "id": 103,
+    "character_id": 1,
+    "content": "夏休みの宿題が…終わらないであります！(Natsuyasumi no shukudai ga... owaranai de arimasu!)",
+    "content_kr": "여름방학 숙제가... 끝나지 않であります!",
+    "episode_id": 50,
+    "context": "후유키의 여름방학 숙제를 대신해주다 패닉에 빠진 케로로. 침략자가 초등학생 숙제에 고전하는 코미디."
+  },
+  {
+    "id": 104,
+    "character_id": 15,
+    "content": "タママ、冬樹くんに手を出さないで。(Tamama, Fuyuki-kun ni te wo dasanaide.)",
+    "content_kr": "타마마, 후유키 군한테 손대지 마.",
+    "episode_id": null,
+    "context": "후유키를 독점하려는 모모카의 이중인격이 타마마를 경계하는 순간. 재벌의 위압감."
+  },
+  {
+    "id": 105,
+    "character_id": 2,
+    "content": "この星には…守るべきものがある。(Kono hoshi ni wa... mamoru beki mono ga aru.)",
+    "content_kr": "이 별에는... 지켜야 할 것이 있다.",
+    "episode_id": null,
+    "context": "나츠미에 대한 마음 때문에 점점 지구를 침략하기 싫어지는 기로로의 갈등이 담긴 독백."
+  }
+]

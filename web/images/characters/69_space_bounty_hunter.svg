@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <radialGradient id="alien69" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#7D878C"/>
+      <stop offset="100%" stop-color="#37474F"/>
+    </radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="#E8EAF6" stroke="#37474F" stroke-width="2"/>
+  <!-- Alien head (taller oval) -->
+  <ellipse cx="60" cy="55" rx="32" ry="40" fill="url(#alien69)" stroke="#212A2F" stroke-width="1.5"/>
+  <!-- Large eyes -->
+  <ellipse cx="45" cy="50" rx="10" ry="12" fill="white" stroke="#212A2F" stroke-width="1"/>
+  <ellipse cx="75" cy="50" rx="10" ry="12" fill="white" stroke="#212A2F" stroke-width="1"/>
+  <ellipse cx="47" cy="51" rx="5" ry="7" fill="#181F23"/>
+  <ellipse cx="77" cy="51" rx="5" ry="7" fill="#181F23"/>
+  <circle cx="48" cy="48" r="2.5" fill="white"/>
+  <circle cx="78" cy="48" r="2.5" fill="white"/>
+  <!-- Small nose dots -->
+  <circle cx="58" cy="65" r="1.5" fill="#212A2F"/>
+  <circle cx="62" cy="65" r="1.5" fill="#212A2F"/>
+  <!-- Smile -->
+  <path d="M 50 72 Q 60 80 70 72" fill="none" stroke="#212A2F" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Star accent -->
+  <polygon points="60.0,93.0 58.2,97.6 53.3,97.8 57.1,100.9 55.9,105.7 60.0,103.0 64.1,105.7 62.9,100.9 66.7,97.8 61.8,97.6" fill="#181F23" opacity="0.6"/>
+</svg>

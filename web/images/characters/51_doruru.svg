@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <radialGradient id="bg51" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#909090"/>
+      <stop offset="100%" stop-color="#616161"/>
+    </radialGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="2"/>
+  <!-- Body/head -->
+  <ellipse cx="60" cy="62" rx="38" ry="36" fill="url(#bg51)" stroke="#3F3F3F" stroke-width="1.5"/>
+  <!-- Head top bump (Keronian hat shape) -->
+  <ellipse cx="60" cy="32" rx="22" ry="14" fill="#616161" stroke="#3F3F3F" stroke-width="1.5"/>
+  <!-- Left eye white -->
+  <ellipse cx="42" cy="48" rx="14" ry="16" fill="white" stroke="#3F3F3F" stroke-width="1"/>
+  <!-- Right eye white -->
+  <ellipse cx="78" cy="48" rx="14" ry="16" fill="white" stroke="#3F3F3F" stroke-width="1"/>
+  <!-- Left pupil -->
+  <ellipse cx="44" cy="50" rx="6" ry="8" fill="#212121"/>
+  <ellipse cx="46" cy="47" rx="2.5" ry="3" fill="white"/>
+  <!-- Right pupil -->
+  <ellipse cx="76" cy="50" rx="6" ry="8" fill="#212121"/>
+  <ellipse cx="78" cy="47" rx="2.5" ry="3" fill="white"/>
+  <!-- Mouth (smile) -->
+  <path d="M 48 68 Q 60 78 72 68" fill="none" stroke="#3F3F3F" stroke-width="2" stroke-linecap="round"/>
+  <!-- Keron Star on belly -->
+  <polygon points="60.0,70.0 57.1,78.0 48.6,78.3 55.2,83.5 52.9,91.7 60.0,87.0 67.1,91.7 64.8,83.5 71.4,78.3 62.9,78.0" fill="#303030" stroke="#212121" stroke-width="1"/>
+</svg>

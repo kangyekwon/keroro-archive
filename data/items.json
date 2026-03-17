@@ -1,0 +1,497 @@
+[
+  {
+    "id": 1,
+    "name": "Kero Ball",
+    "name_kr": "케로 볼",
+    "category": "weapon",
+    "owner": "Keroro",
+    "description": "케로로 소대의 핵심 아이템. 케론 군의 최첨단 기술이 집약된 구슬로, 지구 침략을 위한 다양한 기능을 가지고 있다. 날씨 조작, 에너지 빔 등 만능에 가까운 성능을 자랑한다.",
+    "image_url": ""
+  },
+  {
+    "id": 2,
+    "name": "Star Mark",
+    "name_kr": "별 마크",
+    "category": "other",
+    "owner": "All Keronians",
+    "description": "모든 케론인의 배에 있는 별 모양의 심볼. 케론인의 에너지와 정체성을 상징하며, 이것을 잃으면 힘이 약해진다. 각 케론인마다 색상이 다르다.",
+    "image_url": ""
+  },
+  {
+    "id": 3,
+    "name": "Anti-Barrier",
+    "name_kr": "안티 배리어",
+    "category": "gadget",
+    "owner": "Keroro Platoon",
+    "description": "케로로 소대가 인간에게 모습을 숨기기 위해 사용하는 투명화 장치. 이 장치 덕분에 케론인들은 인간 사회에서 들키지 않고 활동할 수 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 4,
+    "name": "Reality Pen",
+    "name_kr": "리얼리티 펜",
+    "category": "gadget",
+    "owner": "Saburo",
+    "description": "쿠루루가 발명하여 사부로에게 준 특수 펜. 이 펜으로 그린 것은 현실이 되며, 사부로는 이를 이용해 다양한 물건이나 현상을 만들어낸다.",
+    "image_url": ""
+  },
+  {
+    "id": 5,
+    "name": "Lucifer Spear",
+    "name_kr": "루시퍼 스피어",
+    "category": "weapon",
+    "owner": "Angol Mois",
+    "description": "앙골 모아가 사용하는 행성 파괴급 무기. 위력을 조절할 수 있으며, 만분의 1 위력으로도 엄청난 파괴를 일으킨다. 앙골 족의 사명인 행성 파괴를 위한 궁극 무기.",
+    "image_url": ""
+  },
+  {
+    "id": 6,
+    "name": "Giroro's Weapons Arsenal",
+    "name_kr": "기로로의 무기 창고",
+    "category": "weapon",
+    "owner": "Giroro",
+    "description": "기로로가 텐트 주변에 비축해둔 방대한 무기 컬렉션. 미사일 런처, 기관총, 수류탄 등 각종 군사 무기들이 포함되어 있으며, 전투 상황에 따라 다양하게 활용한다.",
+    "image_url": ""
+  },
+  {
+    "id": 7,
+    "name": "Kururu's Laptop",
+    "name_kr": "쿠루루의 노트북",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "쿠루루가 항상 가지고 다니는 케론 기술 노트북. 해킹, 발명 설계, 데이터 분석 등 모든 기술적 작업의 핵심 도구로, 지구의 어떤 시스템이든 침투할 수 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 8,
+    "name": "Dororo's Ninja Blade",
+    "name_kr": "도로로의 닌자 검",
+    "category": "weapon",
+    "owner": "Dororo",
+    "description": "도로로가 사용하는 닌자 전용 검. 케론 기술과 닌자 기술이 결합된 특수 무기로, 암살 임무에 최적화되어 있다. 도로로의 상징적인 무기.",
+    "image_url": ""
+  },
+  {
+    "id": 9,
+    "name": "Invasion Tick",
+    "name_kr": "침략 틱",
+    "category": "gadget",
+    "owner": "Keroro Platoon",
+    "description": "케로로가 침략 작전의 진행도를 체크하는 보드와 도구. 매번 새로운 작전을 세울 때마다 사용하지만, 체크되는 일은 거의 없다.",
+    "image_url": ""
+  },
+  {
+    "id": 10,
+    "name": "Keronian Suit",
+    "name_kr": "케론 슈트",
+    "category": "gadget",
+    "owner": "All Keronians",
+    "description": "케론인이 착용하는 기본 전투복. 각 개인의 색상과 계급이 표시되며, 다양한 환경에 적응할 수 있는 기능이 내장되어 있다. 습도가 없으면 건조해져 위험하다.",
+    "image_url": ""
+  },
+  {
+    "id": 11,
+    "name": "Age-Changing Gun",
+    "name_kr": "나이 변환 총",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "쿠루루가 발명한 나이를 변환시키는 총. 맞은 대상의 나이를 어리게 또는 많게 바꿀 수 있다. 여러 에피소드에서 소동의 원인이 된다.",
+    "image_url": ""
+  },
+  {
+    "id": 12,
+    "name": "Gender-Swap Gun",
+    "name_kr": "성별 전환 총",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "쿠루루의 발명품 중 하나로 대상의 성별을 바꾸는 총. 소대원들과 인간 캐릭터들이 이 총에 맞아 성별이 바뀌는 코미디 에피소드가 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 13,
+    "name": "Nishizawa Peach Group Resources",
+    "name_kr": "니시자와 피치 그룹 자원",
+    "category": "other",
+    "owner": "Momoka Nishizawa",
+    "description": "니시자와 재벌의 무한한 재력과 자원. 사설 군대, 전투 헬기, 거대 기지 등 모모카가 후유키를 위해 동원하는 엄청난 규모의 자산.",
+    "image_url": ""
+  },
+  {
+    "id": 14,
+    "name": "Tamama's Snack Stash",
+    "name_kr": "타마마의 간식 창고",
+    "category": "other",
+    "owner": "Tamama",
+    "description": "타마마가 니시자와 저택에서 모아둔 엄청난 양의 간식과 과자. 타마마의 식욕을 보여주는 아이템으로, 간식을 통해 에너지를 충전한다.",
+    "image_url": ""
+  },
+  {
+    "id": 15,
+    "name": "Keroro's Gunpla Collection",
+    "name_kr": "케로로의 건프라 컬렉션",
+    "category": "other",
+    "owner": "Keroro",
+    "description": "케로로가 지구에서 수집한 방대한 건프라(건담 프라모델) 컬렉션. 침략 예산을 건프라 구매에 사용할 정도로 집착하며, 후유키의 방에 가득 쌓여있다.",
+    "image_url": ""
+  },
+  {
+    "id": 16,
+    "name": "Keron Star",
+    "name_kr": "케론 스타",
+    "category": "gadget",
+    "owner": "Keroro Platoon",
+    "description": "케로로 소대에게 부여된 특수 훈장. 케론군의 공식 임무 수행 자격을 나타내며, 소대의 권한과 직결된다. 이것을 빼앗기면 소대가 해산될 수 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 17,
+    "name": "Platoon Base (Underground)",
+    "name_kr": "소대 기지 (지하)",
+    "category": "vehicle",
+    "owner": "Keroro Platoon",
+    "description": "히나타 가족 집 지하에 건설된 케로로 소대의 비밀 기지. 쿠루루의 연구실, 작전 회의실, 각종 시설이 갖추어져 있으며, 집보다 훨씬 넓은 공간이 펼쳐져 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 18,
+    "name": "Keroro Robot",
+    "name_kr": "케로로 로봇",
+    "category": "vehicle",
+    "owner": "Keroro Platoon",
+    "description": "케로로 소대가 탑승하는 거대 합체 로봇. 위기 상황에서 소대원 전원이 탑승하여 조종하며, 케론 기술의 결정체. 다양한 형태로 변형이 가능하다.",
+    "image_url": ""
+  },
+  {
+    "id": 19,
+    "name": "Memory Erasing Flash",
+    "name_kr": "기억 소거 플래시",
+    "category": "gadget",
+    "owner": "Keroro Platoon",
+    "description": "인간에게 들켰을 때 사용하는 기억 소거 장치. 플래시를 터뜨리면 대상의 최근 기억을 지울 수 있다. 케론인의 존재를 비밀로 유지하기 위한 필수 장비.",
+    "image_url": ""
+  },
+  {
+    "id": 20,
+    "name": "Giroro's Tent",
+    "name_kr": "기로로의 텐트",
+    "category": "other",
+    "owner": "Giroro",
+    "description": "기로로가 히나타 가족 집 마당에 설치한 텐트. 전투 전문가다운 야전 생활의 거점으로, 무기 정비와 훈련을 이곳에서 한다. 고양이와 함께 지내는 아지트.",
+    "image_url": ""
+  },
+  {
+    "id": 21,
+    "name": "Space Motorcycle",
+    "name_kr": "우주 오토바이",
+    "category": "vehicle",
+    "owner": "Giroro",
+    "description": "기로로가 사용하는 케론 군용 우주 오토바이. 대기권 돌파가 가능하며 고속 이동과 전투에 적합한 무장이 탑재되어 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 22,
+    "name": "Zoruru's Cybernetic Body",
+    "name_kr": "조루루의 사이보그 몸",
+    "category": "weapon",
+    "owner": "Zoruru",
+    "description": "조루루의 몸 반쪽을 구성하는 기계 장치. 도로로에게 패배한 후 개조된 것으로, 각종 암살 무기와 스텔스 기능이 내장되어 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 23,
+    "name": "Pururu's Medical Kit",
+    "name_kr": "푸루루의 의료 키트",
+    "category": "gadget",
+    "owner": "Pururu",
+    "description": "푸루루가 소지하는 케론 군용 의료 장비. 케론인과 지구인 모두 치료할 수 있는 고급 의료 기술이 담겨 있으며, 전장에서의 응급 치료에 특화되어 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 24,
+    "name": "Garuru's Elite Rifle",
+    "name_kr": "가루루의 엘리트 소총",
+    "category": "weapon",
+    "owner": "Garuru",
+    "description": "가루루가 사용하는 케론군 최상급 전투 소총. 일반 무기와는 차원이 다른 정확도와 파괴력을 자랑하며, 엘리트 부대장의 위엄에 걸맞는 무기.",
+    "image_url": ""
+  },
+  {
+    "id": 25,
+    "name": "Humidity Maker",
+    "name_kr": "습도 조절기",
+    "category": "gadget",
+    "owner": "Keroro Platoon",
+    "description": "케론인에게 필수적인 습도를 유지해주는 장치. 케론인은 양서류 기반이라 건조한 환경에서 약해지므로, 이 장치로 적정 습도를 유지해야 한다.",
+    "image_url": ""
+  },
+  {
+    "id": 26,
+    "name": "Memory Eraser Device",
+    "name_kr": "기억 소거 장치",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "쿠루루가 개발한 고급 기억 소거 장치. 기억 소거 플래시의 업그레이드 버전으로, 특정 기억만 선택적으로 삭제하거나 가짜 기억을 심을 수 있다. 윤리적 문제는 쿠루루에게 관심 밖이다.",
+    "image_url": ""
+  },
+  {
+    "id": 27,
+    "name": "Body Swap Machine",
+    "name_kr": "몸 교환 장치",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "두 사람의 정신을 교환하여 서로의 몸에 들어가게 하는 장치. 케로로와 후유키, 나츠미와 기로로 등 다양한 조합의 몸 교환 에피소드를 만들어낸 소동의 근원.",
+    "image_url": ""
+  },
+  {
+    "id": 28,
+    "name": "Cloning Machine",
+    "name_kr": "복제 장치",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "대상을 완벽하게 복제하는 장치. 케로로의 복제품이 여러 개 만들어져 대혼란을 일으킨 에피소드가 있다. 복제품은 원본의 성격을 극단적으로 증폭시키는 부작용이 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 29,
+    "name": "Size Changer",
+    "name_kr": "크기 변환 장치",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "대상의 크기를 자유자재로 변환하는 장치. 케론인들이 거대화하거나 인간이 축소되는 등 다양한 에피소드에서 활용된다. 효과 시간이 제한적이라는 단점이 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 30,
+    "name": "Weather Machine",
+    "name_kr": "날씨 조종 장치",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "특정 지역의 날씨를 인위적으로 조종하는 장치. 케로 볼의 기능과 별개로 쿠루루가 독자적으로 개발한 것으로, 폭풍, 폭설, 폭염 등을 자유롭게 만들어낸다.",
+    "image_url": ""
+  },
+  {
+    "id": 31,
+    "name": "Time Machine",
+    "name_kr": "타임머신",
+    "category": "vehicle",
+    "owner": "Kururu",
+    "description": "시간 여행을 가능하게 하는 장치. 과거와 미래를 오가며 다양한 시간대의 모험을 할 수 있다. 타임 패러독스의 위험이 있어 사용에 주의가 필요하지만, 케로로 소대는 자주 무시한다.",
+    "image_url": ""
+  },
+  {
+    "id": 32,
+    "name": "Dream Invader",
+    "name_kr": "꿈 침입 장치",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "타인의 꿈속에 침입할 수 있는 장치. 케로로 소대가 히나타 가족이나 서로의 꿈에 들어가 소동을 벌이는 에피소드에 등장한다. 꿈속에서의 행동이 현실에 영향을 줄 수 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 33,
+    "name": "Emotion Amplifier",
+    "name_kr": "감정 증폭기",
+    "category": "gadget",
+    "owner": "Kururu",
+    "description": "대상의 감정을 극도로 증폭시키는 장치. 기로로의 나츠미에 대한 사랑, 타마마의 질투, 케로로의 건프라 집착 등이 폭주하여 대혼란을 일으킨다. 쿠루루의 가장 악질적인 발명 중 하나.",
+    "image_url": ""
+  },
+  {
+    "id": 34,
+    "name": "Giroro's Missile Launcher",
+    "name_kr": "기로로의 미사일 런처",
+    "category": "weapon",
+    "owner": "Giroro",
+    "description": "기로로의 주력 중화기. 케론 기술로 소형화되어 있지만 파괴력은 지구의 미사일에 필적한다. 전투 시 등에 메고 다니며, 정확한 조준 사격이 가능하다.",
+    "image_url": ""
+  },
+  {
+    "id": 35,
+    "name": "Giroro's Belt Weapon Collection",
+    "name_kr": "기로로의 벨트 무기 컬렉션",
+    "category": "weapon",
+    "owner": "Giroro",
+    "description": "기로로의 벨트에 장착된 다양한 소형 무기들. 나이프, 소형 총기, 수류탄, 연막탄 등 상황에 맞는 무기를 즉시 꺼내 사용할 수 있는 전투 전문가의 필수 장비.",
+    "image_url": ""
+  },
+  {
+    "id": 36,
+    "name": "Tamama Impact Energy Core",
+    "name_kr": "타마마 임팩트 에너지원",
+    "category": "weapon",
+    "owner": "Tamama",
+    "description": "타마마의 체내에 있는 특수 에너지 기관. 질투와 분노 등 부정적 감정이 에너지원이 되며, 입에서 강력한 에너지 빔을 발사한다. 하이퍼 모드에서는 출력이 몇 배로 증가한다.",
+    "image_url": ""
+  },
+  {
+    "id": 37,
+    "name": "Dororo's Shuriken Set",
+    "name_kr": "도로로의 수리검 세트",
+    "category": "weapon",
+    "owner": "Dororo",
+    "description": "도로로가 사용하는 케론 기술이 적용된 특수 수리검 세트. 일반 수리검보다 날카롭고 정확하며, 추적 기능이나 폭발 기능 등 다양한 특수 수리검이 포함되어 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 38,
+    "name": "Zoruru's Laser Arm",
+    "name_kr": "조루루의 레이저 팔",
+    "category": "weapon",
+    "owner": "Zoruru",
+    "description": "조루루의 사이보그 팔에 내장된 고출력 레이저 무기. 암살 임무에 특화된 무기로, 순간적으로 발사되어 대상을 정확히 관통한다. 스텔스 상태에서의 기습에 최적화되어 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 39,
+    "name": "Keroro Robo Mark II",
+    "name_kr": "케로로 로보 마크 II",
+    "category": "vehicle",
+    "owner": "Keroro Platoon",
+    "description": "케로로 로봇의 개량형. 초기 모델의 약점을 보완하고 화력과 방어력이 대폭 강화되었다. 5인 합체 시스템은 유지하되, 각 파일럿의 특기를 더 효과적으로 반영하는 전투 시스템을 갖추고 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 40,
+    "name": "Keron Army Transport Ship",
+    "name_kr": "케론군 수송선",
+    "category": "vehicle",
+    "owner": "Keron Army",
+    "description": "케론 군이 병력과 물자를 수송하는 대형 우주선. 케로로 소대가 지구에 올 때 탑승했던 선박으로, 워프 항법이 가능하며 대규모 병력을 수용할 수 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 41,
+    "name": "Garuru Platoon Assault Ship",
+    "name_kr": "가루루 소대 돌격선",
+    "category": "vehicle",
+    "owner": "Garuru Platoon",
+    "description": "가루루 소대 전용 고속 돌격 우주선. 케론군 일반 수송선보다 훨씬 빠르고 전투에 특화된 설계. 스텔스 기능과 강력한 화력을 갖추고 있으며, 가루루 소대의 엘리트 임무에 사용된다.",
+    "image_url": ""
+  },
+  {
+    "id": 42,
+    "name": "Invasion Plan Notebook",
+    "name_kr": "침략 작전 노트",
+    "category": "other",
+    "owner": "Keroro",
+    "description": "케로로가 매번 새로운 침략 작전을 적어놓는 노트. 수백 개의 작전이 기록되어 있지만 성공한 것은 하나도 없다. 건프라 조립 메모와 침략 계획이 뒤섞여 있는 것이 특징.",
+    "image_url": ""
+  },
+  {
+    "id": 43,
+    "name": "Pekopon Suit (Disguise Kit)",
+    "name_kr": "페코폰인 변장 세트",
+    "category": "gadget",
+    "owner": "Keroro Platoon",
+    "description": "케론인이 인간으로 변장할 수 있는 변장 키트. 홀로그램 기술로 인간의 외모를 투영하지만, 완성도가 낮아 자세히 보면 어색한 부분이 있다. 안티 배리어보다 적극적인 위장 수단.",
+    "image_url": ""
+  },
+  {
+    "id": 44,
+    "name": "Natsumi's Cell Phone",
+    "name_kr": "나츠미의 핸드폰",
+    "category": "other",
+    "owner": "Natsumi Hinata",
+    "description": "나츠미가 사용하는 핸드폰. 케로로의 소동에 의해 자주 파괴되거나 이상한 기능이 추가되는 불운한 아이템. 623의 라디오를 듣는 데도 사용하며, 여러 번 교체되었다.",
+    "image_url": ""
+  },
+  {
+    "id": 45,
+    "name": "Nishizawa Family Black Card",
+    "name_kr": "니시자와 가문 블랙카드",
+    "category": "other",
+    "owner": "Momoka Nishizawa",
+    "description": "니시자와 재벌의 무제한 신용카드. 세계 어디서든 사용 가능하며 한도가 없다. 모모카가 후유키를 위한 데이트나 이벤트에 아낌없이 사용하는 재력의 상징.",
+    "image_url": ""
+  },
+  {
+    "id": 46,
+    "name": "Kururu's Curry Collection",
+    "name_kr": "쿠루루의 카레 컬렉션",
+    "category": "other",
+    "owner": "Kururu",
+    "description": "쿠루루가 수집하고 연구하는 다양한 카레 레시피와 재료. 음침하고 성격 나쁜 쿠루루의 유일한 약점이자 취미. 카레 앞에서만큼은 기분이 좋아져 음흉한 웃음이 줄어든다.",
+    "image_url": ""
+  },
+  {
+    "id": 47,
+    "name": "Dororo's Trauma Switch",
+    "name_kr": "도로로의 트라우마 스위치",
+    "category": "other",
+    "owner": "Dororo",
+    "description": "도로로의 마음속에 존재하는 비유적 장치. 어린 시절 케로로에게 왕따당한 기억이 촉발되면 트라우마 스위치가 '온'이 되어 구석에서 웅크리며 과거를 회상하게 된다.",
+    "image_url": ""
+  },
+  {
+    "id": 48,
+    "name": "Keroro's Cleaning Tools",
+    "name_kr": "케로로의 청소 도구",
+    "category": "other",
+    "owner": "Keroro",
+    "description": "나츠미에게 강제로 받은 청소 도구 세트. 걸레, 양동이, 빗자루 등 기본적인 청소 용품으로, 침략자의 위엄이 바닥에 떨어지는 상징적 아이템. 케론 기술은 전혀 적용되지 않았다.",
+    "image_url": ""
+  },
+  {
+    "id": 49,
+    "name": "556's Detective Badge",
+    "name_kr": "556의 탐정 배지",
+    "category": "other",
+    "owner": "Kogoro (556)",
+    "description": "자칭 우주 탐정 556이 자랑스럽게 착용하는 자체 제작 배지. 공식 자격증은 없지만 본인은 진짜 탐정이라 믿고 있으며, 외계인 사건을 추적한다. 정작 옆집 외계인은 모른다.",
+    "image_url": ""
+  },
+  {
+    "id": 50,
+    "name": "Gravity Knife",
+    "name_kr": "중력 나이프",
+    "category": "weapon",
+    "owner": "Garuru Platoon",
+    "description": "가루루 소대가 사용하는 특수 근접 전투 무기. 중력을 조작하는 기술이 적용되어 일반 칼날보다 훨씬 강력한 절단력을 발휘한다. 근접전에서의 결정적 무기.",
+    "image_url": ""
+  },
+  {
+    "id": 51,
+    "name": "Fuyuki's Occult Collection",
+    "name_kr": "후유키의 오컬트 컬렉션",
+    "category": "other",
+    "owner": "Fuyuki Hinata",
+    "description": "후유키가 수집한 오컬트 관련 서적, 부적, 기묘한 물건들의 모음. 케로로와의 만남 이후 실제 초자연적 아이템도 섞이게 되었으며, 후유키의 방 한쪽을 차지하고 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 52,
+    "name": "Koyuki's Ninja Tools",
+    "name_kr": "코유키의 닌자 도구",
+    "category": "weapon",
+    "owner": "Koyuki",
+    "description": "코유키가 닌자 수행에 사용하는 전통 닌자 도구 세트. 쿠나이, 연막탄, 갈고리 밧줄 등이 포함되어 있으며, 도로로에게 배운 기술과 함께 능숙하게 사용한다.",
+    "image_url": ""
+  },
+  {
+    "id": 53,
+    "name": "Shurara's Revenge Medallion",
+    "name_kr": "슈라라의 복수 메달리온",
+    "category": "other",
+    "owner": "Shurara",
+    "description": "슈라라가 케로로 소대에 대한 복수의 다짐을 새긴 메달리온. 슈라라 군단의 상징이자 지휘관의 증표. 이 메달리온에 복수의 의지가 담겨 있으며 군단원들을 통솔하는 힘의 원천.",
+    "image_url": ""
+  },
+  {
+    "id": 54,
+    "name": "Telepathy Communication Device",
+    "name_kr": "텔레파시 통신 장치",
+    "category": "gadget",
+    "owner": "Keroro Platoon",
+    "description": "케로로 소대원 간 원거리 텔레파시 통신을 가능하게 하는 장치. 각 소대원의 헬멧이나 모자에 내장되어 있으며, 작전 중 음성 없이 의사소통할 수 있다.",
+    "image_url": ""
+  },
+  {
+    "id": 55,
+    "name": "Giroro's Sweet Potato Stove",
+    "name_kr": "기로로의 고구마 화로",
+    "category": "other",
+    "owner": "Giroro",
+    "description": "기로로가 텐트 옆에 두고 고구마를 구워먹는 간이 화로. 전투의 전문가가 고구마를 구우며 나츠미를 생각하는 의외의 일면을 보여주는 아이템. 나츠미에게 건네고 싶지만 매번 실패한다.",
+    "image_url": ""
+  }
+]

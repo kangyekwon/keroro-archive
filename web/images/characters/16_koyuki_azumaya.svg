@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="2"/>
+  <!-- Neck -->
+  <rect x="52" y="85" width="16" height="15" rx="3" fill="#F5CBA7"/>
+  <!-- Shirt -->
+  <path d="M 35 100 Q 38 90 52 92 L 68 92 Q 82 90 85 100 L 85 118 L 35 118 Z" fill="#263238" stroke="#1A2327" stroke-width="1"/>
+  <!-- Face -->
+  <ellipse cx="60" cy="55" rx="30" ry="34" fill="#F5CBA7" stroke="#D0AC8D" stroke-width="1"/>
+  <!-- Hair -->
+  <path d="M 28 52 Q 28 20 60 16 Q 92 20 92 52 L 92 80 Q 90 85 86 80 L 86 50 Q 84 25 60 22 Q 36 25 34 50 L 34 80 Q 30 85 28 80 Z" fill="#D84315" stroke="#972E0E" stroke-width="1"/>
+  <!-- Left eye -->
+  <ellipse cx="48" cy="55" rx="4" ry="4.5" fill="#212121"/>
+  <ellipse cx="49.5" cy="53.5" rx="1.5" ry="1.5" fill="white"/>
+  <!-- Right eye -->
+  <ellipse cx="72" cy="55" rx="4" ry="4.5" fill="#212121"/>
+  <ellipse cx="73.5" cy="53.5" rx="1.5" ry="1.5" fill="white"/>
+  <!-- Nose -->
+  <path d="M 59 60 Q 60 64 62 60" fill="none" stroke="#D0AC8D" stroke-width="1" stroke-linecap="round"/>
+  <!-- Mouth (smile) -->
+  <path d="M 52 70 Q 60 77 68 70" fill="none" stroke="#937964" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Cheek blush -->
+  <ellipse cx="38" cy="65" rx="5" ry="3" fill="#FFCDD2" opacity="0.5"/>
+  <ellipse cx="82" cy="65" rx="5" ry="3" fill="#FFCDD2" opacity="0.5"/>
+</svg>
