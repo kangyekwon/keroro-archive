@@ -181,18 +181,18 @@ document.addEventListener('DOMContentLoaded', function() {
             var e1 = document.getElementById('stat-characters');
             var e2 = document.getElementById('stat-episodes');
             var e3 = document.getElementById('stat-quotes');
-            if (e1) e1.textContent = (stats.total_characters || 0).toLocaleString();
-            if (e2) e2.textContent = (stats.total_episodes || 0).toLocaleString();
-            if (e3) e3.textContent = (stats.total_quotes || 0).toLocaleString();
+            if (e1) e1.textContent = (stats.characters || 0).toLocaleString();
+            if (e2) e2.textContent = (stats.episodes || 0).toLocaleString();
+            if (e3) e3.textContent = (stats.quotes || 0).toLocaleString();
 
             var c1 = document.getElementById('stat-card-characters');
             var c2 = document.getElementById('stat-card-episodes');
             var c3 = document.getElementById('stat-card-quotes');
             var c4 = document.getElementById('stat-card-items');
-            if (c1) c1.textContent = (stats.total_characters || 0).toLocaleString();
-            if (c2) c2.textContent = (stats.total_episodes || 0).toLocaleString();
-            if (c3) c3.textContent = (stats.total_quotes || 0).toLocaleString();
-            if (c4) c4.textContent = (stats.total_items || 0).toLocaleString();
+            if (c1) c1.textContent = (stats.characters || 0).toLocaleString();
+            if (c2) c2.textContent = (stats.episodes || 0).toLocaleString();
+            if (c3) c3.textContent = (stats.quotes || 0).toLocaleString();
+            if (c4) c4.textContent = (stats.items || 0).toLocaleString();
         } catch (e) {
             console.log('Stats load failed:', e);
         }
