@@ -1,0 +1,93 @@
+[
+  {
+    "mal_id": 11299,
+    "type": "anime",
+    "name": "Kero 0: Shuppatsu da yo! Zenin Shuugou!",
+    "url": "https://myanimelist.net/anime/11299/Kero_0__Shuppatsu_da_yo_Zenin_Shuugou",
+    "relation": "Prequel"
+  },
+  {
+    "mal_id": 390,
+    "type": "manga",
+    "name": "Keroro Gunsou",
+    "url": "https://myanimelist.net/manga/390/Keroro_Gunsou",
+    "relation": "Adaptation"
+  },
+  {
+    "mal_id": 2407,
+    "type": "anime",
+    "name": "Keroro Gunsou Movie 1",
+    "url": "https://myanimelist.net/anime/2407/Keroro_Gunsou_Movie_1",
+    "relation": "Side Story"
+  },
+  {
+    "mal_id": 2408,
+    "type": "anime",
+    "name": "Keroro Gunsou Movie 2: Shinkai no Princess de Arimasu!",
+    "url": "https://myanimelist.net/anime/2408/Keroro_Gunsou_Movie_2__Shinkai_no_Princess_de_Arimasu",
+    "relation": "Side Story"
+  },
+  {
+    "mal_id": 5290,
+    "type": "anime",
+    "name": "Keroro Gunsou Movie 3: Tenkuu Daikessen de Arimasu!",
+    "url": "https://myanimelist.net/anime/5290/Keroro_Gunsou_Movie_3__Tenkuu_Daikessen_de_Arimasu",
+    "relation": "Side Story"
+  },
+  {
+    "mal_id": 5710,
+    "type": "anime",
+    "name": "Keroro Gunsou Movie 4: Gekishin Dragon Warriors de Arimasu!",
+    "url": "https://myanimelist.net/anime/5710/Keroro_Gunsou_Movie_4__Gekishin_Dragon_Warriors_de_Arimasu",
+    "relation": "Side Story"
+  },
+  {
+    "mal_id": 8134,
+    "type": "anime",
+    "name": "Keroro Gunsou Movie 5: Tanjou! Kyuukyoku Keroro, Kiseki no Jikuu-jima, de Arimasu!!",
+    "url": "https://myanimelist.net/anime/8134/Keroro_Gunsou_Movie_5__Tanjou_Kyuukyoku_Keroro_Kiseki_no_Jikuu-jima_de_Arimasu",
+    "relation": "Side Story"
+  },
+  {
+    "mal_id": 54355,
+    "type": "anime",
+    "name": "Keroro Gunsou Chou Rittai-ban: Hoshizora wo Torimodose! Taiyoukei Daitsuiseki de Arimasu!!",
+    "url": "https://myanimelist.net/anime/54355/Keroro_Gunsou_Chou_Rittai-ban__Hoshizora_wo_Torimodose_Taiyoukei_Daitsuiseki_de_Arimasu",
+    "relation": "Side Story"
+  },
+  {
+    "mal_id": 58773,
+    "type": "anime",
+    "name": "Keroro Gunsou Movie 6: Fukkatsu shite Sokkou Chikyuu Metsubou no Kiki de Arimasu!",
+    "url": "https://myanimelist.net/anime/58773/Keroro_Gunsou_Movie_6__Fukkatsu_shite_Sokkou_Chikyuu_Metsubou_no_Kiki_de_Arimasu",
+    "relation": "Side Story"
+  },
+  {
+    "mal_id": 5449,
+    "type": "anime",
+    "name": "Chibi Kero: Kerobouru no Himitsu!?",
+    "url": "https://myanimelist.net/anime/5449/Chibi_Kero__Kerobouru_no_Himitsu",
+    "relation": "Spin-Off"
+  },
+  {
+    "mal_id": 21671,
+    "type": "anime",
+    "name": "Keroro",
+    "url": "https://myanimelist.net/anime/21671/Keroro",
+    "relation": "Alternative Version"
+  },
+  {
+    "mal_id": 63157,
+    "type": "anime",
+    "name": "Keroro Gunsou☆",
+    "url": "https://myanimelist.net/anime/63157/Keroro_Gunsou☆",
+    "relation": "Alternative Version"
+  },
+  {
+    "mal_id": 50662,
+    "type": "anime",
+    "name": "Keroro Gunsou x No More Eiga Dorobou",
+    "url": "https://myanimelist.net/anime/50662/Keroro_Gunsou_x_No_More_Eiga_Dorobou",
+    "relation": "Character"
+  }
+]

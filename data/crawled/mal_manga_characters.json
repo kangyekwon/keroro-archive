@@ -1,0 +1,260 @@
+[
+  {
+    "mal_id": 1249,
+    "name": "Dororo",
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/71814.jpg?s=f87a26f9e788b6d43130b3b79c0c01d1",
+    "role": "Main"
+  },
+  {
+    "mal_id": 1246,
+    "name": "Giroro",
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/111099.jpg?s=c789d26cba0badc159e3bbae0515ad4a",
+    "role": "Main"
+  },
+  {
+    "mal_id": 5652,
+    "name": "Hinata, Natsumi",
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/89654.jpg?s=8a7e1e5287b84a7174e94f6b058ea5a3",
+    "role": "Main"
+  },
+  {
+    "mal_id": 5651,
+    "name": "Hinata, Fuyuki",
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/48840.jpg?s=962355f3c5587c08c870bedb1a430a92",
+    "role": "Main"
+  },
+  {
+    "mal_id": 1245,
+    "name": "Keroro",
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/111101.jpg?s=66a6a10773eb91ee72f4f6cafe21d143",
+    "role": "Main"
+  },
+  {
+    "mal_id": 1248,
+    "name": "Kururu",
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/111100.jpg?s=be3f7f491fc128620dc8f53aac07c45d",
+    "role": "Main"
+  },
+  {
+    "mal_id": 1247,
+    "name": "Tamama",
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/88599.jpg?s=f4a6c0a9849930c1bf542adbbf9abc50",
+    "role": "Main"
+  },
+  {
+    "mal_id": 5404,
+    "name": "Azumaya, Koyuki",
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/215087.jpg?s=16718b9da21433bd2c6a8d52aeac0228",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 31014,
+    "name": "Dracoon, Félicitation du",
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/82644.jpg?s=99ff6aa3b6713baa699052fc85683474",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 144877,
+    "name": "Father, Giroro and Garuru's",
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/599534.jpg?s=926e7447ee9d72301fa71fe192908107",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 174160,
+    "name": "Fear, Angol",
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/390485.jpg?s=387f40d14a8a3e1adfd59e3494b17a8d",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5694,
+    "name": "Garuru",
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/71812.jpg?s=27b23fe5ad3f4b81af3c2615324b9947",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 138646,
+    "name": "Goa, Angol",
+    "image_url": "https://cdn.myanimelist.net/images/characters/10/300594.jpg?s=320553028628207c47f48cbe81ed2972",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 101191,
+    "name": "Hinata, Akina",
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/599532.jpg?s=5a5cb261d198b78c7a79006e5c8d6764",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5662,
+    "name": "Hinata, Aki",
+    "image_url": "https://cdn.myanimelist.net/images/characters/7/71817.jpg?s=71afcbad4a90f36477a579a2fe1dde37",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 10159,
+    "name": "Honey, Melody",
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/480557.jpg?s=c25724b77b9650dfb08fdaa645917502",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 138626,
+    "name": "Jirara",
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/300577.jpg?s=028de20817018c09a4077a3e1b93b420",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 105189,
+    "name": "Joriri",
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/243057.jpg?s=653b91449f027730c1f45d878a3604e8",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 32891,
+    "name": "Karara",
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/88600.jpg?s=5e43b4be56d14302d44ad1e897d19472",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 138630,
+    "name": "Keroro's father",
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/300580.jpg?s=4ec983e2b528fedb4afd6b72986a6592",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5688,
+    "name": "Kogoro",
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/111102.jpg?s=20cded9c7fc5f283fdb07c6a38f6b291",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 10158,
+    "name": "Koneko",
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/88595.jpg?s=8a7136cf53b625a8f33562e24a8328a7",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 10469,
+    "name": "Lavie",
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/88602.jpg?s=f339e171a13af28678467c0c325caa68",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 38791,
+    "name": "Meru",
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/106315.jpg?s=0d51ef7b6458574809fcf65e7ccbd27c",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5673,
+    "name": "Mois, Angol",
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/48841.jpg?s=99585a41106e378422f48d33199f4db4",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5667,
+    "name": "Moriyama, Paul",
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/8551.jpg?s=c68f56af4a8a6c90a8f6bfbe1eb2264b",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 10157,
+    "name": "Nishizawa, Baio",
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/18234.jpg?s=7689da4ca0f18776f044de9735e96f4c",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5653,
+    "name": "Nishizawa, Momoka",
+    "image_url": "https://cdn.myanimelist.net/images/characters/12/486970.jpg?s=94d9cad6459203d3aafeeb5619481faa",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 9018,
+    "name": "Omiyo",
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/88603.jpg?s=d1fd320d6e84f85f10e829d4d8238fed",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 10281,
+    "name": "Poyon",
+    "image_url": "https://cdn.myanimelist.net/images/characters/6/88601.jpg?s=90c76f5dafb40ea77ef989b0874eb7a3",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5709,
+    "name": "Pururu",
+    "image_url": "https://cdn.myanimelist.net/images/characters/16/71820.jpg?s=dbaa358bbf63aef6bc6c3253e7f6cba8",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5668,
+    "name": "Saburo, Mutsumi",
+    "image_url": "https://cdn.myanimelist.net/images/characters/14/71819.jpg?s=fe1718096d247ea890ce12a4c593aff4",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 13409,
+    "name": "Sakuragasaki, Fubuki",
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/89305.jpg?s=81dc539a3e6b7050132a643d7de12279",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 73515,
+    "name": "Shimotsuki, Yayoi",
+    "image_url": "https://cdn.myanimelist.net/images/characters/9/186095.jpg?s=a797be6a1e6d313fe38fd17283606549",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 97461,
+    "name": "Shivava",
+    "image_url": "https://cdn.myanimelist.net/images/characters/13/229345.jpg?s=c11f3f57693abf89295ecd30dac7032b",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 73517,
+    "name": "Shiwasu, Satsuki",
+    "image_url": "https://cdn.myanimelist.net/images/characters/4/186097.jpg?s=da660752daef7b8d4a3f8df94e5af714",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5770,
+    "name": "Southerncross, Alisa",
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/71815.jpg?s=473d934815aaffd09de74a5d8b1ddef2",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 10160,
+    "name": "Sumomo",
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/111106.jpg?s=939d0ac6eb77f3cdfd3755b76d30299f",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5695,
+    "name": "Taruru",
+    "image_url": "https://cdn.myanimelist.net/images/characters/11/111103.jpg?s=452c754706e2e12c61688335d074176d",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5696,
+    "name": "Tororo",
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/111104.jpg?s=02b07acb22db8837cb2acce6a8dd5992",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 101215,
+    "name": "Tsukigami, Chiruyo",
+    "image_url": "https://cdn.myanimelist.net/images/characters/8/239547.jpg?s=c4a4591a5d411a546c26dd06da734263",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 74189,
+    "name": "Yoshiokadaira, Masayoshi",
+    "image_url": "https://cdn.myanimelist.net/images/characters/5/187171.jpg?s=4d0095bf323d0e736dd8959891de1062",
+    "role": "Supporting"
+  },
+  {
+    "mal_id": 5697,
+    "name": "Zoruru",
+    "image_url": "https://cdn.myanimelist.net/images/characters/15/111105.jpg?s=1a14391a996b8140bed507f249ca93f8",
+    "role": "Supporting"
+  }
+]

@@ -1,0 +1,686 @@
+[
+  {
+    "anilist_id": 1245,
+    "name": "Keroro",
+    "name_native": "ケロロ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/b1245-We02ncMO1mz4.png",
+    "favourites": 194,
+    "role": "MAIN",
+    "voice_actors": [
+      {
+        "id": 95248,
+        "name": "Kumiko Watanabe",
+        "name_native": "渡辺久美子"
+      }
+    ]
+  },
+  {
+    "anilist_id": 1246,
+    "name": "Giroro",
+    "name_native": "ギロロ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/1246.jpg",
+    "favourites": 136,
+    "role": "MAIN",
+    "voice_actors": [
+      {
+        "id": 95066,
+        "name": "Akiko Hiramatsu",
+        "name_native": "平松晶子"
+      },
+      {
+        "id": 95091,
+        "name": "Jouji Nakata",
+        "name_native": "中田譲治"
+      }
+    ]
+  },
+  {
+    "anilist_id": 1247,
+    "name": "Tamama",
+    "name_native": "タママ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/1247.jpg",
+    "favourites": 102,
+    "role": "MAIN",
+    "voice_actors": [
+      {
+        "id": 95782,
+        "name": "Etsuko Kozakura",
+        "name_native": "小桜エツコ"
+      }
+    ]
+  },
+  {
+    "anilist_id": 1249,
+    "name": "Dororo",
+    "name_native": "ドロロ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/1249.jpg",
+    "favourites": 93,
+    "role": "MAIN",
+    "voice_actors": [
+      {
+        "id": 95134,
+        "name": "Takeshi Kusao",
+        "name_native": "草尾毅"
+      }
+    ]
+  },
+  {
+    "anilist_id": 1248,
+    "name": "Kururu",
+    "name_native": "クルル曹長",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/b1248-ggSEOSSGIcUy.png",
+    "favourites": 89,
+    "role": "MAIN",
+    "voice_actors": [
+      {
+        "id": 95160,
+        "name": "Takehito Koyasu",
+        "name_native": "子安武人"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5652,
+    "name": "Natsumi Hinata",
+    "name_native": "日向夏美",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5652.jpg",
+    "favourites": 57,
+    "role": "MAIN",
+    "voice_actors": [
+      {
+        "id": 95061,
+        "name": "Chiwa Saitou",
+        "name_native": "斎藤千和"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5404,
+    "name": "Koyuki Azumaya",
+    "name_native": "東谷小雪",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5404.jpg",
+    "favourites": 37,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95111,
+        "name": "Ryou Hirohashi",
+        "name_native": "広橋涼"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5673,
+    "name": "Angol Mois",
+    "name_native": "アンゴル・モア",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5673.jpg",
+    "favourites": 35,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95040,
+        "name": "Mamiko Noto",
+        "name_native": "能登麻美子"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5653,
+    "name": "Momoka Nishizawa",
+    "name_native": "西澤桃華",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/b5653-6sV5Xd6l5VGy.png",
+    "favourites": 28,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95439,
+        "name": "Haruna Ikezawa",
+        "name_native": "池澤春菜"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5662,
+    "name": "Aki Hinata",
+    "name_native": "日向秋",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5662.jpg",
+    "favourites": 23,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95066,
+        "name": "Akiko Hiramatsu",
+        "name_native": "平松晶子"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5651,
+    "name": "Fuyuki Hinata",
+    "name_native": "日向冬樹",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5651.jpg",
+    "favourites": 22,
+    "role": "MAIN",
+    "voice_actors": [
+      {
+        "id": 95057,
+        "name": "Houko Kuwashima",
+        "name_native": "桑島法子"
+      },
+      {
+        "id": 95071,
+        "name": "Tomoko Kawakami",
+        "name_native": "川上とも子"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5668,
+    "name": "Mutsumi Saburo",
+    "name_native": "睦実サブロー",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5668.jpg",
+    "favourites": 20,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95017,
+        "name": "Akira Ishida",
+        "name_native": "石田彰"
+      }
+    ]
+  },
+  {
+    "anilist_id": 10159,
+    "name": "Melody Honey",
+    "name_native": "メロディーハニー",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/10159.jpg",
+    "favourites": 14,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95144,
+        "name": "Megumi Toyoguchi",
+        "name_native": "豊口めぐみ"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5770,
+    "name": "Alisa Southerncross",
+    "name_native": "アリサ=サザンクロス",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5770.jpg",
+    "favourites": 14,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95148,
+        "name": "Akiko Yajima",
+        "name_native": "矢島晶子"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5709,
+    "name": "Pururu",
+    "name_native": "プルル",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5709.jpg",
+    "favourites": 10,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95003,
+        "name": "Satsuki Yukino",
+        "name_native": "ゆきのさつき"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5667,
+    "name": "Paul Moriyama",
+    "name_native": "ポール森山",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5667.jpg",
+    "favourites": 10,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95063,
+        "name": "Keiji Fujiwara",
+        "name_native": "藤原啓治"
+      }
+    ]
+  },
+  {
+    "anilist_id": 10161,
+    "name": "Narrator",
+    "name_native": "ナレーター",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/b10161-tIld6WNUqVzB.jpg",
+    "favourites": 8,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95063,
+        "name": "Keiji Fujiwara",
+        "name_native": "藤原啓治"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5694,
+    "name": "Garuru",
+    "name_native": "ガルル",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5694.jpg",
+    "favourites": 8,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95146,
+        "name": "Akio Ootsuka",
+        "name_native": "大塚明夫"
+      }
+    ]
+  },
+  {
+    "anilist_id": 10158,
+    "name": "Neko",
+    "name_native": "猫",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/10158.jpg",
+    "favourites": 7,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 96004,
+        "name": "Asuka Tanii",
+        "name_native": "谷井あすか"
+      }
+    ]
+  },
+  {
+    "anilist_id": 10281,
+    "name": "Poyon",
+    "name_native": "ポヨン",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/10281.jpg",
+    "favourites": 7,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 96270,
+        "name": "Mayuko Omimura",
+        "name_native": "おみむらまゆこ"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5688,
+    "name": "Kogoro",
+    "name_native": "コゴロ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5688.jpg",
+    "favourites": 6,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95257,
+        "name": "Nobuyuki Hiyama",
+        "name_native": "檜山修之"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5697,
+    "name": "Zoruru",
+    "name_native": "ゾルル",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5697.jpg",
+    "favourites": 4,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95131,
+        "name": "Kazuki Yao",
+        "name_native": "矢尾一樹"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5696,
+    "name": "Tororo",
+    "name_native": "トロロ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5696.jpg",
+    "favourites": 4,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95067,
+        "name": "Kappei Yamaguchi",
+        "name_native": "山口勝平"
+      }
+    ]
+  },
+  {
+    "anilist_id": 10469,
+    "name": "Lavie",
+    "name_native": "ラビー",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/10469.jpg",
+    "favourites": 3,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95272,
+        "name": "Tomoko Kaneda",
+        "name_native": "金田朋子"
+      }
+    ]
+  },
+  {
+    "anilist_id": 10160,
+    "name": "Sumomo",
+    "name_native": "スモモ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/10160.jpg",
+    "favourites": 2,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95615,
+        "name": "Juri Ihata",
+        "name_native": "井端珠里"
+      }
+    ]
+  },
+  {
+    "anilist_id": 9018,
+    "name": "Yuurei Shoujo",
+    "name_native": "幽霊少女",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/9018.jpg",
+    "favourites": 2,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 101172,
+        "name": "Chie Matsuura",
+        "name_native": "松浦チエ"
+      }
+    ]
+  },
+  {
+    "anilist_id": 73515,
+    "name": "Yayoi Shimotsuki",
+    "name_native": "霜月 弥生",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/73515.jpg",
+    "favourites": 2,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95727,
+        "name": "Ema Kogure",
+        "name_native": "小暮英麻"
+      },
+      {
+        "id": 96004,
+        "name": "Asuka Tanii",
+        "name_native": "谷井あすか"
+      }
+    ]
+  },
+  {
+    "anilist_id": 79999,
+    "name": "Rei Kinoshita",
+    "name_native": null,
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/79999.jpg",
+    "favourites": 2,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95099,
+        "name": "Miyuki Sawashiro",
+        "name_native": "沢城みゆき"
+      }
+    ]
+  },
+  {
+    "anilist_id": 19232,
+    "name": "Dansonu Maso",
+    "name_native": null,
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/19232.jpg",
+    "favourites": 2,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95898,
+        "name": "Choo",
+        "name_native": "チョー "
+      }
+    ]
+  },
+  {
+    "anilist_id": 65099,
+    "name": "Chiroro",
+    "name_native": "チロロ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/65099.jpg",
+    "favourites": 1,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95136,
+        "name": "Natsuko Kuwatani",
+        "name_native": "桑谷夏子"
+      }
+    ]
+  },
+  {
+    "anilist_id": 74189,
+    "name": "Masayoshi Yoshiokadaira",
+    "name_native": "吉岡平 正義",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/74189.jpg",
+    "favourites": 1,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95356,
+        "name": "Hiro Shimono",
+        "name_native": "下野紘"
+      }
+    ]
+  },
+  {
+    "anilist_id": 32940,
+    "name": "Kiruru.",
+    "name_native": "キルル",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/32940.jpg",
+    "favourites": 1,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95235,
+        "name": "Keisuke Oda",
+        "name_native": "織田圭祐"
+      }
+    ]
+  },
+  {
+    "anilist_id": 43513,
+    "name": "Shurara",
+    "name_native": "シュララ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/43513.jpg",
+    "favourites": 1,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95084,
+        "name": "Norio Wakamoto",
+        "name_native": "若本規夫"
+      }
+    ]
+  },
+  {
+    "anilist_id": 5695,
+    "name": "Taruru",
+    "name_native": "タルル",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/5695.jpg",
+    "favourites": 1,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95094,
+        "name": "Akeno Watanabe",
+        "name_native": "渡辺明乃"
+      }
+    ]
+  },
+  {
+    "anilist_id": 42855,
+    "name": "Mekeke",
+    "name_native": "メケケ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/42855.jpg",
+    "favourites": 1,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95898,
+        "name": "Choo",
+        "name_native": "チョー "
+      }
+    ]
+  },
+  {
+    "anilist_id": 32891,
+    "name": "Karara",
+    "name_native": "カララ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/32891.jpg",
+    "favourites": 1,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95277,
+        "name": "Junko Noda",
+        "name_native": "野田順子"
+      }
+    ]
+  },
+  {
+    "anilist_id": 73517,
+    "name": "Satsuki Shiwasu",
+    "name_native": "師走 さつき",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/73517.jpg",
+    "favourites": 1,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 101172,
+        "name": "Chie Matsuura",
+        "name_native": "松浦チエ"
+      }
+    ]
+  },
+  {
+    "anilist_id": 74802,
+    "name": "R Gray",
+    "name_native": null,
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/74802.jpg",
+    "favourites": 0,
+    "role": "SUPPORTING",
+    "voice_actors": []
+  },
+  {
+    "anilist_id": 80011,
+    "name": "Jessica Harpie",
+    "name_native": "ジェシカ・ハーピィ",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/80011.jpg",
+    "favourites": 0,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95438,
+        "name": "Emi Shinohara",
+        "name_native": "篠原恵美"
+      }
+    ]
+  },
+  {
+    "anilist_id": 82529,
+    "name": "Rie Imogo",
+    "name_native": "芋碁 理恵",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/82529.jpg",
+    "favourites": 0,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95031,
+        "name": "Mai Nakahara",
+        "name_native": "中原麻衣"
+      }
+    ]
+  },
+  {
+    "anilist_id": 10157,
+    "name": "Baio Nishizawa",
+    "name_native": "西澤梅雄",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/10157.jpg",
+    "favourites": 0,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95598,
+        "name": "Shuuichi Ikeda",
+        "name_native": "池田秀一"
+      }
+    ]
+  },
+  {
+    "anilist_id": 366514,
+    "name": "Dance Man",
+    "name_native": "ダンス☆マン",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/b366514-KeT5uEECNuGg.png",
+    "favourites": 0,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 366513,
+        "name": "Hideki Fujisawa",
+        "name_native": "藤沢秀樹"
+      }
+    ]
+  },
+  {
+    "anilist_id": 82531,
+    "name": "Yamada",
+    "name_native": "山田くん, 山田",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/82531.jpg",
+    "favourites": 0,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95034,
+        "name": "Yuu Kobayashi",
+        "name_native": "小林ゆう"
+      }
+    ]
+  },
+  {
+    "anilist_id": 391637,
+    "name": "Mojaran",
+    "name_native": "モジャラン",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+    "favourites": 0,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95284,
+        "name": "Fumihiko Tachiki",
+        "name_native": "立木文彦"
+      }
+    ]
+  },
+  {
+    "anilist_id": 391638,
+    "name": "Desk",
+    "name_native": "デスク",
+    "image_url": "https://s4.anilist.co/file/anilistcdn/character/large/default.jpg",
+    "favourites": 0,
+    "role": "SUPPORTING",
+    "voice_actors": [
+      {
+        "id": 95278,
+        "name": "Daisuke Sakaguchi",
+        "name_native": "阪口大助"
+      }
+    ]
+  }
+]

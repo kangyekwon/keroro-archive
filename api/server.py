@@ -501,7 +501,102 @@ def _create_mal_tables():
                 crawled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
-        logger.info("MAL analytics tables ready")
+        # Extended MAL tables
+        db.execute("""
+            CREATE TABLE IF NOT EXISTS mal_staff (
+                mal_id INTEGER PRIMARY KEY,
+                name TEXT NOT NULL,
+                image_url TEXT,
+                positions_json TEXT,
+                crawled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        db.execute("""
+            CREATE TABLE IF NOT EXISTS mal_relations (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                mal_id INTEGER,
+                type TEXT,
+                name TEXT,
+                url TEXT,
+                relation TEXT,
+                crawled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        db.execute("""
+            CREATE TABLE IF NOT EXISTS mal_manga (
+                mal_id INTEGER PRIMARY KEY,
+                title TEXT,
+                title_english TEXT,
+                title_japanese TEXT,
+                type TEXT,
+                chapters INTEGER,
+                volumes INTEGER,
+                status TEXT,
+                score REAL,
+                scored_by INTEGER,
+                rank INTEGER,
+                popularity INTEGER,
+                members INTEGER,
+                favorites INTEGER,
+                synopsis TEXT,
+                published_from TEXT,
+                published_to TEXT,
+                authors TEXT,
+                serializations TEXT,
+                genres TEXT,
+                image_url TEXT,
+                crawled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        db.execute("""
+            CREATE TABLE IF NOT EXISTS mal_manga_characters (
+                mal_id INTEGER PRIMARY KEY,
+                name TEXT,
+                image_url TEXT,
+                role TEXT,
+                crawled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        db.execute("""
+            CREATE TABLE IF NOT EXISTS anilist_anime (
+                anilist_id INTEGER PRIMARY KEY,
+                id_mal INTEGER,
+                title_romaji TEXT,
+                title_english TEXT,
+                title_native TEXT,
+                format TEXT,
+                episodes INTEGER,
+                average_score INTEGER,
+                mean_score INTEGER,
+                popularity INTEGER,
+                trending INTEGER,
+                favourites INTEGER,
+                genres_json TEXT,
+                tags_json TEXT,
+                studios_json TEXT,
+                stats_json TEXT,
+                rankings_json TEXT,
+                relations_json TEXT,
+                recommendations_json TEXT,
+                cover_image TEXT,
+                banner_image TEXT,
+                site_url TEXT,
+                crawled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        db.execute("""
+            CREATE TABLE IF NOT EXISTS anilist_characters (
+                anilist_id INTEGER PRIMARY KEY,
+                name TEXT,
+                name_native TEXT,
+                image_url TEXT,
+                favourites INTEGER DEFAULT 0,
+                role TEXT,
+                voice_actors_json TEXT,
+                crawled_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        logger.info("MAL analytics tables ready (including extended)")
     except Exception as e:
         logger.warning("Failed to create MAL tables: %s", e)
 
@@ -644,6 +739,133 @@ def _seed_mal_from_crawled():
                 except Exception as e:
                     logger.warning("Failed to insert recommendation %s: %s", rec.get("mal_id"), e)
             logger.info("Seeded %d MAL recommendations", len(data))
+
+    # Staff
+    count = db.fetchone("SELECT COUNT(*) as cnt FROM mal_staff")
+    if count and count["cnt"] == 0:
+        data = _load_crawled("mal_staff.json")
+        if data:
+            for s in data:
+                try:
+                    db.execute(
+                        "INSERT OR IGNORE INTO mal_staff (mal_id,name,image_url,positions_json) VALUES (?,?,?,?)",
+                        (s.get("mal_id"), s.get("name",""), s.get("image_url",""),
+                         json.dumps(s.get("positions",[]), ensure_ascii=False)),
+                    )
+                except Exception as e:
+                    logger.warning("Failed to insert staff %s: %s", s.get("mal_id"), e)
+            logger.info("Seeded %d MAL staff", len(data))
+
+    # Relations
+    count = db.fetchone("SELECT COUNT(*) as cnt FROM mal_relations")
+    if count and count["cnt"] == 0:
+        data = _load_crawled("mal_relations.json")
+        if data:
+            for r in data:
+                try:
+                    db.execute(
+                        "INSERT INTO mal_relations (mal_id,type,name,url,relation) VALUES (?,?,?,?,?)",
+                        (r.get("mal_id"), r.get("type",""), r.get("name",""),
+                         r.get("url",""), r.get("relation","")),
+                    )
+                except Exception as e:
+                    logger.warning("Failed to insert relation: %s", e)
+            logger.info("Seeded %d MAL relations", len(data))
+
+    # Manga
+    count = db.fetchone("SELECT COUNT(*) as cnt FROM mal_manga")
+    if count and count["cnt"] == 0:
+        data = _load_crawled("mal_manga.json")
+        if data and isinstance(data, dict):
+            try:
+                db.execute(
+                    "INSERT OR IGNORE INTO mal_manga "
+                    "(mal_id,title,title_english,title_japanese,type,chapters,volumes,"
+                    "status,score,scored_by,rank,popularity,members,favorites,"
+                    "synopsis,published_from,published_to,authors,serializations,genres,image_url) "
+                    "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                    (data.get("mal_id"), data.get("title",""), data.get("title_english",""),
+                     data.get("title_japanese",""), data.get("type",""), data.get("chapters"),
+                     data.get("volumes"), data.get("status",""), data.get("score"),
+                     data.get("scored_by"), data.get("rank"), data.get("popularity"),
+                     data.get("members"), data.get("favorites"), data.get("synopsis",""),
+                     data.get("published_from",""), data.get("published_to",""),
+                     data.get("authors",""), data.get("serializations",""),
+                     data.get("genres",""), data.get("image_url","")),
+                )
+                logger.info("Seeded MAL manga data")
+            except Exception as e:
+                logger.warning("Failed to insert manga: %s", e)
+
+    # Manga characters
+    count = db.fetchone("SELECT COUNT(*) as cnt FROM mal_manga_characters")
+    if count and count["cnt"] == 0:
+        data = _load_crawled("mal_manga_characters.json")
+        if data:
+            for mc in data:
+                try:
+                    db.execute(
+                        "INSERT OR IGNORE INTO mal_manga_characters (mal_id,name,image_url,role) VALUES (?,?,?,?)",
+                        (mc.get("mal_id"), mc.get("name",""), mc.get("image_url",""), mc.get("role","")),
+                    )
+                except Exception as e:
+                    logger.warning("Failed to insert manga character: %s", e)
+            logger.info("Seeded %d manga characters", len(data))
+
+    # AniList anime
+    count = db.fetchone("SELECT COUNT(*) as cnt FROM anilist_anime")
+    if count and count["cnt"] == 0:
+        data = _load_crawled("anilist_anime.json")
+        if data and isinstance(data, dict):
+            try:
+                db.execute(
+                    "INSERT OR IGNORE INTO anilist_anime "
+                    "(anilist_id,id_mal,title_romaji,title_english,title_native,format,"
+                    "episodes,average_score,mean_score,popularity,trending,favourites,"
+                    "genres_json,tags_json,studios_json,stats_json,rankings_json,"
+                    "relations_json,recommendations_json,cover_image,banner_image,site_url) "
+                    "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                    (data.get("id"), data.get("idMal"),
+                     data.get("title",{}).get("romaji",""),
+                     data.get("title",{}).get("english",""),
+                     data.get("title",{}).get("native",""),
+                     data.get("format",""), data.get("episodes"),
+                     data.get("averageScore"), data.get("meanScore"),
+                     data.get("popularity"), data.get("trending"),
+                     data.get("favourites"),
+                     json.dumps(data.get("genres",[]), ensure_ascii=False),
+                     json.dumps(data.get("tags",[]), ensure_ascii=False),
+                     json.dumps(data.get("studios",{}).get("nodes",[]), ensure_ascii=False),
+                     json.dumps(data.get("stats",{}), ensure_ascii=False),
+                     json.dumps(data.get("rankings",[]), ensure_ascii=False),
+                     json.dumps(data.get("relations",{}).get("edges",[]), ensure_ascii=False),
+                     json.dumps(data.get("recommendations",{}).get("nodes",[]), ensure_ascii=False),
+                     data.get("coverImage",{}).get("extraLarge",""),
+                     data.get("bannerImage",""),
+                     data.get("siteUrl","")),
+                )
+                logger.info("Seeded AniList anime data")
+            except Exception as e:
+                logger.warning("Failed to insert AniList anime: %s", e)
+
+    # AniList characters
+    count = db.fetchone("SELECT COUNT(*) as cnt FROM anilist_characters")
+    if count and count["cnt"] == 0:
+        data = _load_crawled("anilist_characters.json")
+        if data:
+            for c in data:
+                try:
+                    db.execute(
+                        "INSERT OR IGNORE INTO anilist_characters "
+                        "(anilist_id,name,name_native,image_url,favourites,role,voice_actors_json) "
+                        "VALUES (?,?,?,?,?,?,?)",
+                        (c.get("anilist_id"), c.get("name",""), c.get("name_native",""),
+                         c.get("image_url",""), c.get("favourites",0), c.get("role",""),
+                         json.dumps(c.get("voice_actors",[]), ensure_ascii=False)),
+                    )
+                except Exception as e:
+                    logger.warning("Failed to insert AniList character: %s", e)
+            logger.info("Seeded %d AniList characters", len(data))
 
 
 @asynccontextmanager
@@ -1732,6 +1954,157 @@ def analytics_movies():
         "FROM mal_anime WHERE type = 'Movie' ORDER BY year"
     )
     return {"movies": [dict(r) for r in rows], "total": len(rows)}
+
+
+# === Extended Analytics (Staff, Manga, Relations, AniList) ===
+
+
+@app.get("/api/analytics/staff")
+def analytics_staff(limit: int = Query(50, ge=1, le=300)):
+    """Get MAL staff/creators data."""
+    db = get_db()
+    rows = db.fetchall(
+        "SELECT mal_id, name, image_url, positions_json FROM mal_staff LIMIT ?",
+        (limit,),
+    )
+    results = []
+    for r in rows:
+        entry = dict(r)
+        if entry.get("positions_json"):
+            try:
+                entry["positions"] = json.loads(entry["positions_json"])
+            except (json.JSONDecodeError, TypeError):
+                entry["positions"] = []
+            del entry["positions_json"]
+        else:
+            entry["positions"] = []
+        results.append(entry)
+
+    # Aggregate position counts
+    position_counts = defaultdict(int)
+    for s in results:
+        for pos in s["positions"]:
+            position_counts[pos] += 1
+    top_positions = sorted(position_counts.items(), key=lambda x: x[1], reverse=True)[:20]
+
+    return {"staff": results, "total": len(results), "position_counts": top_positions}
+
+
+@app.get("/api/analytics/relations")
+def analytics_relations():
+    """Get MAL franchise/related works map."""
+    db = get_db()
+    rows = db.fetchall(
+        "SELECT mal_id, type, name, url, relation FROM mal_relations ORDER BY relation"
+    )
+    results = [dict(r) for r in rows]
+
+    # Group by relation type
+    grouped = defaultdict(list)
+    for r in results:
+        grouped[r["relation"]].append(r)
+
+    return {"relations": results, "grouped": dict(grouped), "total": len(results)}
+
+
+@app.get("/api/analytics/manga")
+def analytics_manga():
+    """Get MAL manga data for comparison with anime."""
+    db = get_db()
+    manga = db.fetchone("SELECT * FROM mal_manga LIMIT 1")
+    if not manga:
+        return {"available": False}
+
+    manga_chars = db.fetchall(
+        "SELECT mal_id, name, image_url, role FROM mal_manga_characters ORDER BY "
+        "CASE WHEN role='Main' THEN 0 ELSE 1 END, name LIMIT 50"
+    )
+
+    return {
+        "available": True,
+        "manga": dict(manga),
+        "characters": [dict(c) for c in manga_chars],
+        "character_count": len(manga_chars),
+    }
+
+
+@app.get("/api/analytics/anilist")
+def analytics_anilist():
+    """Get AniList data for cross-platform comparison."""
+    db = get_db()
+    anilist = db.fetchone("SELECT * FROM anilist_anime LIMIT 1")
+    if not anilist:
+        return {"available": False}
+
+    entry = dict(anilist)
+    # Parse JSON fields
+    for field in ["genres_json", "tags_json", "studios_json", "stats_json",
+                  "rankings_json", "relations_json", "recommendations_json"]:
+        key = field.replace("_json", "")
+        if entry.get(field):
+            try:
+                entry[key] = json.loads(entry[field])
+            except (json.JSONDecodeError, TypeError):
+                entry[key] = []
+            del entry[field]
+        else:
+            entry[key] = []
+            if field in entry:
+                del entry[field]
+
+    return {"available": True, "anilist": entry}
+
+
+@app.get("/api/analytics/anilist-characters")
+def analytics_anilist_characters(limit: int = Query(30, ge=1, le=100)):
+    """Get AniList character popularity data."""
+    db = get_db()
+    rows = db.fetchall(
+        "SELECT anilist_id, name, name_native, image_url, favourites, role "
+        "FROM anilist_characters ORDER BY favourites DESC LIMIT ?",
+        (limit,),
+    )
+    return {"characters": [dict(r) for r in rows], "total": len(rows)}
+
+
+@app.get("/api/analytics/comparison")
+def analytics_comparison():
+    """Cross-platform comparison: MAL vs AniList."""
+    db = get_db()
+
+    mal = db.fetchone("SELECT score, scored_by, rank, popularity, members, favorites FROM mal_anime WHERE key = 'tv'")
+    anilist = db.fetchone("SELECT average_score, mean_score, popularity, favourites FROM anilist_anime LIMIT 1")
+    manga = db.fetchone("SELECT score, scored_by, rank, popularity, members, chapters, volumes FROM mal_manga LIMIT 1")
+
+    comparison = {
+        "mal": dict(mal) if mal else None,
+        "anilist": dict(anilist) if anilist else None,
+        "manga": dict(manga) if manga else None,
+    }
+
+    # Score comparison
+    if mal and anilist:
+        comparison["score_comparison"] = {
+            "mal_score": mal["score"],
+            "mal_scored_by": mal["scored_by"],
+            "anilist_score": anilist["average_score"],
+            "anilist_mean": anilist["mean_score"],
+            "difference": round(abs((mal["score"] or 0) - (anilist["average_score"] or 0) / 10), 2),
+        }
+
+    # Character popularity comparison (MAL vs AniList)
+    mal_chars = db.fetchall(
+        "SELECT name, favorites FROM mal_characters WHERE favorites > 0 ORDER BY favorites DESC LIMIT 10"
+    )
+    anilist_chars = db.fetchall(
+        "SELECT name, favourites FROM anilist_characters WHERE favourites > 0 ORDER BY favourites DESC LIMIT 10"
+    )
+    comparison["character_comparison"] = {
+        "mal": [dict(c) for c in mal_chars],
+        "anilist": [dict(c) for c in anilist_chars],
+    }
+
+    return comparison
 
 
 # === Main ===

@@ -3011,6 +3011,87 @@ a:hover {
   margin-top: 0.5rem;
 }
 
+/* === Platform Comparison === */
+.platform-comparison { display: flex; flex-direction: column; gap: 1.5rem; }
+.platform-scores h4, .platform-chars h4 { color: var(--text-primary); margin-bottom: 0.8rem; font-size: 0.95rem; }
+.platform-score-cards { display: flex; gap: 1rem; flex-wrap: wrap; }
+.platform-card {
+  flex: 1; min-width: 180px;
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: 10px; padding: 1.2rem; text-align: center;
+}
+.platform-card--mal { border-top: 3px solid #4a7c59; }
+.platform-card--anilist { border-top: 3px solid #4fc3f7; }
+.platform-card--manga { border-top: 3px solid #ffd700; }
+.platform-card-logo {
+  font-size: 0.75rem; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 0.5rem;
+}
+.platform-card-score {
+  font-size: 2rem; font-weight: 800; color: var(--text-primary);
+}
+.platform-card-score span { font-size: 0.8rem; color: var(--text-secondary); font-weight: 400; }
+.platform-card-detail { font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.3rem; }
+.platform-chars-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.platform-chars-col h5 { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
+.platform-char-row {
+  display: flex; align-items: center; gap: 0.5rem; padding: 0.3rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.platform-char-rank { font-size: 0.8rem; color: var(--text-secondary); width: 28px; }
+.platform-char-name { flex: 1; font-size: 0.85rem; color: var(--text-primary); }
+.platform-char-value { font-weight: 700; font-size: 0.85rem; }
+
+/* === Franchise Map === */
+.franchise-grid { display: flex; flex-direction: column; gap: 1rem; }
+.franchise-center { text-align: center; margin-bottom: 0.5rem; }
+.franchise-node {
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  border-radius: 8px; padding: 0.6rem 1rem; display: inline-block;
+}
+.franchise-node--main {
+  background: rgba(74,124,89,0.15); border-color: #4a7c59;
+  padding: 1rem 1.5rem;
+}
+.franchise-node-type { display: block; font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; }
+.franchise-node-title { display: block; font-size: 0.9rem; color: var(--text-primary); font-weight: 600; }
+.franchise-node-detail { display: block; font-size: 0.75rem; color: var(--text-secondary); }
+.franchise-branches { display: flex; flex-wrap: wrap; gap: 1rem; }
+.franchise-branch { flex: 1; min-width: 200px; }
+.franchise-branch-label {
+  font-size: 0.8rem; font-weight: 700; color: var(--text-primary);
+  padding: 0.3rem 0.6rem; border-left: 3px solid; margin-bottom: 0.5rem;
+}
+.franchise-branch .franchise-node {
+  display: block; margin-bottom: 0.4rem; font-size: 0.85rem;
+}
+
+/* === Manga Comparison === */
+.manga-comparison { display: flex; flex-direction: column; gap: 1.5rem; }
+.manga-info-card { display: flex; gap: 1.2rem; align-items: flex-start; }
+.manga-cover { width: 120px; height: auto; border-radius: 8px; flex-shrink: 0; }
+.manga-details { flex: 1; }
+.manga-title { color: var(--text-primary); margin: 0 0 0.5rem; font-size: 1.1rem; }
+.manga-meta { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.3rem; }
+.manga-meta strong { color: var(--text-primary); }
+.manga-vs-anime h4 { font-size: 0.95rem; color: var(--text-primary); margin-bottom: 0.8rem; }
+.compare-bars { display: flex; flex-direction: column; gap: 0.5rem; }
+.compare-row { display: flex; align-items: center; gap: 0.8rem; }
+.compare-label { width: 60px; font-size: 0.85rem; color: var(--text-secondary); text-align: right; }
+.compare-bar-wrap { flex: 1; height: 24px; background: rgba(255,255,255,0.05); border-radius: 6px; overflow: hidden; }
+.compare-bar { height: 100%; border-radius: 6px; transition: width 0.6s ease; }
+.compare-value { width: 40px; font-size: 0.9rem; font-weight: 700; color: var(--text-primary); }
+.manga-chars h4 { font-size: 0.95rem; color: var(--text-primary); margin-bottom: 0.8rem; }
+.manga-chars-grid { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+.manga-char-item {
+  display: flex; flex-direction: column; align-items: center; width: 80px;
+  text-align: center;
+}
+.manga-char-img { width: 60px; height: 80px; object-fit: cover; border-radius: 6px; }
+.manga-char-name { font-size: 0.7rem; color: var(--text-primary); margin-top: 0.3rem; line-height: 1.2; }
+.manga-char-role { font-size: 0.6rem; color: var(--text-secondary); }
+.manga-char-role--main { color: var(--accent-blue); font-weight: 600; }
+
 /* Analytics responsive */
 @media (max-width: 768px) {
   .analytics-overview {
@@ -3025,4 +3106,9 @@ a:hover {
   .analytics-card--highlight .analytics-card-value {
     font-size: 2.2rem;
   }
+  .platform-score-cards { flex-direction: column; }
+  .platform-chars-grid { grid-template-columns: 1fr; }
+  .manga-info-card { flex-direction: column; align-items: center; text-align: center; }
+  .manga-cover { width: 100px; }
+  .franchise-branches { flex-direction: column; }
 }

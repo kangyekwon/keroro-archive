@@ -1,0 +1,851 @@
+{
+  "id": 516,
+  "idMal": 516,
+  "title": {
+    "romaji": "Keroro Gunsou",
+    "english": "Sgt. Frog",
+    "native": "ケロロ軍曹"
+  },
+  "format": "TV",
+  "episodes": 358,
+  "duration": 23,
+  "status": "FINISHED",
+  "startDate": {
+    "year": 2004,
+    "month": 4,
+    "day": 3
+  },
+  "endDate": {
+    "year": 2011,
+    "month": 4,
+    "day": 4
+  },
+  "season": "SPRING",
+  "seasonYear": 2004,
+  "averageScore": 74,
+  "meanScore": 74,
+  "popularity": 16396,
+  "trending": 1,
+  "favourites": 561,
+  "genres": [
+    "Comedy",
+    "Sci-Fi"
+  ],
+  "tags": [
+    {
+      "name": "Aliens",
+      "rank": 86,
+      "category": "Cast-Traits"
+    },
+    {
+      "name": "Otaku Culture",
+      "rank": 85,
+      "category": "Theme-Other"
+    },
+    {
+      "name": "Meta",
+      "rank": 84,
+      "category": "Theme-Other"
+    },
+    {
+      "name": "Space",
+      "rank": 79,
+      "category": "Setting-Universe"
+    },
+    {
+      "name": "Parody",
+      "rank": 76,
+      "category": "Theme-Comedy"
+    },
+    {
+      "name": "Ensemble Cast",
+      "rank": 76,
+      "category": "Cast-Main Cast"
+    },
+    {
+      "name": "Shounen",
+      "rank": 75,
+      "category": "Demographic"
+    },
+    {
+      "name": "Episodic",
+      "rank": 74,
+      "category": "Technical"
+    },
+    {
+      "name": "Anti-Hero",
+      "rank": 73,
+      "category": "Cast-Main Cast"
+    },
+    {
+      "name": "Military",
+      "rank": 71,
+      "category": "Theme-Other-Organisations"
+    },
+    {
+      "name": "Ninja",
+      "rank": 60,
+      "category": "Cast-Traits"
+    },
+    {
+      "name": "Cosmic Horror",
+      "rank": 60,
+      "category": "Theme-Other"
+    },
+    {
+      "name": "Ghost",
+      "rank": 45,
+      "category": "Cast-Traits"
+    },
+    {
+      "name": "Robots",
+      "rank": 45,
+      "category": "Cast-Traits"
+    },
+    {
+      "name": "Kuudere",
+      "rank": 20,
+      "category": "Cast-Traits"
+    },
+    {
+      "name": "Butler",
+      "rank": 20,
+      "category": "Cast-Traits"
+    }
+  ],
+  "studios": {
+    "nodes": [
+      {
+        "id": 14,
+        "name": "Sunrise",
+        "isAnimationStudio": true
+      },
+      {
+        "id": 16,
+        "name": "TV Tokyo",
+        "isAnimationStudio": false
+      },
+      {
+        "id": 102,
+        "name": "Funimation",
+        "isAnimationStudio": false
+      },
+      {
+        "id": 139,
+        "name": "NAS",
+        "isAnimationStudio": false
+      },
+      {
+        "id": 211,
+        "name": "Rakuonsha",
+        "isAnimationStudio": false
+      }
+    ]
+  },
+  "staff": {
+    "nodes": [
+      {
+        "id": 97052,
+        "name": {
+          "full": "Mine Yoshizaki",
+          "native": "吉崎観音"
+        },
+        "primaryOccupations": [
+          "Mangaka"
+        ]
+      },
+      {
+        "id": 106426,
+        "name": {
+          "full": "Fumitoshi Oizaki",
+          "native": "追崎史敏"
+        },
+        "primaryOccupations": [
+          "Director",
+          "Storyboard Artist",
+          "Designer"
+        ]
+      },
+      {
+        "id": 101417,
+        "name": {
+          "full": "Kunio Okawara",
+          "native": "大河原邦男"
+        },
+        "primaryOccupations": [
+          "Designer"
+        ]
+      },
+      {
+        "id": 111063,
+        "name": {
+          "full": "Kenichi Tajiri",
+          "native": "田尻健一"
+        },
+        "primaryOccupations": [
+          "Background Artist"
+        ]
+      },
+      {
+        "id": 102194,
+        "name": {
+          "full": "Youta Tsuruoka",
+          "native": "鶴岡陽太"
+        },
+        "primaryOccupations": [
+          "Audio Engineer",
+          "Producer"
+        ]
+      },
+      {
+        "id": 112507,
+        "name": {
+          "full": "Saeko Suzuki",
+          "native": "鈴木さえ子"
+        },
+        "primaryOccupations": [
+          "Composer"
+        ]
+      },
+      {
+        "id": 105415,
+        "name": {
+          "full": "POLYSICS",
+          "native": "ポリシックス"
+        },
+        "primaryOccupations": []
+      },
+      {
+        "id": 101447,
+        "name": {
+          "full": "Natsumi Kiyoura",
+          "native": "清浦夏実"
+        },
+        "primaryOccupations": [
+          "Vocalist"
+        ]
+      },
+      {
+        "id": 101064,
+        "name": {
+          "full": "Kiyoko Sayama",
+          "native": "佐山聖子"
+        },
+        "primaryOccupations": [
+          "Director",
+          "Storyboard Artist"
+        ]
+      },
+      {
+        "id": 111163,
+        "name": {
+          "full": "Asako Nishida",
+          "native": "西田亜沙子"
+        },
+        "primaryOccupations": [
+          "Animator",
+          "Designer"
+        ]
+      },
+      {
+        "id": 101946,
+        "name": {
+          "full": "Kazuhiko Shibuya",
+          "native": "渋谷一彦"
+        },
+        "primaryOccupations": [
+          "Animator"
+        ]
+      },
+      {
+        "id": 121346,
+        "name": {
+          "full": "Ryousuke Kimiya",
+          "native": "木宮亮介"
+        },
+        "primaryOccupations": [
+          "Animator"
+        ]
+      },
+      {
+        "id": 121365,
+        "name": {
+          "full": "Junichi Kitamura",
+          "native": "北村淳一"
+        },
+        "primaryOccupations": [
+          "Animator"
+        ]
+      },
+      {
+        "id": 99002,
+        "name": {
+          "full": "Junichi Satou",
+          "native": "佐藤順一"
+        },
+        "primaryOccupations": [
+          "Director",
+          "Scriptwriter",
+          "Storyboard Artist"
+        ]
+      },
+      {
+        "id": 104990,
+        "name": {
+          "full": "Yuusuke Yamamoto",
+          "native": "山本裕介"
+        },
+        "primaryOccupations": [
+          "Director",
+          "Storyboard Artist"
+        ]
+      },
+      {
+        "id": 99002,
+        "name": {
+          "full": "Junichi Satou",
+          "native": "佐藤順一"
+        },
+        "primaryOccupations": [
+          "Director",
+          "Scriptwriter",
+          "Storyboard Artist"
+        ]
+      },
+      {
+        "id": 109737,
+        "name": {
+          "full": "Mamiko Ikeda",
+          "native": "池田眞美子"
+        },
+        "primaryOccupations": [
+          "Scriptwriter"
+        ]
+      },
+      {
+        "id": 114175,
+        "name": {
+          "full": "Masahiro Yokotani",
+          "native": "横谷昌宏"
+        },
+        "primaryOccupations": [
+          "Scriptwriter"
+        ]
+      },
+      {
+        "id": 106991,
+        "name": {
+          "full": "Dan Kiesler",
+          "native": "דן קיזלר"
+        },
+        "primaryOccupations": []
+      },
+      {
+        "id": 117241,
+        "name": {
+          "full": "GaGaGa SP",
+          "native": "ガガガSP "
+        },
+        "primaryOccupations": []
+      },
+      {
+        "id": 95782,
+        "name": {
+          "full": "Etsuko Kozakura",
+          "native": "小桜エツコ"
+        },
+        "primaryOccupations": [
+          "Voice Actor"
+        ]
+      },
+      {
+        "id": 107629,
+        "name": {
+          "full": "Mayuko Iwasa",
+          "native": "岩佐真悠子"
+        },
+        "primaryOccupations": []
+      },
+      {
+        "id": 106997,
+        "name": {
+          "full": "Yoram Yosefsberg",
+          "native": "יורם יוספסברג "
+        },
+        "primaryOccupations": [
+          "Voice Actor"
+        ]
+      },
+      {
+        "id": 102041,
+        "name": {
+          "full": "JAM Project",
+          "native": "JAM Project"
+        },
+        "primaryOccupations": []
+      },
+      {
+        "id": 95160,
+        "name": {
+          "full": "Takehito Koyasu",
+          "native": "子安武人"
+        },
+        "primaryOccupations": [
+          "Voice Actor"
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "scoreDistribution": [
+      {
+        "score": 10,
+        "amount": 31
+      },
+      {
+        "score": 20,
+        "amount": 28
+      },
+      {
+        "score": 30,
+        "amount": 46
+      },
+      {
+        "score": 40,
+        "amount": 94
+      },
+      {
+        "score": 50,
+        "amount": 314
+      },
+      {
+        "score": 60,
+        "amount": 594
+      },
+      {
+        "score": 70,
+        "amount": 1316
+      },
+      {
+        "score": 80,
+        "amount": 1249
+      },
+      {
+        "score": 90,
+        "amount": 863
+      },
+      {
+        "score": 100,
+        "amount": 648
+      }
+    ],
+    "statusDistribution": [
+      {
+        "status": "CURRENT",
+        "amount": 1560
+      },
+      {
+        "status": "PLANNING",
+        "amount": 5024
+      },
+      {
+        "status": "COMPLETED",
+        "amount": 6011
+      },
+      {
+        "status": "DROPPED",
+        "amount": 1793
+      },
+      {
+        "status": "PAUSED",
+        "amount": 2008
+      }
+    ]
+  },
+  "rankings": [
+    {
+      "id": 2691,
+      "rank": 13,
+      "type": "RATED",
+      "format": "TV",
+      "year": 2004,
+      "season": null,
+      "allTime": false,
+      "context": "highest rated"
+    },
+    {
+      "id": 2810,
+      "rank": 32,
+      "type": "POPULAR",
+      "format": "TV",
+      "year": 2004,
+      "season": null,
+      "allTime": false,
+      "context": "most popular"
+    },
+    {
+      "id": 2923,
+      "rank": 5,
+      "type": "RATED",
+      "format": "TV",
+      "year": 2004,
+      "season": "SPRING",
+      "allTime": false,
+      "context": "highest rated"
+    },
+    {
+      "id": 2957,
+      "rank": 9,
+      "type": "POPULAR",
+      "format": "TV",
+      "year": 2004,
+      "season": "SPRING",
+      "allTime": false,
+      "context": "most popular"
+    }
+  ],
+  "recommendations": {
+    "nodes": [
+      {
+        "mediaRecommendation": {
+          "id": 918,
+          "title": {
+            "romaji": "Gintama",
+            "english": "Gintama"
+          },
+          "averageScore": 85,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx918-iOaeBVUn4uK7.jpg"
+          }
+        },
+        "rating": 22
+      },
+      {
+        "mediaRecommendation": {
+          "id": 1887,
+          "title": {
+            "romaji": "Lucky☆Star",
+            "english": "Lucky☆Star"
+          },
+          "averageScore": 75,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1887-P36Pucd4qKji.png"
+          }
+        },
+        "rating": 14
+      },
+      {
+        "mediaRecommendation": {
+          "id": 8687,
+          "title": {
+            "romaji": "Doraemon (2005)",
+            "english": null
+          },
+          "averageScore": 77,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b8687-bBnJMGnih4PT.jpg"
+          }
+        },
+        "rating": 13
+      },
+      {
+        "mediaRecommendation": {
+          "id": 8557,
+          "title": {
+            "romaji": "Shinryaku! Ika Musume",
+            "english": "Squid Girl"
+          },
+          "averageScore": 72,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8557-S9DplekRj7mo.png"
+          }
+        },
+        "rating": 13
+      },
+      {
+        "mediaRecommendation": {
+          "id": 21261,
+          "title": {
+            "romaji": "Osomatsu-san",
+            "english": "Mr. Osomatsu"
+          },
+          "averageScore": 75,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21261-jLm2IGonsEzU.jpg"
+          }
+        },
+        "rating": 12
+      },
+      {
+        "mediaRecommendation": {
+          "id": 508,
+          "title": {
+            "romaji": "Tottoko Hamtarou",
+            "english": "Hamtaro"
+          },
+          "averageScore": 66,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b508-jRcJzN1xbakv.png"
+          }
+        },
+        "rating": 10
+      },
+      {
+        "mediaRecommendation": {
+          "id": 1596,
+          "title": {
+            "romaji": "Arcade Gamer Fubuki",
+            "english": "Arcade Gamer Fubuki"
+          },
+          "averageScore": 51,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1596.jpg"
+          }
+        },
+        "rating": 7
+      },
+      {
+        "mediaRecommendation": {
+          "id": 293,
+          "title": {
+            "romaji": "Di Gi Charat",
+            "english": "Di Gi Charat"
+          },
+          "averageScore": 67,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b293-QHi2tGbPdJBH.jpg"
+          }
+        },
+        "rating": 6
+      },
+      {
+        "mediaRecommendation": {
+          "id": 623,
+          "title": {
+            "romaji": "Shichinin no Nana",
+            "english": "Nana: Seven of Seven"
+          },
+          "averageScore": 65,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx623-4vLVAsUbQDO0.png"
+          }
+        },
+        "rating": 5
+      },
+      {
+        "mediaRecommendation": {
+          "id": 19157,
+          "title": {
+            "romaji": "Youkai Watch",
+            "english": "Yo-kai Watch"
+          },
+          "averageScore": 65,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19157-icVAh6Qy6oT6.jpg"
+          }
+        },
+        "rating": 4
+      }
+    ]
+  },
+  "relations": {
+    "edges": [
+      {
+        "relationType": "ADAPTATION",
+        "node": {
+          "id": 30390,
+          "idMal": 390,
+          "title": {
+            "romaji": "Keroro Gunsou",
+            "english": "Sgt Frog",
+            "native": "ケロロ軍曹"
+          },
+          "type": "MANGA",
+          "format": "MANGA",
+          "status": "RELEASING",
+          "averageScore": 71,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30390-DdNDUiL4CYCJ.png"
+          }
+        }
+      },
+      {
+        "relationType": "SIDE_STORY",
+        "node": {
+          "id": 2407,
+          "idMal": 2407,
+          "title": {
+            "romaji": "Keroro Gunsou Movie 1",
+            "english": "Sergeant Keroro: The Super Duper Movie",
+            "native": "超劇場版 ケロロ軍曹"
+          },
+          "type": "ANIME",
+          "format": "MOVIE",
+          "status": "FINISHED",
+          "averageScore": 66,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2407-mTk8Jkue3MfM.jpg"
+          }
+        }
+      },
+      {
+        "relationType": "SIDE_STORY",
+        "node": {
+          "id": 2408,
+          "idMal": 2408,
+          "title": {
+            "romaji": "Keroro Gunsou Movie 2: Shinkai no Princess de Arimasu!",
+            "english": "Sergeant Keroro: The Super Duper Movie 2",
+            "native": "超劇場版　ケロロ軍曹２　深海のプリンセスであります！"
+          },
+          "type": "ANIME",
+          "format": "MOVIE",
+          "status": "FINISHED",
+          "averageScore": 67,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2408-7a8WPvRvTDnQ.jpg"
+          }
+        }
+      },
+      {
+        "relationType": "SIDE_STORY",
+        "node": {
+          "id": 5290,
+          "idMal": 5290,
+          "title": {
+            "romaji": "Keroro Gunsou Movie 3: Tenkuu Daikessen de Arimasu!",
+            "english": "Sergeant Keroro: The Super Duper Movie 3",
+            "native": "超劇場版ケロロ軍曹3 ケロロ対ケロロ 天空大決戦であります！"
+          },
+          "type": "ANIME",
+          "format": "MOVIE",
+          "status": "FINISHED",
+          "averageScore": 68,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5290-Bo0FlakOGYoG.jpg"
+          }
+        }
+      },
+      {
+        "relationType": "SIDE_STORY",
+        "node": {
+          "id": 5710,
+          "idMal": 5710,
+          "title": {
+            "romaji": "Keroro Gunsou Movie 4: Gekishin Dragon Warriors de Arimasu!",
+            "english": "Sergeant Keroro: The Super Duper Movie 4",
+            "native": "超劇場版ケロロ軍曹　撃侵ドラゴンウォリアーズであります！"
+          },
+          "type": "ANIME",
+          "format": "MOVIE",
+          "status": "FINISHED",
+          "averageScore": 66,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5710-YMp7RUI7hB1X.jpg"
+          }
+        }
+      },
+      {
+        "relationType": "SIDE_STORY",
+        "node": {
+          "id": 8134,
+          "idMal": 8134,
+          "title": {
+            "romaji": "Keroro Gunsou Movie 5: Tanjou! Kyuukyoku Keroro, Kiseki no Jikuu-jima, de arimasu!!",
+            "english": "Sergeant Keroro: The Super Duper Movie 5",
+            "native": "超劇場版ケロロ軍曹 誕生!究極ケロロ奇跡の時空島であります!!"
+          },
+          "type": "ANIME",
+          "format": "MOVIE",
+          "status": "FINISHED",
+          "averageScore": 64,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx8134-mXWFfToczIbd.jpg"
+          }
+        }
+      },
+      {
+        "relationType": "ALTERNATIVE",
+        "node": {
+          "id": 20543,
+          "idMal": 21671,
+          "title": {
+            "romaji": "Keroro",
+            "english": null,
+            "native": "ケロロ"
+          },
+          "type": "ANIME",
+          "format": "TV_SHORT",
+          "status": "FINISHED",
+          "averageScore": 63,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20543.jpg"
+          }
+        }
+      },
+      {
+        "relationType": "CHARACTER",
+        "node": {
+          "id": 1596,
+          "idMal": 1596,
+          "title": {
+            "romaji": "Arcade Gamer Fubuki",
+            "english": "Arcade Gamer Fubuki",
+            "native": "アーケードゲーマーふぶき"
+          },
+          "type": "ANIME",
+          "format": "OVA",
+          "status": "FINISHED",
+          "averageScore": 51,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/1596.jpg"
+          }
+        }
+      },
+      {
+        "relationType": "CHARACTER",
+        "node": {
+          "id": 3659,
+          "idMal": 3659,
+          "title": {
+            "romaji": "Majime ni Fumajime Kaiketsu Zorori: Nazo no Otakara Daisakusen",
+            "english": null,
+            "native": "まじめにふまじめ かいけつゾロリ なぞのお宝大さくせん"
+          },
+          "type": "ANIME",
+          "format": "MOVIE",
+          "status": "FINISHED",
+          "averageScore": 54,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx3659-bdFoUG5rcIJf.jpg"
+          }
+        }
+      },
+      {
+        "relationType": "OTHER",
+        "node": {
+          "id": 176636,
+          "idMal": 58773,
+          "title": {
+            "romaji": "Shin Keroro Gunsou Movie: Fukkatsushite Sokkou Chikyuu Metsubou no Kiki de Arimasu! ",
+            "english": null,
+            "native": "新劇場版 ケロロ軍曹 復活して速攻地球滅亡の危機であります！"
+          },
+          "type": "ANIME",
+          "format": "MOVIE",
+          "status": "NOT_YET_RELEASED",
+          "averageScore": null,
+          "coverImage": {
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx176636-zPyFoYfFYZLo.jpg"
+          }
+        }
+      }
+    ]
+  },
+  "coverImage": {
+    "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx516-ofBmeR4TcbKb.jpg",
+    "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx516-ofBmeR4TcbKb.jpg"
+  },
+  "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/516-kgoFaO4d13bt.jpg",
+  "siteUrl": "https://anilist.co/anime/516"
+}

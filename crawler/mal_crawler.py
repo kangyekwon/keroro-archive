@@ -19,8 +19,9 @@ import os
 import sqlite3
 import sys
 import time
-from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
+from urllib.parse import quote
+from urllib.request import Request, urlopen
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -496,6 +497,166 @@ def import_to_db():
     logger.info("Database import complete!")
 
 
+def crawl_staff(mal_id: int = 516) -> list[dict]:
+    """Fetch staff/creators data from MAL."""
+    logger.info("Fetching staff for MAL ID %d...", mal_id)
+    data = _fetch_json(f"{JIKAN_BASE}/anime/{mal_id}/staff")
+    if not data or "data" not in data:
+        return []
+
+    results = []
+    for item in data["data"]:
+        person = item.get("person", {})
+        positions = [p for p in item.get("positions", [])]
+        entry = {
+            "mal_id": person.get("mal_id"),
+            "name": person.get("name", ""),
+            "image_url": person.get("images", {}).get("jpg", {}).get("image_url", ""),
+            "positions": positions,
+        }
+        results.append(entry)
+
+    logger.info("  -> Found %d staff members", len(results))
+    return results
+
+
+def crawl_relations(mal_id: int = 516) -> list[dict]:
+    """Fetch related anime/manga (sequel, prequel, spinoff etc.)."""
+    logger.info("Fetching relations for MAL ID %d...", mal_id)
+    data = _fetch_json(f"{JIKAN_BASE}/anime/{mal_id}/relations")
+    if not data or "data" not in data:
+        return []
+
+    results = []
+    for rel_group in data["data"]:
+        relation_type = rel_group.get("relation", "")
+        for entry in rel_group.get("entry", []):
+            results.append({
+                "mal_id": entry.get("mal_id"),
+                "type": entry.get("type", ""),
+                "name": entry.get("name", ""),
+                "url": entry.get("url", ""),
+                "relation": relation_type,
+            })
+
+    logger.info("  -> Found %d related works", len(results))
+    return results
+
+
+def crawl_manga_search(query: str = "Keroro Gunsou") -> int | None:
+    """Search for manga by name and return MAL ID."""
+    logger.info("Searching manga: %s...", query)
+    data = _fetch_json(f"{JIKAN_BASE}/manga?q={quote(query)}&limit=5")
+    if not data or "data" not in data:
+        return None
+    for item in data["data"]:
+        title = (item.get("title", "") + " " + (item.get("title_japanese", "") or "")).lower()
+        if "keroro" in title or "ケロロ" in (item.get("title_japanese", "") or ""):
+            mal_id = item.get("mal_id")
+            logger.info("  -> Found manga: %s (MAL ID: %d)", item.get("title"), mal_id)
+            return mal_id
+    if data["data"]:
+        mal_id = data["data"][0].get("mal_id")
+        logger.info("  -> Using first result: %s (MAL ID: %d)", data["data"][0].get("title"), mal_id)
+        return mal_id
+    return None
+
+
+def crawl_manga_details(mal_id: int) -> dict | None:
+    """Fetch manga details from MAL."""
+    logger.info("Fetching manga details for MAL ID %d...", mal_id)
+    data = _fetch_json(f"{JIKAN_BASE}/manga/{mal_id}/full")
+    if not data or "data" not in data:
+        return None
+
+    d = data["data"]
+    result = {
+        "mal_id": d.get("mal_id"),
+        "title": d.get("title", ""),
+        "title_english": d.get("title_english", ""),
+        "title_japanese": d.get("title_japanese", ""),
+        "type": d.get("type", ""),
+        "chapters": d.get("chapters"),
+        "volumes": d.get("volumes"),
+        "status": d.get("status", ""),
+        "score": d.get("score"),
+        "scored_by": d.get("scored_by"),
+        "rank": d.get("rank"),
+        "popularity": d.get("popularity"),
+        "members": d.get("members"),
+        "favorites": d.get("favorites"),
+        "synopsis": d.get("synopsis", ""),
+        "published_from": d.get("published", {}).get("from", ""),
+        "published_to": d.get("published", {}).get("to", ""),
+        "authors": ", ".join(
+            a.get("name", "") for a in d.get("authors", [])
+        ),
+        "serializations": ", ".join(
+            s.get("name", "") for s in d.get("serializations", [])
+        ),
+        "genres": ", ".join(g.get("name", "") for g in d.get("genres", [])),
+        "image_url": d.get("images", {}).get("jpg", {}).get("large_image_url", ""),
+    }
+    logger.info("  -> %s | Score: %s | Chapters: %s", result["title"], result["score"], result["chapters"])
+    return result
+
+
+def crawl_manga_characters(mal_id: int) -> list[dict]:
+    """Fetch manga character data from MAL."""
+    logger.info("Fetching manga characters for MAL ID %d...", mal_id)
+    data = _fetch_json(f"{JIKAN_BASE}/manga/{mal_id}/characters")
+    if not data or "data" not in data:
+        return []
+
+    results = []
+    for item in data["data"]:
+        char = item.get("character", {})
+        results.append({
+            "mal_id": char.get("mal_id"),
+            "name": char.get("name", ""),
+            "image_url": char.get("images", {}).get("jpg", {}).get("image_url", ""),
+            "role": item.get("role", ""),
+        })
+
+    results.sort(key=lambda x: 0 if x["role"] == "Main" else 1)
+    logger.info("  -> Found %d manga characters", len(results))
+    return results
+
+
+def run_extended_crawl():
+    """Run extended crawl for staff, manga, relations, and more reviews."""
+    logger.info("=" * 60)
+    logger.info("Starting extended Keroro Gunso crawl...")
+    logger.info("=" * 60)
+
+    # 1. Staff/creators
+    staff = crawl_staff(MAL_IDS["tv"])
+    save_crawled_data("mal_staff.json", staff)
+
+    # 2. Relations (franchise map)
+    relations = crawl_relations(MAL_IDS["tv"])
+    save_crawled_data("mal_relations.json", relations)
+
+    # 3. More reviews (10 pages)
+    reviews = crawl_reviews(MAL_IDS["tv"], pages=10)
+    save_crawled_data("mal_reviews.json", reviews)
+
+    # 4. Manga data
+    manga_id = crawl_manga_search("Keroro Gunsou")
+    if manga_id:
+        manga_details = crawl_manga_details(manga_id)
+        if manga_details:
+            save_crawled_data("mal_manga.json", manga_details)
+
+        manga_chars = crawl_manga_characters(manga_id)
+        if manga_chars:
+            save_crawled_data("mal_manga_characters.json", manga_chars)
+
+    logger.info("=" * 60)
+    logger.info("Extended crawl complete!")
+    logger.info("=" * 60)
+
+
 def run_full_crawl():
     """Run complete crawl of all data."""
     logger.info("=" * 60)
@@ -543,6 +704,23 @@ if __name__ == "__main__":
 
     if "--import-only" in args:
         import_to_db()
+    elif "--extended" in args:
+        run_extended_crawl()
+    elif "--staff" in args:
+        staff = crawl_staff(MAL_IDS["tv"])
+        save_crawled_data("mal_staff.json", staff)
+    elif "--relations" in args:
+        rels = crawl_relations(MAL_IDS["tv"])
+        save_crawled_data("mal_relations.json", rels)
+    elif "--manga" in args:
+        mid = crawl_manga_search("Keroro Gunsou")
+        if mid:
+            md = crawl_manga_details(mid)
+            if md:
+                save_crawled_data("mal_manga.json", md)
+            mc = crawl_manga_characters(mid)
+            if mc:
+                save_crawled_data("mal_manga_characters.json", mc)
     elif "--characters" in args:
         chars = crawl_characters(MAL_IDS["tv"])
         save_crawled_data("mal_characters.json", chars)
@@ -550,7 +728,7 @@ if __name__ == "__main__":
         eps = crawl_episodes(MAL_IDS["tv"])
         save_crawled_data("mal_episodes.json", eps)
     elif "--reviews" in args:
-        revs = crawl_reviews(MAL_IDS["tv"])
+        revs = crawl_reviews(MAL_IDS["tv"], pages=10)
         save_crawled_data("mal_reviews.json", revs)
     elif "--stats" in args:
         stats = crawl_statistics(MAL_IDS["tv"])

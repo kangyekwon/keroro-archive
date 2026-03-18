@@ -2,6 +2,16 @@
 
 function initAnalytics() {
     loadAnalyticsOverview();
+    loadExtendedAnalytics();
+}
+
+async function loadExtendedAnalytics() {
+    Promise.all([
+        loadStaffChart(),
+        loadFranchiseMap(),
+        loadMangaComparison(),
+        loadPlatformComparison(),
+    ]);
 }
 
 async function loadAnalyticsOverview() {
@@ -584,6 +594,269 @@ async function loadRecommendationsList() {
         document.getElementById('list-recommendations').innerHTML = html;
     } catch (e) {
         console.error('Recommendations list failed:', e);
+    }
+}
+
+/* === Staff Position Distribution Chart === */
+async function loadStaffChart() {
+    try {
+        var data = await api('/api/analytics/staff');
+        if (!data.position_counts || data.position_counts.length === 0) return;
+
+        var container = document.getElementById('chart-staff');
+        if (!container) return;
+        container.innerHTML = '';
+
+        var counts = data.position_counts.slice(0, 15);
+        var width = container.clientWidth || 600;
+        var barHeight = 26;
+        var margin = {top: 10, right: 60, bottom: 20, left: 180};
+        var height = counts.length * barHeight + margin.top + margin.bottom;
+
+        var svg = d3.select('#chart-staff').append('svg')
+            .attr('width', width).attr('height', height);
+        var g = svg.append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+        var w = width - margin.left - margin.right;
+        var x = d3.scaleLinear().domain([0, d3.max(counts, function(d) { return d[1]; })]).range([0, w]);
+        var y = d3.scaleBand().domain(counts.map(function(d) { return d[0]; }))
+            .range([0, counts.length * barHeight]).padding(0.15);
+
+        g.selectAll('.bar').data(counts).enter().append('rect')
+            .attr('x', 0)
+            .attr('y', function(d) { return y(d[0]); })
+            .attr('width', function(d) { return x(d[1]); })
+            .attr('height', y.bandwidth())
+            .attr('fill', '#a29bfe')
+            .attr('rx', 4);
+
+        g.selectAll('.name-label').data(counts).enter().append('text')
+            .attr('x', -8).attr('y', function(d) { return y(d[0]) + y.bandwidth() / 2; })
+            .attr('text-anchor', 'end').attr('dominant-baseline', 'middle')
+            .attr('fill', '#ddd').attr('font-size', '11px')
+            .text(function(d) { return d[0]; });
+
+        g.selectAll('.val-label').data(counts).enter().append('text')
+            .attr('x', function(d) { return x(d[1]) + 6; })
+            .attr('y', function(d) { return y(d[0]) + y.bandwidth() / 2; })
+            .attr('dominant-baseline', 'middle')
+            .attr('fill', '#a29bfe').attr('font-size', '11px').attr('font-weight', 'bold')
+            .text(function(d) { return d[1] + '명'; });
+
+    } catch (e) {
+        console.error('Staff chart failed:', e);
+    }
+}
+
+/* === Franchise Map (Related Works) === */
+async function loadFranchiseMap() {
+    try {
+        var data = await api('/api/analytics/relations');
+        if (!data.relations || data.relations.length === 0) return;
+
+        var container = document.getElementById('chart-franchise');
+        if (!container) return;
+        container.innerHTML = '';
+
+        var relationColors = {
+            'Sequel': '#4fc3f7', 'Prequel': '#4fc3f7',
+            'Side story': '#ffd700', 'Alternative version': '#ff9f43',
+            'Adaptation': '#4a7c59', 'Summary': '#a29bfe',
+            'Spin-off': '#fd79a8', 'Other': '#888',
+            'Character': '#55efc4', 'Full story': '#e17055',
+        };
+
+        // Group by type
+        var grouped = data.grouped || {};
+        var html = '<div class="franchise-grid">';
+
+        // Center node
+        html += '<div class="franchise-center">' +
+            '<div class="franchise-node franchise-node--main">' +
+            '<span class="franchise-node-type">TV</span>' +
+            '<span class="franchise-node-title">Keroro Gunsou</span>' +
+            '<span class="franchise-node-detail">358 eps (2004-2011)</span>' +
+            '</div></div>';
+
+        // Related works
+        html += '<div class="franchise-branches">';
+        Object.keys(grouped).forEach(function(relType) {
+            var items = grouped[relType];
+            var color = relationColors[relType] || '#888';
+            html += '<div class="franchise-branch">';
+            html += '<div class="franchise-branch-label" style="border-color:' + color + '">' + relType + ' (' + items.length + ')</div>';
+            items.forEach(function(item) {
+                var typeIcon = item.type === 'anime' ? '&#x1F4FA;' : '&#x1F4D6;';
+                html += '<div class="franchise-node" style="border-left: 3px solid ' + color + '">' +
+                    '<span class="franchise-node-type">' + typeIcon + ' ' + esc(item.type) + '</span>' +
+                    '<span class="franchise-node-title">' + esc(item.name) + '</span>' +
+                    '</div>';
+            });
+            html += '</div>';
+        });
+        html += '</div></div>';
+
+        container.innerHTML = html;
+
+    } catch (e) {
+        console.error('Franchise map failed:', e);
+    }
+}
+
+/* === Manga vs Anime Comparison === */
+async function loadMangaComparison() {
+    try {
+        var data = await api('/api/analytics/manga');
+        if (!data.available) return;
+
+        var container = document.getElementById('chart-manga');
+        if (!container) return;
+
+        var manga = data.manga;
+        var html = '<div class="manga-comparison">';
+
+        // Manga info card
+        html += '<div class="manga-info-card">';
+        if (manga.image_url) {
+            html += '<img class="manga-cover" src="' + esc(manga.image_url) + '" alt="manga cover" loading="lazy">';
+        }
+        html += '<div class="manga-details">' +
+            '<h4 class="manga-title">' + esc(manga.title_japanese || manga.title) + '</h4>' +
+            '<div class="manga-meta">' +
+            '<span>Score: <strong style="color:#ffd700">' + (manga.score || 'N/A') + '</strong></span>' +
+            '<span>Chapters: <strong>' + (manga.chapters || '300+') + '</strong></span>' +
+            '<span>Volumes: <strong>' + (manga.volumes || '30+') + '</strong></span>' +
+            '<span>Members: <strong>' + (manga.members || 0).toLocaleString() + '</strong></span>' +
+            '</div>' +
+            '<div class="manga-meta">' +
+            '<span>Authors: ' + esc(manga.authors || '') + '</span>' +
+            '<span>Status: ' + esc(manga.status || '') + '</span>' +
+            '</div>' +
+            '</div></div>';
+
+        // Anime vs Manga score comparison bar
+        html += '<div class="manga-vs-anime">' +
+            '<h4>Anime vs Manga</h4>' +
+            '<div class="compare-bars">' +
+            '<div class="compare-row"><span class="compare-label">Anime</span>' +
+            '<div class="compare-bar-wrap"><div class="compare-bar" style="width:' + ((7.71 / 10) * 100) + '%;background:#4a7c59"></div></div>' +
+            '<span class="compare-value">7.71</span></div>' +
+            '<div class="compare-row"><span class="compare-label">Manga</span>' +
+            '<div class="compare-bar-wrap"><div class="compare-bar" style="width:' + (((manga.score || 0) / 10) * 100) + '%;background:#ffd700"></div></div>' +
+            '<span class="compare-value">' + (manga.score || 'N/A') + '</span></div>' +
+            '</div></div>';
+
+        // Manga characters
+        if (data.characters && data.characters.length > 0) {
+            html += '<div class="manga-chars"><h4>Manga Characters (' + data.character_count + ')</h4><div class="manga-chars-grid">';
+            data.characters.slice(0, 20).forEach(function(c) {
+                html += '<div class="manga-char-item">' +
+                    '<img class="manga-char-img" src="' + esc(c.image_url || '') + '" alt="' + esc(c.name) + '" loading="lazy" onerror="this.style.display=\'none\'">' +
+                    '<span class="manga-char-name">' + esc(c.name) + '</span>' +
+                    '<span class="manga-char-role ' + (c.role === 'Main' ? 'manga-char-role--main' : '') + '">' + c.role + '</span>' +
+                    '</div>';
+            });
+            html += '</div></div>';
+        }
+
+        html += '</div>';
+        container.innerHTML = html;
+
+    } catch (e) {
+        console.error('Manga comparison failed:', e);
+    }
+}
+
+/* === Platform Comparison (MAL vs AniList) === */
+async function loadPlatformComparison() {
+    try {
+        var data = await api('/api/analytics/comparison');
+        var container = document.getElementById('chart-platform');
+        if (!container) return;
+
+        var mal = data.mal;
+        var anilist = data.anilist;
+        if (!mal && !anilist) {
+            container.innerHTML = '<p class="analytics-empty-text">비교 데이터 없음</p>';
+            return;
+        }
+
+        // Build comparison table
+        var html = '<div class="platform-comparison">';
+
+        // Score comparison chart
+        html += '<div class="platform-scores">';
+        html += '<h4>Score Comparison</h4>';
+        html += '<div class="platform-score-cards">';
+
+        if (mal) {
+            html += '<div class="platform-card platform-card--mal">' +
+                '<div class="platform-card-logo">MAL</div>' +
+                '<div class="platform-card-score">' + (mal.score || '--') + '<span>/10</span></div>' +
+                '<div class="platform-card-detail">' + (mal.scored_by || 0).toLocaleString() + ' ratings</div>' +
+                '<div class="platform-card-detail">Rank #' + (mal.rank || '--') + '</div>' +
+                '<div class="platform-card-detail">Popularity #' + (mal.popularity || '--') + '</div>' +
+                '<div class="platform-card-detail">' + (mal.members || 0).toLocaleString() + ' members</div>' +
+                '</div>';
+        }
+
+        if (anilist) {
+            html += '<div class="platform-card platform-card--anilist">' +
+                '<div class="platform-card-logo">AniList</div>' +
+                '<div class="platform-card-score">' + (anilist.average_score || '--') + '<span>/100</span></div>' +
+                '<div class="platform-card-detail">Mean: ' + (anilist.mean_score || '--') + '</div>' +
+                '<div class="platform-card-detail">Popularity #' + (anilist.popularity || '--').toLocaleString() + '</div>' +
+                '<div class="platform-card-detail">' + (anilist.favourites || 0).toLocaleString() + ' favourites</div>' +
+                '</div>';
+        }
+
+        if (data.manga) {
+            html += '<div class="platform-card platform-card--manga">' +
+                '<div class="platform-card-logo">Manga</div>' +
+                '<div class="platform-card-score">' + (data.manga.score || '--') + '<span>/10</span></div>' +
+                '<div class="platform-card-detail">' + (data.manga.scored_by || 0).toLocaleString() + ' ratings</div>' +
+                '<div class="platform-card-detail">Rank #' + (data.manga.rank || '--') + '</div>' +
+                '<div class="platform-card-detail">' + (data.manga.chapters || '300+') + ' chapters</div>' +
+                '<div class="platform-card-detail">' + (data.manga.volumes || '30+') + ' volumes</div>' +
+                '</div>';
+        }
+
+        html += '</div></div>';
+
+        // Character popularity comparison
+        if (data.character_comparison) {
+            html += '<div class="platform-chars">';
+            html += '<h4>Character Popularity: MAL vs AniList</h4>';
+            html += '<div class="platform-chars-grid">';
+
+            html += '<div class="platform-chars-col"><h5>MAL (Favorites)</h5>';
+            (data.character_comparison.mal || []).forEach(function(c, i) {
+                html += '<div class="platform-char-row">' +
+                    '<span class="platform-char-rank">#' + (i + 1) + '</span>' +
+                    '<span class="platform-char-name">' + esc(c.name) + '</span>' +
+                    '<span class="platform-char-value" style="color:#4a7c59">' + (c.favorites || 0).toLocaleString() + '</span>' +
+                    '</div>';
+            });
+            html += '</div>';
+
+            html += '<div class="platform-chars-col"><h5>AniList (Favourites)</h5>';
+            (data.character_comparison.anilist || []).forEach(function(c, i) {
+                html += '<div class="platform-char-row">' +
+                    '<span class="platform-char-rank">#' + (i + 1) + '</span>' +
+                    '<span class="platform-char-name">' + esc(c.name) + '</span>' +
+                    '<span class="platform-char-value" style="color:#4fc3f7">' + (c.favourites || 0).toLocaleString() + '</span>' +
+                    '</div>';
+            });
+            html += '</div>';
+
+            html += '</div></div>';
+        }
+
+        html += '</div>';
+        container.innerHTML = html;
+
+    } catch (e) {
+        console.error('Platform comparison failed:', e);
     }
 }
 
