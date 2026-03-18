@@ -1960,8 +1960,8 @@ def analytics_movies():
 
 
 @app.get("/api/analytics/staff")
-def analytics_staff(limit: int = Query(50, ge=1, le=300)):
-    """Get MAL staff/creators data."""
+def analytics_staff(limit: int = Query(217, ge=1, le=300)):
+    """Get MAL staff/creators data with images."""
     db = get_db()
     rows = db.fetchall(
         "SELECT mal_id, name, image_url, positions_json FROM mal_staff LIMIT ?",
@@ -1987,7 +1987,15 @@ def analytics_staff(limit: int = Query(50, ge=1, le=300)):
             position_counts[pos] += 1
     top_positions = sorted(position_counts.items(), key=lambda x: x[1], reverse=True)[:20]
 
-    return {"staff": results, "total": len(results), "position_counts": top_positions}
+    # Staff with images for gallery (filter out placeholder images)
+    staff_with_images = [s for s in results if s.get("image_url") and "questionmark" not in s["image_url"]]
+
+    return {
+        "staff": results,
+        "staff_with_images": staff_with_images[:60],
+        "total": len(results),
+        "position_counts": top_positions,
+    }
 
 
 @app.get("/api/analytics/relations")
@@ -2092,12 +2100,12 @@ def analytics_comparison():
             "difference": round(abs((mal["score"] or 0) - (anilist["average_score"] or 0) / 10), 2),
         }
 
-    # Character popularity comparison (MAL vs AniList)
+    # Character popularity comparison with images (MAL vs AniList)
     mal_chars = db.fetchall(
-        "SELECT name, favorites FROM mal_characters WHERE favorites > 0 ORDER BY favorites DESC LIMIT 10"
+        "SELECT name, image_url, favorites FROM mal_characters WHERE favorites > 0 ORDER BY favorites DESC LIMIT 10"
     )
     anilist_chars = db.fetchall(
-        "SELECT name, favourites FROM anilist_characters WHERE favourites > 0 ORDER BY favourites DESC LIMIT 10"
+        "SELECT name, image_url, favourites FROM anilist_characters WHERE favourites > 0 ORDER BY favourites DESC LIMIT 10"
     )
     comparison["character_comparison"] = {
         "mal": [dict(c) for c in mal_chars],
@@ -2105,6 +2113,64 @@ def analytics_comparison():
     }
 
     return comparison
+
+
+@app.get("/api/analytics/gallery")
+def analytics_gallery():
+    """Get all available images for gallery display."""
+    db = get_db()
+
+    # Anime posters (all 8 entries)
+    anime_posters = db.fetchall(
+        "SELECT mal_id, title, title_english, type, score, year, image_url, key "
+        "FROM mal_anime WHERE image_url IS NOT NULL AND image_url != '' ORDER BY key"
+    )
+
+    # Recommendations with images
+    rec_images = db.fetchall(
+        "SELECT mal_id, title, image_url, votes FROM mal_recommendations "
+        "WHERE image_url IS NOT NULL AND image_url != '' ORDER BY votes DESC LIMIT 20"
+    )
+
+    # Top characters with images (MAL)
+    char_images = db.fetchall(
+        "SELECT mal_id, name, image_url, favorites, role FROM mal_characters "
+        "WHERE image_url IS NOT NULL AND image_url != '' AND favorites > 0 "
+        "ORDER BY favorites DESC LIMIT 30"
+    )
+
+    # AniList characters with images
+    anilist_char_images = db.fetchall(
+        "SELECT anilist_id, name, name_native, image_url, favourites, role FROM anilist_characters "
+        "WHERE image_url IS NOT NULL AND image_url != '' "
+        "ORDER BY favourites DESC LIMIT 30"
+    )
+
+    # AniList anime banner/cover
+    anilist_anime = db.fetchone(
+        "SELECT cover_image, banner_image, title_romaji FROM anilist_anime LIMIT 1"
+    )
+
+    # Manga characters with images
+    manga_char_images = db.fetchall(
+        "SELECT mal_id, name, image_url, role FROM mal_manga_characters "
+        "WHERE image_url IS NOT NULL AND image_url != '' "
+        "ORDER BY CASE WHEN role='Main' THEN 0 ELSE 1 END, name LIMIT 30"
+    )
+
+    return {
+        "anime_posters": [dict(a) for a in anime_posters],
+        "recommendations": [dict(r) for r in rec_images],
+        "mal_characters": [dict(c) for c in char_images],
+        "anilist_characters": [dict(c) for c in anilist_char_images],
+        "anilist_banner": dict(anilist_anime) if anilist_anime else None,
+        "manga_characters": [dict(m) for m in manga_char_images],
+        "total_images": (
+            len(anime_posters) + len(rec_images) + len(char_images)
+            + len(anilist_char_images) + len(manga_char_images)
+            + (2 if anilist_anime else 0)
+        ),
+    }
 
 
 # === Main ===

@@ -7,6 +7,7 @@ function initAnalytics() {
 
 async function loadExtendedAnalytics() {
     Promise.all([
+        loadImageGalleries(),
         loadStaffChart(),
         loadFranchiseMap(),
         loadMangaComparison(),
@@ -831,8 +832,10 @@ async function loadPlatformComparison() {
 
             html += '<div class="platform-chars-col"><h5>MAL (Favorites)</h5>';
             (data.character_comparison.mal || []).forEach(function(c, i) {
+                var hasImg = c.image_url && c.image_url.indexOf('questionmark') < 0;
                 html += '<div class="platform-char-row">' +
                     '<span class="platform-char-rank">#' + (i + 1) + '</span>' +
+                    (hasImg ? '<img class="platform-char-avatar" src="' + esc(c.image_url) + '" alt="' + esc(c.name) + '" loading="lazy" onerror="this.style.display=\'none\'">' : '') +
                     '<span class="platform-char-name">' + esc(c.name) + '</span>' +
                     '<span class="platform-char-value" style="color:#4a7c59">' + (c.favorites || 0).toLocaleString() + '</span>' +
                     '</div>';
@@ -841,8 +844,10 @@ async function loadPlatformComparison() {
 
             html += '<div class="platform-chars-col"><h5>AniList (Favourites)</h5>';
             (data.character_comparison.anilist || []).forEach(function(c, i) {
+                var hasImg = c.image_url && c.image_url.indexOf('questionmark') < 0;
                 html += '<div class="platform-char-row">' +
                     '<span class="platform-char-rank">#' + (i + 1) + '</span>' +
+                    (hasImg ? '<img class="platform-char-avatar" src="' + esc(c.image_url) + '" alt="' + esc(c.name) + '" loading="lazy" onerror="this.style.display=\'none\'">' : '') +
                     '<span class="platform-char-name">' + esc(c.name) + '</span>' +
                     '<span class="platform-char-value" style="color:#4fc3f7">' + (c.favourites || 0).toLocaleString() + '</span>' +
                     '</div>';
@@ -857,6 +862,118 @@ async function loadPlatformComparison() {
 
     } catch (e) {
         console.error('Platform comparison failed:', e);
+    }
+}
+
+/* === Image Galleries (Banner, Posters, Characters, Staff) === */
+async function loadImageGalleries() {
+    try {
+        var data = await api('/api/analytics/gallery');
+        if (!data) return;
+
+        // AniList Banner
+        if (data.anilist_banner && data.anilist_banner.banner_image) {
+            var bannerEl = document.getElementById('anilist-banner');
+            if (bannerEl) {
+                bannerEl.innerHTML =
+                    '<div class="anilist-banner-img" style="background-image:url(\'' + esc(data.anilist_banner.banner_image) + '\')">' +
+                    '<div class="anilist-banner-overlay">' +
+                    '<img class="anilist-banner-cover" src="' + esc(data.anilist_banner.cover_image || '') + '" alt="cover" loading="lazy">' +
+                    '<div class="anilist-banner-info">' +
+                    '<h3>' + esc(data.anilist_banner.title_romaji || 'Keroro Gunsou') + '</h3>' +
+                    '<p>' + data.total_images + '+ images from MAL & AniList</p>' +
+                    '</div>' +
+                    '</div>' +
+                    '</div>';
+            }
+        }
+
+        // Anime Poster Gallery
+        if (data.anime_posters && data.anime_posters.length > 0) {
+            var galleryEl = document.getElementById('anime-poster-gallery');
+            if (galleryEl) {
+                var html = '';
+                data.anime_posters.forEach(function(a) {
+                    if (!a.image_url) return;
+                    var title = a.title_english || a.title || '';
+                    var scoreStr = a.score ? a.score.toFixed(2) : 'N/A';
+                    html += '<div class="poster-card">' +
+                        '<img class="poster-img" src="' + esc(a.image_url) + '" alt="' + esc(title) + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">' +
+                        '<div class="poster-info">' +
+                        '<span class="poster-type">' + esc(a.type || a.key || '') + '</span>' +
+                        '<span class="poster-title">' + esc(title) + '</span>' +
+                        '<span class="poster-score">' + scoreStr + '</span>' +
+                        (a.year ? '<span class="poster-year">' + a.year + '</span>' : '') +
+                        '</div>' +
+                        '</div>';
+                });
+                galleryEl.innerHTML = html;
+            }
+        }
+
+        // MAL Character Image Gallery
+        if (data.mal_characters && data.mal_characters.length > 0) {
+            var malGallery = document.getElementById('mal-char-gallery');
+            if (malGallery) {
+                var html = '';
+                data.mal_characters.forEach(function(c) {
+                    if (!c.image_url || c.image_url.indexOf('questionmark') >= 0) return;
+                    html += '<div class="char-gallery-item">' +
+                        '<img class="char-gallery-img" src="' + esc(c.image_url) + '" alt="' + esc(c.name) + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">' +
+                        '<div class="char-gallery-info">' +
+                        '<span class="char-gallery-name">' + esc(c.name) + '</span>' +
+                        '<span class="char-gallery-fav">' + (c.favorites || 0).toLocaleString() + ' fav</span>' +
+                        '</div>' +
+                        '</div>';
+                });
+                malGallery.innerHTML = html;
+            }
+        }
+
+        // AniList Character Image Gallery
+        if (data.anilist_characters && data.anilist_characters.length > 0) {
+            var aniGallery = document.getElementById('anilist-char-gallery');
+            if (aniGallery) {
+                var html = '';
+                data.anilist_characters.forEach(function(c) {
+                    if (!c.image_url) return;
+                    html += '<div class="char-gallery-item">' +
+                        '<img class="char-gallery-img" src="' + esc(c.image_url) + '" alt="' + esc(c.name) + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">' +
+                        '<div class="char-gallery-info">' +
+                        '<span class="char-gallery-name">' + esc(c.name) + '</span>' +
+                        (c.name_native ? '<span class="char-gallery-native">' + esc(c.name_native) + '</span>' : '') +
+                        '<span class="char-gallery-fav">' + (c.favourites || 0).toLocaleString() + ' fav</span>' +
+                        '</div>' +
+                        '</div>';
+                });
+                aniGallery.innerHTML = html;
+            }
+        }
+
+        // Staff Photo Gallery
+        var staffData = await api('/api/analytics/staff');
+        if (staffData && staffData.staff_with_images && staffData.staff_with_images.length > 0) {
+            var staffGallery = document.getElementById('staff-photo-gallery');
+            if (staffGallery) {
+                var html = '<div class="staff-gallery-count">' + staffData.staff_with_images.length + '명의 제작진 사진</div>';
+                html += '<div class="staff-gallery-grid">';
+                staffData.staff_with_images.forEach(function(s) {
+                    var positions = (s.positions || []).slice(0, 2).join(', ');
+                    html += '<div class="staff-gallery-item">' +
+                        '<img class="staff-gallery-img" src="' + esc(s.image_url) + '" alt="' + esc(s.name) + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">' +
+                        '<div class="staff-gallery-info">' +
+                        '<span class="staff-gallery-name">' + esc(s.name) + '</span>' +
+                        '<span class="staff-gallery-role">' + esc(positions) + '</span>' +
+                        '</div>' +
+                        '</div>';
+                });
+                html += '</div>';
+                staffGallery.innerHTML = html;
+            }
+        }
+
+    } catch (e) {
+        console.error('Image galleries failed:', e);
     }
 }
 

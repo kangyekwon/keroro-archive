@@ -429,6 +429,9 @@
             <p class="page-description">MyAnimeList에서 크롤링한 실제 데이터 기반 분석</p>
         </div>
         <div class="analytics-container" id="analytics-container">
+            <!-- AniList Banner -->
+            <div class="anilist-banner" id="anilist-banner"></div>
+
             <!-- Overview Cards -->
             <div class="analytics-overview" id="analytics-overview">
                 <div class="analytics-card analytics-card--highlight">
@@ -465,11 +468,31 @@
                 </div>
             </div>
 
+            <!-- Anime Poster Gallery -->
+            <div class="analytics-charts-row">
+                <div class="analytics-chart-panel analytics-chart-panel--wide">
+                    <h3 class="analytics-chart-title">케로로 군조 시리즈 포스터 갤러리</h3>
+                    <div class="anime-poster-gallery" id="anime-poster-gallery"></div>
+                </div>
+            </div>
+
             <!-- Charts Row 2: Character Popularity -->
             <div class="analytics-charts-row">
                 <div class="analytics-chart-panel analytics-chart-panel--wide">
                     <h3 class="analytics-chart-title">캐릭터 인기도 (MAL Favorites)</h3>
                     <div class="analytics-chart analytics-chart--tall" id="chart-char-popularity"></div>
+                </div>
+            </div>
+
+            <!-- Character Image Gallery: MAL vs AniList -->
+            <div class="analytics-charts-row">
+                <div class="analytics-chart-panel">
+                    <h3 class="analytics-chart-title">MAL 인기 캐릭터 갤러리</h3>
+                    <div class="char-image-gallery" id="mal-char-gallery"></div>
+                </div>
+                <div class="analytics-chart-panel">
+                    <h3 class="analytics-chart-title">AniList 인기 캐릭터 갤러리</h3>
+                    <div class="char-image-gallery" id="anilist-char-gallery"></div>
                 </div>
             </div>
 
@@ -506,6 +529,14 @@
                 <div class="analytics-chart-panel analytics-chart-panel--wide">
                     <h3 class="analytics-chart-title">플랫폼 비교 (MAL vs AniList vs Manga)</h3>
                     <div class="analytics-chart" id="chart-platform"></div>
+                </div>
+            </div>
+
+            <!-- Staff Photo Gallery -->
+            <div class="analytics-charts-row">
+                <div class="analytics-chart-panel analytics-chart-panel--wide">
+                    <h3 class="analytics-chart-title">제작진 포토 갤러리 (217명 중 실사 사진 보유)</h3>
+                    <div class="staff-photo-gallery" id="staff-photo-gallery"></div>
                 </div>
             </div>
 
