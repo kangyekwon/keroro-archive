@@ -235,9 +235,57 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    /* === Load Trivia === */
+    async function loadTrivia() {
+        try {
+            var data = await api('/api/trivia/random?count=5');
+            var cards = document.getElementById('trivia-cards');
+            if (!cards || !data.trivia || data.trivia.length === 0) return;
+
+            var categoryIcons = {
+                'production': '&#x1F3AC;',
+                'character': '&#x1F464;',
+                'easter_egg': '&#x1F95A;',
+                'crossover': '&#x1F91D;',
+                'record': '&#x1F3C6;',
+                'general': '&#x1F4A1;'
+            };
+            var categoryNames = {
+                'production': '제작',
+                'character': '캐릭터',
+                'easter_egg': '이스터에그',
+                'crossover': '크로스오버',
+                'record': '기록',
+                'general': '일반'
+            };
+
+            var html = '';
+            data.trivia.forEach(function(t) {
+                var icon = categoryIcons[t.category] || '&#x1F4A1;';
+                var catName = categoryNames[t.category] || t.category;
+                html += '<div class="trivia-card">';
+                html += '<div class="trivia-card-icon">' + icon + '</div>';
+                html += '<div class="trivia-card-body">';
+                html += '<span class="trivia-card-category">' + esc(catName) + '</span>';
+                html += '<p class="trivia-card-fact">' + esc(t.fact) + '</p>';
+                if (t.source) html += '<span class="trivia-card-source">' + esc(t.source) + '</span>';
+                html += '</div></div>';
+            });
+            cards.innerHTML = html;
+        } catch (e) {
+            console.log('Trivia load failed:', e);
+        }
+    }
+
+    var triviaBtn = document.getElementById('trivia-refresh-btn');
+    if (triviaBtn) {
+        triviaBtn.addEventListener('click', loadTrivia);
+    }
+
     /* === Init === */
     loadStats();
     loadVisitor();
     initHeroParticles();
+    loadTrivia();
 
 }); // end DOMContentLoaded

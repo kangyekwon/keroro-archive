@@ -534,6 +534,98 @@ a:hover {
 }
 
 /* --------------------------------------------------------------------------
+   8b. Trivia Section
+   -------------------------------------------------------------------------- */
+.trivia-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.trivia-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.trivia-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.trivia-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+.trivia-card-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  width: 40px;
+  text-align: center;
+}
+
+.trivia-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.trivia-card-category {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.trivia-card-fact {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+}
+
+.trivia-card-source {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.trivia-refresh-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.6rem 1.5rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.trivia-refresh-btn:hover {
+  background: var(--accent-hover);
+}
+
+@media (max-width: 768px) {
+  .trivia-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --------------------------------------------------------------------------
    9. Encyclopedia (Character Cards)
    -------------------------------------------------------------------------- */
 .ency-container {

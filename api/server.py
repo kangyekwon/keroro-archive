@@ -1619,8 +1619,32 @@ def votes_ranking():
 
 @app.get("/api/quiz/random")
 def quiz_random():
-    """Generate a random quiz question from various types."""
+    """Generate a random quiz question from DB or dynamic types."""
     db = get_db()
+
+    # 60% chance: use pre-made quiz_questions table (89 questions)
+    # 40% chance: use dynamic generation
+    use_db = random.random() < 0.6
+    if use_db:
+        try:
+            q = db.fetchone("SELECT * FROM quiz_questions ORDER BY RANDOM() LIMIT 1")
+            if q:
+                q = dict(q)
+                options = [q["option_a"], q["option_b"], q["option_c"], q["option_d"]]
+                correct_letter = q["correct_answer"]  # 'A','B','C','D'
+                correct_idx = ord(correct_letter) - ord('A')
+                return {
+                    "type": "db_question",
+                    "question": q["question"],
+                    "options": options,
+                    "correct_index": correct_idx,
+                    "correct_answer": options[correct_idx],
+                    "category": q.get("category", "general"),
+                    "difficulty": q.get("difficulty", "normal"),
+                }
+        except Exception:
+            pass  # fall through to dynamic
+
     quiz_types = [
         "character_by_description",
         "character_by_ability",
@@ -1659,11 +1683,13 @@ def _quiz_character_by_description(db: Database) -> dict:
     correct = dict(characters[0])
     options = [dict(c)["name_kr"] for c in characters]
     random.shuffle(options)
+    correct_idx = options.index(correct["name_kr"])
 
     return {
         "type": "character_by_description",
         "question": correct["description"],
         "options": options,
+        "correct_index": correct_idx,
         "correct_answer": correct["name_kr"],
         "hint": correct["name"],
     }
@@ -1689,11 +1715,13 @@ def _quiz_character_by_ability(db: Database) -> dict:
     )
     options = [ability["character_name_kr"]] + [dict(w)["name_kr"] for w in wrong]
     random.shuffle(options)
+    correct_idx = options.index(ability["character_name_kr"])
 
     return {
         "type": "character_by_ability",
         "question": f"'{ability['name_kr']}' - {ability['description']}",
         "options": options,
+        "correct_index": correct_idx,
         "correct_answer": ability["character_name_kr"],
         "hint": ability["name"],
     }
@@ -1719,11 +1747,13 @@ def _quiz_quote_author(db: Database) -> dict:
     )
     options = [quote["name_kr"]] + [dict(w)["name_kr"] for w in wrong]
     random.shuffle(options)
+    correct_idx = options.index(quote["name_kr"])
 
     return {
         "type": "quote_author",
         "question": f'"{quote["content_kr"]}"',
         "options": options,
+        "correct_index": correct_idx,
         "correct_answer": quote["name_kr"],
         "hint": quote.get("context", ""),
     }
@@ -1754,11 +1784,16 @@ def _quiz_episode_season(db: Database) -> dict:
     options = [correct] + wrong_seasons
     random.shuffle(options)
 
+    options_labeled = [f"Season {s}" for s in options]
+    correct_label = f"Season {correct}"
+    correct_idx = options_labeled.index(correct_label)
+
     return {
         "type": "episode_season",
         "question": f"'{episode['title_kr']}' (EP {episode['episode_no']})",
-        "options": [f"Season {s}" for s in options],
-        "correct_answer": f"Season {correct}",
+        "options": options_labeled,
+        "correct_index": correct_idx,
+        "correct_answer": correct_label,
         "hint": episode.get("title", ""),
     }
 
@@ -1788,13 +1823,49 @@ def _quiz_invasion_result(db: Database) -> dict:
     options = [result_labels.get(r, r) for r in result_options]
     random.shuffle(options)
 
+    correct_label = result_labels.get(correct, correct)
+    correct_idx = options.index(correct_label) if correct_label in options else 0
+
     return {
         "type": "invasion_result",
         "question": f"{plan['name_kr']} - {plan['method']}",
         "options": options,
-        "correct_answer": result_labels.get(correct, correct),
+        "correct_index": correct_idx,
+        "correct_answer": correct_label,
         "hint": plan.get("planner_name_kr", ""),
     }
+
+
+# === Trivia ===
+
+
+@app.get("/api/trivia")
+def list_trivia(category: str = Query("", description="Filter by category")):
+    """List all trivia facts, optionally filtered by category."""
+    db = get_db()
+    try:
+        if category:
+            rows = db.fetchall(
+                "SELECT * FROM trivia WHERE category = ? ORDER BY id", (category,)
+            )
+        else:
+            rows = db.fetchall("SELECT * FROM trivia ORDER BY id")
+        return {"trivia": [dict(r) for r in rows], "total": len(rows)}
+    except Exception:
+        return {"trivia": [], "total": 0}
+
+
+@app.get("/api/trivia/random")
+def trivia_random(count: int = Query(5, ge=1, le=20)):
+    """Get random trivia facts."""
+    db = get_db()
+    try:
+        rows = db.fetchall(
+            "SELECT * FROM trivia ORDER BY RANDOM() LIMIT ?", (count,)
+        )
+        return {"trivia": [dict(r) for r in rows]}
+    except Exception:
+        return {"trivia": []}
 
 
 # === Analytics (MAL Crawled Data) ===
